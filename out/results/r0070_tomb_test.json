@@ -1,0 +1,170 @@
+{
+ "experiment": "tomb_test",
+ "params": {
+  "taxonomy_id": "six",
+  "instrument": "lex"
+ },
+ "result": {
+  "instrument": "lex",
+  "sealed": "Huangdi_Sijing",
+  "n_chunks": 17,
+  "label_shares": {
+   "Daoist": 0.588,
+   "Legalist": 0.176,
+   "School of Names": 0.235
+  },
+  "dominant_share": 0.5882352941176471,
+  "mean_similarity_to_label": {
+   "Confucian": -0.0567,
+   "Daoist": 0.0671,
+   "Legalist": 0.0127,
+   "Mohist": -0.0422,
+   "School of Names": 0.0369,
+   "Yin-Yang": -0.0373
+  },
+  "mean_margin": 0.054411739110946655,
+  "margin_percentile_vs_transmitted": 60.86956521739131,
+  "dominant_share_percentile_vs_transmitted": 56.52173913043478,
+  "transmitted_reference": {
+   "Analects": {
+    "mean_margin": 0.165530264377594,
+    "dominant_share": 1.0,
+    "dominant": "Confucian",
+    "label": "Confucian"
+   },
+   "Gongsun_Longzi": {
+    "mean_margin": 0.04333838075399399,
+    "dominant_share": 0.5,
+    "dominant": "School of Names",
+    "label": "School of Names"
+   },
+   "Guanzi": {
+    "mean_margin": 0.06045699119567871,
+    "dominant_share": 0.5034965034965035,
+    "dominant": "Legalist",
+    "label": "Daoist"
+   },
+   "Guiguzi": {
+    "mean_margin": 0.07336121052503586,
+    "dominant_share": 0.8461538461538461,
+    "dominant": "Daoist",
+    "label": "School of Names"
+   },
+   "Han_Feizi": {
+    "mean_margin": 0.06233241409063339,
+    "dominant_share": 0.45528455284552843,
+    "dominant": "Yin-Yang",
+    "label": "Legalist"
+   },
+   "Huainanzi": {
+    "mean_margin": 0.03588408976793289,
+    "dominant_share": 0.38235294117647056,
+    "dominant": "School of Names",
+    "label": "Daoist"
+   },
+   "Kongzi_Jiayu": {
+    "mean_margin": 0.08395079523324966,
+    "dominant_share": 0.8305084745762712,
+    "dominant": "Confucian",
+    "label": "Confucian"
+   },
+   "Laozi": {
+    "mean_margin": 0.025480257347226143,
+    "dominant_share": 0.5714285714285714,
+    "dominant": "Daoist",
+    "label": "Daoist"
+   },
+   "Liezi": {
+    "mean_margin": 0.03202710673213005,
+    "dominant_share": 0.5,
+    "dominant": "Yin-Yang",
+    "label": "Daoist"
+   },
+   "Liji": {
+    "mean_margin": 0.08303222805261612,
+    "dominant_share": 0.6637168141592921,
+    "dominant": "Confucian",
+    "label": "Confucian"
+   },
+   "Liutao": {
+    "mean_margin": 0.02987844869494438,
+    "dominant_share": 0.4,
+    "dominant": "Legalist",
+    "label": "Daoist"
+   },
+   "Lushi_Chunqiu": {
+    "mean_margin": 0.0276804119348526,
+    "dominant_share": 0.3118279569892473,
+    "dominant": "Legalist",
+    "label": "Yin-Yang"
+   },
+   "Mencius": {
+    "mean_margin": 0.04598769173026085,
+    "dominant_share": 0.75,
+    "dominant": "Confucian",
+    "label": "Confucian"
+   },
+   "Mozi": {
+    "mean_margin": 0.03058260679244995,
+    "dominant_share": 0.3977272727272727,
+    "dominant": "Legalist",
+    "label": "Mohist"
+   },
+   "Shangjunshu": {
+    "mean_margin": 0.08391739428043365,
+    "dominant_share": 1.0,
+    "dominant": "Legalist",
+    "label": "Legalist"
+   },
+   "Sima_Fa": {
+    "mean_margin": 0.026761705055832863,
+    "dominant_share": 0.6,
+    "dominant": "Legalist",
+    "label": "Confucian"
+   },
+   "Sunzi_Bingfa": {
+    "mean_margin": 0.05418829619884491,
+    "dominant_share": 0.8888888888888888,
+    "dominant": "Legalist",
+    "label": "Daoist"
+   },
+   "Wei_Liaozi": {
+    "mean_margin": 0.02777235396206379,
+    "dominant_share": 0.5333333333333333,
+    "dominant": "Daoist",
+    "label": "Legalist"
+   },
+   "Wuzi": {
+    "mean_margin": 0.05159939453005791,
+    "dominant_share": 0.5,
+    "dominant": "Daoist",
+    "label": "Confucian"
+   },
+   "Xiaojing": {
+    "mean_margin": 0.1214132308959961,
+    "dominant_share": 1.0,
+    "dominant": "Confucian",
+    "label": "Confucian"
+   },
+   "Xunzi": {
+    "mean_margin": 0.05169610306620598,
+    "dominant_share": 0.43333333333333335,
+    "dominant": "Confucian",
+    "label": "Confucian"
+   },
+   "Zhongyong": {
+    "mean_margin": 0.10024386644363403,
+    "dominant_share": 0.8,
+    "dominant": "Confucian",
+    "label": "Confucian"
+   },
+   "Zhuangzi": {
+    "mean_margin": 0.02969176694750786,
+    "dominant_share": 0.37333333333333335,
+    "dominant": "School of Names",
+    "label": "Daoist"
+   }
+  },
+  "taxonomy_id": "six"
+ }
+}

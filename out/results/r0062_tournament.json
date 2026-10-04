@@ -1,0 +1,61 @@
+{
+ "experiment": "tournament",
+ "params": {
+  "taxonomy_id": "six",
+  "instrument": "lex",
+  "exclude_units": [
+   "Huangdi_Sijing",
+   "Sun_Bin_Bingfa"
+  ]
+ },
+ "result": {
+  "lang": "zh",
+  "instrument": "lex",
+  "layer": "mid",
+  "masked": true,
+  "n_units": 23,
+  "n_labeled": 23,
+  "n_testable": 21,
+  "n_classes": 6,
+  "accuracy": 0.45530377550966894,
+  "null_mean": 0.15695916926158093,
+  "null_sd": 0.07455011416154154,
+  "z": 4.001933593308918,
+  "p_perm": 0.0004997501249375312,
+  "chance_corrected": 0.35389105173799007,
+  "ci95": [
+   0.3226981341850593,
+   0.5985150030164667
+  ],
+  "per_unit": {
+   "Analects": 1.0,
+   "Gongsun_Longzi": 0.5,
+   "Guanzi": 0.0839,
+   "Guiguzi": 0.0,
+   "Han_Feizi": 0.4309,
+   "Huainanzi": 0.2206,
+   "Kongzi_Jiayu": 0.8305,
+   "Laozi": 0.5714,
+   "Liezi": 0.2059,
+   "Liji": 0.6637,
+   "Liutao": 0.2,
+   "Lushi_Chunqiu": null,
+   "Mencius": 0.75,
+   "Mozi": null,
+   "Shangjunshu": 1.0,
+   "Sima_Fa": 0.2,
+   "Sunzi_Bingfa": 0.1111,
+   "Wei_Liaozi": 0.4,
+   "Wuzi": 0.0,
+   "Xiaojing": 1.0,
+   "Xunzi": 0.4333,
+   "Zhongyong": 0.8,
+   "Zhuangzi": 0.16
+  },
+  "untestable": [
+   "Lushi_Chunqiu",
+   "Mozi"
+  ],
+  "taxonomy_id": "six"
+ }
+}

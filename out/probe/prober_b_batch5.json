@@ -1,0 +1,46 @@
+{
+ "actor": "prober_b",
+ "batch_id": 5,
+ "guesses": [
+  {
+   "id": "zh_09_063",
+   "guess_book": "Zhuangzi (莊子)",
+   "confidence": 0.9
+  },
+  {
+   "id": "zh_06_001",
+   "guess_book": "Zhongyong (中庸)",
+   "confidence": 0.95
+  },
+  {
+   "id": "zh_13_027",
+   "guess_book": "Guanzi (管子)",
+   "confidence": 0.8
+  },
+  {
+   "id": "zh_14_000",
+   "guess_book": "Gongsun Longzi (公孫龍子)",
+   "confidence": 0.95
+  },
+  {
+   "id": "zh_20_010",
+   "guess_book": "Liu tao (六韜 / Tai Gong Six Secret Teachings)",
+   "confidence": 0.85
+  },
+  {
+   "id": "zh_03_065",
+   "guess_book": "Liji (禮記)",
+   "confidence": 0.9
+  },
+  {
+   "id": "zh_18_003",
+   "guess_book": "Sunzi Bingfa (孫子兵法)",
+   "confidence": 0.98
+  },
+  {
+   "id": "zh_19_000",
+   "guess_book": "Wuzi (吳子)",
+   "confidence": 0.9
+  }
+ ]
+}

@@ -39,6 +39,8 @@ def _balanced(lang: str, k: int | None):
 
 def run(experiment: str, p: dict) -> dict:
     layer = p.get("layer", "mid")
+    if p.get("strip_lacunae"):
+        lab.STRIP_LACUNAE = True
     if experiment == "tournament":
         spec, labels = _tax(p["taxonomy_id"])
         lang = spec["lang"]
@@ -78,10 +80,13 @@ def run(experiment: str, p: dict) -> dict:
         alias = PREREG["probe_aliases"]
         meta = {c["id"]: c for c in lab.chunks("zh")}
         out = {}
+        excluded = set(p.get("exclude_passages", []))
         for f in sorted((ROOT / "out" / "probe").glob("*.json")):
             d = json.loads(f.read_text(encoding="utf-8"))
             s = out.setdefault(d["actor"], {"n": 0, "correct": 0, "by_book": {}})
             for g in d["guesses"]:
+                if g["id"] in excluded:
+                    continue
                 true = meta[g["id"]]["book"]
                 guess = str(g.get("guess_book", ""))
                 ok = any(a in guess for a in [true] + alias.get(true, []))
@@ -92,10 +97,13 @@ def run(experiment: str, p: dict) -> dict:
                 b[1] += 1
         for s in out.values():
             s["recognition_rate"] = round(s["correct"] / max(1, s["n"]), 3)
-        return {"readers": out}
+        return {"readers": out, "excluded_passages": sorted(excluded)}
     raise SystemExit(f"unknown experiment {experiment}")
 
 
 if __name__ == "__main__":
-    res = run(sys.argv[1], json.loads(sys.argv[2]) if len(sys.argv) > 2 else {})
+    params = json.loads(sys.argv[2]) if len(sys.argv) > 2 else {}
+    res = run(sys.argv[1], params)
+    if params.get("strip_lacunae") and isinstance(res, dict):
+        res["strip_lacunae"] = True
     print(json.dumps(res, ensure_ascii=False, default=lambda o: o.item() if hasattr(o, "item") else str(o)))

@@ -1,0 +1,46 @@
+{
+ "actor": "prober_b",
+ "batch_id": 7,
+ "guesses": [
+  {
+   "id": "zh_11_038",
+   "guess_book": "Han Feizi (韓非子)",
+   "confidence": 0.97
+  },
+  {
+   "id": "zh_06_000",
+   "guess_book": "Zhongyong (中庸)",
+   "confidence": 0.98
+  },
+  {
+   "id": "zh_11_002",
+   "guess_book": "Han Feizi (韓非子)",
+   "confidence": 0.97
+  },
+  {
+   "id": "zh_01_043",
+   "guess_book": "Mengzi (孟子)",
+   "confidence": 0.97
+  },
+  {
+   "id": "zh_14_002",
+   "guess_book": "Gongsun Longzi (公孫龍子)",
+   "confidence": 0.92
+  },
+  {
+   "id": "zh_23_010",
+   "guess_book": "Guanzi (管子) - hedged: style resembles an excavated Huang-Lao legalist text that is not on the transmitted list",
+   "confidence": 0.25
+  },
+  {
+   "id": "zh_00_019",
+   "guess_book": "Lunyu (論語)",
+   "confidence": 0.97
+  },
+  {
+   "id": "zh_05_014",
+   "guess_book": "Zhongyong (中庸)",
+   "confidence": 0.9
+  }
+ ]
+}

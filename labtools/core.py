@@ -69,17 +69,25 @@ def record_append(actor: str, type: str, payload, links=None, hypothesis_origin:
 
 
 def record_read(last_n: int = 20, type: str = "", actor: str = "") -> list[dict]:
+    """Recent record entries. Long payloads are shortened so a reader's context is not flooded;
+    narrow the query (type / actor / smaller last_n) to see an entry in full."""
     rows = _read_record()
     if type:
         rows = [r for r in rows if r["type"] == type]
     if actor:
         rows = [r for r in rows if r["actor"] == actor]
-    out = []
-    for r in rows[-max(1, int(last_n)):]:
+    rows = rows[-max(1, min(int(last_n), 60)):]
+    cap = 6000 if len(rows) <= 6 else (2500 if len(rows) <= 15 else 900)
+    out, total = [], 0
+    for r in reversed(rows):
         s = json.dumps(r["payload"], ensure_ascii=False)
-        out.append({"id": r["id"], "ts": r["ts"], "actor": r["actor"], "type": r["type"], "links": r["links"],
-                    "payload": r["payload"] if len(s) <= 6000 else {"truncated": s[:6000]}})
-    return out
+        item = {"id": r["id"], "ts": r["ts"], "actor": r["actor"], "type": r["type"], "links": r["links"],
+                "payload": r["payload"] if len(s) <= cap else {"shortened": s[:cap], "note": "shortened; query this type/actor with a smaller last_n for the full entry"}}
+        total += min(len(s), cap)
+        if total > 60000:
+            break
+        out.append(item)
+    return list(reversed(out))
 
 
 def credits_status() -> dict:
@@ -181,12 +189,12 @@ def read_taxonomy(taxonomy_id: str) -> dict:
 
 # ------------------------------------------------------------- experiments
 EXPERIMENTS = {
-    "tournament": "Leave-one-unit-out test of one frozen taxonomy. params: taxonomy_id; instrument (zh: lex | lex_tr | qwen ; en: lex | qwen | talkie); optional layer (mid|late|last), masked (bool), exclude_units (list), drop_contested (bool).",
+    "tournament": "Leave-one-unit-out test of one frozen taxonomy. params: taxonomy_id; instrument (zh: lex | lex_tr | qwen ; en: lex | qwen | talkie); optional layer (mid|late|last), masked (bool), exclude_units (list), drop_contested (bool), strip_lacunae (bool: remove the editorial lacuna marks that only occur in excavated manuscripts; applies to lex and lex_tr).",
     "defectors": "Instrument validation H-C2 (pre-registered Daoist-leaning chapters). params: taxonomy_id (must contain classes Daoist and Legalist); instrument (lex | lex_tr | qwen).",
-    "tomb_test": "H-C3: where does the sealed Mawangdui manuscript fall? params: taxonomy_id; instrument (lex | lex_tr | qwen).",
-    "hindsight_gap": "H-W2: G = modern-minus-1930 advantage on the retrospective taxonomy minus the same on the contemporary one. params: retro_taxonomy_id, contemporary_taxonomy_id; optional layer.",
+    "tomb_test": "H-C3: where does the sealed Mawangdui manuscript fall? params: taxonomy_id; instrument (lex | lex_tr | qwen); optional strip_lacunae (bool, control for lacuna marks as a surface cue).",
+    "hindsight_gap": "H-W2: G = modern-minus-1930 advantage on the retrospective taxonomy minus the same on the contemporary one. It computes its four supporting leave-one-author-out scores itself (retro and contemporary taxonomy on talkie and on qwen) and returns G with a bootstrap interval; separate tournament runs are needed only if you want permutation p-values and intervals for a single taxonomy-instrument pair. params: retro_taxonomy_id, contemporary_taxonomy_id; optional layer.",
     "corpus_map": "Descriptive 2-D map of unit centroids, no labels. params: lang, instrument. Free.",
-    "probe_score": "Score the recognition probe (how often blind readers named the source book). Free.",
+    "probe_score": "Score the recognition probe (how often blind readers named the source book). Optional params: exclude_passages (list of passage ids to leave out). Free.",
 }
 
 
@@ -274,6 +282,8 @@ def submit_probe(actor: str, batch_id: int, guesses_json: str) -> dict:
         return {"error": "no guesses matched the passage ids of this batch"}
     d = ROOT / "out" / "probe"
     d.mkdir(parents=True, exist_ok=True)
+    if (d / f"{actor}_batch{int(batch_id)}.json").exists():
+        return {"error": f"batch {int(batch_id)} was already submitted by {actor}; the first submission is final"}
     (d / f"{actor}_batch{int(batch_id)}.json").write_text(json.dumps({"actor": actor, "batch_id": int(batch_id), "guesses": guesses},
                                                                     ensure_ascii=False, indent=1), encoding="utf-8")
     rec = record_append(actor, "probe", {"batch_id": int(batch_id), "n_guesses": len(guesses)})

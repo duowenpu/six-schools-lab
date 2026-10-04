@@ -1,0 +1,46 @@
+{
+ "actor": "prober_a",
+ "batch_id": 0,
+ "guesses": [
+  {
+   "id": "zh_15_024",
+   "guess_book": "吕氏春秋",
+   "confidence": 0.5
+  },
+  {
+   "id": "zh_16_031",
+   "guess_book": "吕氏春秋",
+   "confidence": 0.7
+  },
+  {
+   "id": "zh_02_009",
+   "guess_book": "荀子",
+   "confidence": 0.45
+  },
+  {
+   "id": "zh_12_014",
+   "guess_book": "韩非子",
+   "confidence": 0.85
+  },
+  {
+   "id": "zh_19_005",
+   "guess_book": "吴子",
+   "confidence": 0.85
+  },
+  {
+   "id": "zh_01_005",
+   "guess_book": "孟子",
+   "confidence": 0.95
+  },
+  {
+   "id": "zh_24_010",
+   "guess_book": "孙膑兵法",
+   "confidence": 0.25
+  },
+  {
+   "id": "zh_09_011",
+   "guess_book": "庄子",
+   "confidence": 0.98
+  }
+ ]
+}

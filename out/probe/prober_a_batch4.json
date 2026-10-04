@@ -1,0 +1,46 @@
+{
+ "actor": "prober_a",
+ "batch_id": 4,
+ "guesses": [
+  {
+   "id": "zh_05_035",
+   "guess_book": "左传",
+   "confidence": 0.9
+  },
+  {
+   "id": "zh_09_070",
+   "guess_book": "庄子",
+   "confidence": 0.9
+  },
+  {
+   "id": "zh_18_008",
+   "guess_book": "孙子兵法",
+   "confidence": 0.98
+  },
+  {
+   "id": "zh_19_004",
+   "guess_book": "吴子",
+   "confidence": 0.9
+  },
+  {
+   "id": "zh_18_002",
+   "guess_book": "孙子兵法",
+   "confidence": 0.98
+  },
+  {
+   "id": "zh_21_004",
+   "guess_book": "司马法",
+   "confidence": 0.9
+  },
+  {
+   "id": "zh_08_001",
+   "guess_book": "老子",
+   "confidence": 0.98
+  },
+  {
+   "id": "zh_04_001",
+   "guess_book": "孝经",
+   "confidence": 0.97
+  }
+ ]
+}

@@ -1,0 +1,7 @@
+{"ts": "2026-10-04T02:18:59Z", "policy": "allowlist", "agent": "advocate_a", "tool": "list_comments", "verdict": "DENY"}
+{"ts": "2026-10-04T02:20:09Z", "policy": "allowlist", "agent": "advocate_a", "tool": "sys_session_get_info", "verdict": "DENY"}
+{"ts": "2026-10-04T02:24:06Z", "policy": "allowlist", "agent": "advocate_a", "tool": "list_comments", "verdict": "DENY"}
+{"ts": "2026-10-04T02:24:37Z", "policy": "allowlist", "agent": "advocate_a", "tool": "sys_read_inbox", "verdict": "DENY"}
+{"ts": "2026-10-04T02:37:36Z", "policy": "allowlist", "agent": "advocate_a", "tool": "sys_session_get_info", "verdict": "DENY"}
+{"ts": "2026-10-04T02:37:37Z", "policy": "allowlist", "agent": "advocate_a", "tool": "sys_session_list", "verdict": "DENY"}
+{"ts": "2026-10-04T02:52:32Z", "policy": "allowlist", "agent": "advocate_a", "tool": "sys_session_get_info", "verdict": "DENY"}

@@ -1,0 +1,46 @@
+{
+ "actor": "prober_a",
+ "batch_id": 2,
+ "guesses": [
+  {
+   "id": "zh_23_001",
+   "guess_book": "十六经",
+   "confidence": 0.8
+  },
+  {
+   "id": "zh_03_032",
+   "guess_book": "礼记",
+   "confidence": 0.95
+  },
+  {
+   "id": "zh_05_053",
+   "guess_book": "国语",
+   "confidence": 0.75
+  },
+  {
+   "id": "zh_00_000",
+   "guess_book": "论语",
+   "confidence": 0.99
+  },
+  {
+   "id": "zh_15_004",
+   "guess_book": "吕氏春秋",
+   "confidence": 0.9
+  },
+  {
+   "id": "zh_00_020",
+   "guess_book": "论语",
+   "confidence": 0.99
+  },
+  {
+   "id": "zh_08_003",
+   "guess_book": "老子",
+   "confidence": 0.99
+  },
+  {
+   "id": "zh_12_006",
+   "guess_book": "商君书",
+   "confidence": 0.95
+  }
+ ]
+}

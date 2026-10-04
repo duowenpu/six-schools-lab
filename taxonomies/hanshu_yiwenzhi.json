@@ -1,0 +1,161 @@
+{
+ "frozen_at": "2026-10-04T02:32:25Z",
+ "hypothesis_origin": "agent",
+ "labels": {
+  "Analects": {
+   "citation": "https://en.wikipedia.org/wiki/Analects",
+   "confidence": "high",
+   "label": "Six Arts (Liu yi): Confucian classics",
+   "note": "Hanshu 30 places Lunyu under Six Arts > Lunyu; the cited page notes its early-Han status as a Five Classics commentary."
+  },
+  "Gongsun_Longzi": {
+   "citation": "https://en.wikipedia.org/wiki/Gongsun_Long",
+   "confidence": "high",
+   "label": "Masters: Names (Mingjia)",
+   "note": "Hanshu 30 lists Gongsun Longzi, 14 pian, under Mingjia; cited page identifies Gongsun Long and his collected works with the School of Names."
+  },
+  "Guanzi": {
+   "citation": "https://en.wikipedia.org/wiki/Guanzi_(text)",
+   "confidence": "high",
+   "label": "Masters: Daoist (Daojia)",
+   "note": "Hanshu 30 lists Guanzi, 86 pian, under Daojia; cited page records this placement and the later Sui reclassification as Legalist. Historical-catalogue rule keeps Daojia."
+  },
+  "Guiguzi": {
+   "citation": "https://en.wikipedia.org/wiki/Guiguzi",
+   "confidence": "contested",
+   "label": "Masters: Diplomatist (Zonghengjia)",
+   "note": "No explicit Guiguzi entry survives in the Yiwenzhi's Zonghengjia list. Assigned by its well-attested rhetoric/persuasion and School-of-Diplomacy association, but absence from the Han catalogue makes the mapping contested."
+  },
+  "Han_Feizi": {
+   "citation": "https://en.wikipedia.org/wiki/Han_Feizi",
+   "confidence": "high",
+   "label": "Masters: Legalist (Fajia)",
+   "note": "Hanshu 30 lists Hanzi, 55 pian, under Fajia; cited page confirms the 55-chapter Hanshu catalogue listing and Legalist affiliation."
+  },
+  "Huainanzi": {
+   "citation": "https://en.wikipedia.org/wiki/Huainanzi",
+   "confidence": "high",
+   "label": "Masters: Syncretist (Zajia)",
+   "note": "Hanshu 30 lists Huainan nei and wai under Zajia; cited page notes Confucian bibliographers classified it as Zajia."
+  },
+  "Huangdi_Sijing": {
+   "citation": "uncertain",
+   "confidence": "high",
+   "label": null,
+   "note": "Sealed excavated unit; protocol forbids labelling."
+  },
+  "Kongzi_Jiayu": {
+   "citation": "https://en.wikipedia.org/wiki/Kongzi_Jiayu",
+   "confidence": "high",
+   "label": "Six Arts (Liu yi): Confucian classics",
+   "note": "Hanshu 30 lists Kongzi Jiayu, 27 juan, in the Lunyu subdivision of Six Arts; cited page confirms the Yiwenzhi listing."
+  },
+  "Laozi": {
+   "citation": "https://en.wikipedia.org/wiki/Tao_Te_Ching",
+   "confidence": "high",
+   "label": "Masters: Daoist (Daojia)",
+   "note": "Hanshu 30 lists Laozi transmission literature under Daojia; cited page identifies the Laozi as the foundational Daoist text."
+  },
+  "Liezi": {
+   "citation": "https://en.wikipedia.org/wiki/Liezi",
+   "confidence": "high",
+   "label": "Masters: Daoist (Daojia)",
+   "note": "Hanshu 30 lists Liezi, 8 pian, under Daojia; cited page reports that Book of Han bibliography entry."
+  },
+  "Liji": {
+   "citation": "https://en.wikipedia.org/wiki/Book_of_Rites",
+   "confidence": "high",
+   "label": "Six Arts (Liu yi): Confucian classics",
+   "note": "The Records (ji), 131 pian, are placed under Six Arts > Rites; the cited page identifies Liji as a Confucian classic."
+  },
+  "Liutao": {
+   "citation": "https://en.wikipedia.org/wiki/Six_Secret_Teachings",
+   "confidence": "contested",
+   "label": "Masters: Daoist (Daojia)",
+   "note": "The Yiwenzhi has no exact received-Liutao entry, but places Taigong, 237 pian (including bing works), under Daojia. Because the relation of that composite entry to the received Six Secret Teachings is inferential, the assignment is contested."
+  },
+  "Lushi_Chunqiu": {
+   "citation": "https://en.wikipedia.org/wiki/L%C3%BCshi_Chunqiu",
+   "confidence": "high",
+   "label": "Masters: Syncretist (Zajia)",
+   "note": "Hanshu 30 lists Lüshi Chunqiu, 26 pian, under Zajia; cited page notes traditional Syncretist classification."
+  },
+  "Mencius": {
+   "citation": "https://en.wikipedia.org/wiki/Mencius_(book)",
+   "confidence": "high",
+   "label": "Masters: Confucian (Rujia)",
+   "note": "Hanshu 30 lists Mengzi, 11 pian, under Rujia; the cited page identifies the anthology as Confucian."
+  },
+  "Mozi": {
+   "citation": "https://en.wikipedia.org/wiki/Mozi_(book)",
+   "confidence": "high",
+   "label": "Masters: Mohist (Mojia)",
+   "note": "Hanshu 30 lists Mozi, 71 pian, under Mojia; cited page identifies the book with Mohism."
+  },
+  "Shangjunshu": {
+   "citation": "https://en.wikipedia.org/wiki/The_Book_of_Lord_Shang",
+   "confidence": "high",
+   "label": "Masters: Legalist (Fajia)",
+   "note": "Hanshu 30 lists Shang jun, 29 pian, under Fajia; cited page confirms that listing, while noting a separate Gongsun Yang military entry."
+  },
+  "Sima_Fa": {
+   "citation": "https://en.wikipedia.org/wiki/The_Methods_of_the_Sima",
+   "confidence": "high",
+   "label": "Six Arts (Liu yi): Confucian classics",
+   "note": "Hanshu 30 places Military Rites Sima Fa, 155 pian, under Six Arts > Rites; cited page explicitly notes Ban Gu's rites classification."
+  },
+  "Sun_Bin_Bingfa": {
+   "citation": "uncertain",
+   "confidence": "high",
+   "label": null,
+   "note": "Sealed excavated unit; protocol forbids labelling."
+  },
+  "Sunzi_Bingfa": {
+   "citation": "https://en.wikipedia.org/wiki/The_Art_of_War",
+   "confidence": "high",
+   "label": "Military Books (Bingshu)",
+   "note": "Hanshu 30 places Wu Sunzi bingfa, 82 pian, under Bing shu > strategic planning (quanmou)."
+  },
+  "Wei_Liaozi": {
+   "citation": "https://en.wikipedia.org/wiki/Wei_Liaozi",
+   "confidence": "contested",
+   "label": "Masters: Syncretist (Zajia)",
+   "note": "Hanshu 30 lists Weiliaozi, 29 pian, under Zajia, but also a separate Weiliao, 31 pian, under Military Books > situations. Cited page confirms two same-name Han works; exact identity of the received text is disputed, so Zajia is retained as the title-equivalent placement."
+  },
+  "Wuzi": {
+   "citation": "https://en.wikipedia.org/wiki/Wuzi",
+   "confidence": "high",
+   "label": "Military Books (Bingshu)",
+   "note": "Hanshu 30 lists Wu Qi, 48 pian, under Bing shu > strategic planning; cited page identifies Wuzi as a military-strategy classic."
+  },
+  "Xiaojing": {
+   "citation": "https://en.wikipedia.org/wiki/Classic_of_Filial_Piety",
+   "confidence": "high",
+   "label": "Six Arts (Liu yi): Confucian classics",
+   "note": "Hanshu 30 has a Xiaojing subdivision under Six Arts; the cited page identifies it as a Confucian classic."
+  },
+  "Xunzi": {
+   "citation": "https://en.wikipedia.org/wiki/Xunzi_(book)",
+   "confidence": "high",
+   "label": "Masters: Confucian (Rujia)",
+   "note": "Hanshu 30 lists Sunqingzi, 33 pian, under Rujia; the cited page associates Xunzi with the Confucian tradition."
+  },
+  "Zhongyong": {
+   "citation": "https://en.wikipedia.org/wiki/Doctrine_of_the_Mean",
+   "confidence": "high",
+   "label": "Six Arts (Liu yi): Confucian classics",
+   "note": "Component chapter of Liji; Hanshu 30 also has Zhongyong shuo under Six Arts > Rites. Cited page confirms it was originally a chapter in the Classic of Rites."
+  },
+  "Zhuangzi": {
+   "citation": "https://en.wikipedia.org/wiki/Zhuangzi_(book)",
+   "confidence": "high",
+   "label": "Masters: Daoist (Daojia)",
+   "note": "Hanshu 30 lists Zhuangzi, 52 pian, under Daojia; cited page identifies it as foundational Daoist."
+  }
+ },
+ "lang": "zh",
+ "source_claim": "Proposed by the imperial-library bibliography underlying Ban Gu's Hanshu 'Yiwenzhi' (early 2nd century CE), itself based on Liu Xin's lost Qilüe; it is a historical catalogue placement, not a modern claim about doctrinal essence. Codebook/attribution rule: (1) explicit or title-equivalent Hanshu placement controls; (2) a transmitted component chapter inherits its container's placement; (3) titles absent from the Yiwenzhi, or with conflicting/duplicate Han entries, receive the best-attested placement but are marked contested; (4) the sealed excavated units are null. Sources for the partition: https://en.wikipedia.org/wiki/Liu_Xin_(scholar), https://en.wikipedia.org/wiki/Book_of_Han, and Michael Hunter, 'Yiwen zhi Bibliography in Its Own Context' (2019), https://doi.org/10.7817/jameroriesoci.138.4.0763.",
+ "submitted_by": "advocate_b",
+ "taxonomy_id": "hanshu_yiwenzhi",
+ "title": "Hanshu Yiwenzhi bibliographic taxonomy (Liu Xin/Ban Gu ten Masters schools plus Six Arts and Military Books)"
+}

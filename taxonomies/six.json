@@ -1,0 +1,161 @@
+{
+ "frozen_at": "2026-10-04T02:21:53Z",
+ "hypothesis_origin": "agent",
+ "labels": {
+  "Analects": {
+   "citation": "https://en.wikipedia.org/wiki/Analects",
+   "confidence": "high",
+   "label": "Confucian",
+   "note": "Yiwenzhi lists Lunyu under the jing-division 'Lunyu' class; core of Sima Tan's Rujia tradition (Shiji 130: Rujia 'you xu xue, bei song shuo'). Codebook rule 2."
+  },
+  "Gongsun_Longzi": {
+   "citation": "https://en.wikipedia.org/wiki/Gongsun_Longzi",
+   "confidence": "high",
+   "label": "School of Names",
+   "note": "Yiwenzhi Mingjia: Gongsun Longzi shisi pian. Only substantially transmitted Mingjia text; uncontested (surviving 6 pian authenticity debated, class not)."
+  },
+  "Guanzi": {
+   "citation": "https://en.wikipedia.org/wiki/Guanzi_(text)",
+   "confidence": "contested",
+   "label": "Daoist",
+   "note": "CODEBOOK DECISION (the textbook case): Hanshu Yiwenzhi lists Guanzi ba shiliu pian under Daojia; from the Sui shu Jingji zhi (636 CE) onward it is re-catalogued under Fajia, and much modern scholarship (e.g. Rickett) reads it as a Qi/Jixia legalist-statecraft compilation with Daoist (Xinshu, Neiye, Baixin) chapters. Codebook rule 3: follow the earliest attested Han assignment (Daojia) since the taxonomy being audited is Han-dynastic (Sima Tan / Ban Gu). Contested."
+  },
+  "Guiguzi": {
+   "citation": "https://en.wikipedia.org/wiki/Guiguzi",
+   "confidence": "contested",
+   "label": "School of Names",
+   "note": "CODEBOOK DECISION: traditionally founder-text of the Zonghengjia (School of Diplomacy), which Sima Tan's six do not include; later absorbed into the Daoist canon. Forced choice per rule 1: School of Names, on its program of bian (disputation), rhetoric and shi/persuasion theory, the closest six-school analogue to the diplomats' arts. Rival candidate: Daoist (canon absorption). Contested."
+  },
+  "Han_Feizi": {
+   "citation": "https://en.wikipedia.org/wiki/Han_Feizi",
+   "confidence": "contested",
+   "label": "Legalist",
+   "note": "CODEBOOK DECISION: labelled Legalist, the canonical assignment (Shiji 63; Yiwenzhi Fajia: Hanzi wushiwu pian; A.C. Graham's 'great synthesizer' of Legalism). Marked contested because chs. 20-21 (Jie Lao / Yu Lao) are Laozi commentaries generally treated as Huang-Lao/Daoist addenda, and Sima Qian roots Han Fei's learning in Huang-Lao before turning to xingming fashu. Unit-level label follows the dominant tradition (codebook rule 1)."
+  },
+  "Huainanzi": {
+   "citation": "https://en.wikipedia.org/wiki/Huainanzi",
+   "confidence": "medium",
+   "label": "Daoist",
+   "note": "Yiwenzhi Daojia: Huainan nei ershiyi pian (outer chapters lost). Standard class: Daoist (Huang-Lao court syncretism under Liu An). Medium rather than high because its dense yin-yang/correlative cosmology (Tianwen xun) makes it the strongest Yin-Yang claimant in the transmitted corpus; codebook keeps the attested Han catalog assignment."
+  },
+  "Huangdi_Sijing": {
+   "citation": "https://en.wikipedia.org/wiki/Mawangdui",
+   "confidence": "high",
+   "label": null,
+   "note": "SEALED excavated unit (Mawangdui silk manuscripts, buried 168 BCE). Held-out tomb test: deliberately NOT labelled per lab protocol. (The received tradition would later attach such Huang-Lao texts to Daojia; that inference is the experiment, not the codebook.)"
+  },
+  "Kongzi_Jiayu": {
+   "citation": "https://en.wikipedia.org/wiki/Kongzi_Jiayu",
+   "confidence": "high",
+   "label": "Confucian",
+   "note": "Yiwenzhi Rujia: Kongzi Jiayu ershiqi pian. Once dismissed as a Wang Su (3rd c. CE) forgery; partly rehabilitated by excavated parallels (Loewe ed. 1993). Class assignment itself uncontested; only date/authenticity disputed."
+  },
+  "Laozi": {
+   "citation": "https://en.wikipedia.org/wiki/Tao_Te_Ching",
+   "confidence": "high",
+   "label": "Daoist",
+   "note": "Anchor text of Sima Tan's Daojia (= Daodejia; Shiji 130 praises Laozi/Zhuangzi by name). Han bibliographic placement nuanced (Yiwenzhi Daojia lists Laozi commentaries); class uncontested."
+  },
+  "Liezi": {
+   "citation": "https://en.wikipedia.org/wiki/Liezi",
+   "confidence": "high",
+   "label": "Daoist",
+   "note": "Yiwenzhi Daojia: Liezi ba pian. Received text likely a Wei-Jin (3rd-4th c. CE) recompilation, but the catalog class assignment is Daoist in every dynastic bibliography; the date dispute does not make the class contested."
+  },
+  "Liji": {
+   "citation": "https://en.wikipedia.org/wiki/Book_of_Rites",
+   "confidence": "high",
+   "label": "Confucian",
+   "note": "Yiwenzhi jing-division 'Li' class (Ji by 130 pian), not the zi-level Rujia shelf; mapped to Confucian per codebook rule 2. Contains 'Yueling' correlative material, but the transmitted book is canonically Ru."
+  },
+  "Liutao": {
+   "citation": "https://en.wikipedia.org/wiki/Six_Secret_Teachings",
+   "confidence": "contested",
+   "label": "Daoist",
+   "note": "CODEBOOK DECISION: Yiwenzhi Bingjia: Tai Gong ershibai san shisi pian; received Liutao attributed to Lu Shang (Jiang Taigong) and datable no earlier than Warring States. Bingjia absent from the six; forced choice Daoist, following the Qi/Huang-Lao statecraft tradition and the text's later absorption into Tai Gong/Daoist lore. Rival candidate: Confucian (its benevolent-government 'Civil Strategy' rhetoric). Contested."
+  },
+  "Lushi_Chunqiu": {
+   "citation": "https://en.wikipedia.org/wiki/L%C3%BCshi_Chunqiu",
+   "confidence": "contested",
+   "label": "Yin-Yang",
+   "note": "CODEBOOK DECISION: Yiwenzhi classifies it Zajia (syncretist) - a seventh shelf with no counterpart in Sima Tan's six (and, as the tradition notes, 'no school called itself Syncretist'). Forced into the six, assigned to Yin-Yang on the strength of its Twelve Ji framework, a month-by-month yin-yang/wuxing correlative almanac in the Zou Yan tradition (Yiwenzhi Yinyangjia anchor figure; cf. Yueling-type material). Rival candidates: Daoist (Huang-Lao statecraft) or Confucian (Ru anecdotal density). Contested; illustrates the six-school scheme's failure to accommodate imperial syncretism."
+  },
+  "Mencius": {
+   "citation": "https://en.wikipedia.org/wiki/Mencius_(book)",
+   "confidence": "high",
+   "label": "Confucian",
+   "note": "Yiwenzhi Rujia: Mengzi shiyi pian. Uncontested in Hanshu and modern scholarship (Loewe ed. 1993)."
+  },
+  "Mozi": {
+   "citation": "https://en.wikipedia.org/wiki/Mozi",
+   "confidence": "high",
+   "label": "Mohist",
+   "note": "Yiwenzhi Mojia: Mozi qi shiyi pian. The single transmitted Mohist text; uncontested."
+  },
+  "Shangjunshu": {
+   "citation": "https://en.wikipedia.org/wiki/Book_of_Lord_Shang",
+   "confidence": "high",
+   "label": "Legalist",
+   "note": "Yiwenzhi Fajia: Shangjun shu ershi'jiu pian. Standard Legalist assignment; composite Warring States text but class uncontested."
+  },
+  "Sima_Fa": {
+   "citation": "https://en.wikipedia.org/wiki/The_Methods_of_the_Sima",
+   "confidence": "contested",
+   "label": "Confucian",
+   "note": "CODEBOOK DECISION: Yiwenzhi Bingjia: Junli Sima Fa yi bai wushiwu pian; developed in 4th-c. Qi. Bingjia absent from the six; forced choice Confucian - by the Eastern Han Ban Gu already treated it as a rites (li) work, and the text's wen/wu ritual complementarity and just-war morality are the most Ru-inflected of the military classics. Rival candidate: Legalist (its fa/regulation content). Contested."
+  },
+  "Sun_Bin_Bingfa": {
+   "citation": "https://en.wikipedia.org/wiki/Yinqueshan_Han_Slips",
+   "confidence": "high",
+   "label": null,
+   "note": "SEALED excavated unit (Yinqueshan bamboo slips, tomb closed c. 134 BCE). Held-out tomb test: deliberately NOT labelled per lab protocol."
+  },
+  "Sunzi_Bingfa": {
+   "citation": "https://en.wikipedia.org/wiki/The_Art_of_War",
+   "confidence": "contested",
+   "label": "Daoist",
+   "note": "CODEBOOK DECISION: Yiwenzhi classifies it Bingjia (quanmou) - military shelf absent from Sima Tan's six. Forced choice: Daoist, on the text's own dao/xu/shi/xing-formless idiom and the well-attested scholarly linkage of Sunzi's 'inaction and impartiality' philosophy to Daoist thought (cf. Han Feizi article; Mair/Ames readings; the Yinque shan 'Sunzi' commentary tradition). Alternative reading treats it as class-external to the six - itself evidence for the audit. Contested."
+  },
+  "Wei_Liaozi": {
+   "citation": "https://en.wikipedia.org/wiki/Wei_Liaozi",
+   "confidence": "contested",
+   "label": "Legalist",
+   "note": "CODEBOOK DECISION: Yiwenzhi Bingjia: Wei Liao ershi'jiu pian (a Wei Liaozi also appears under Zajia in some catalog traditions); text set at the Qin court, where Li Si praised Wei Liao. Bingjia absent from the six; forced choice Legalist on its agriculture-war, rewards-and-punishments statecraft, the standard modern characterization as a 'legalist military text'. Rival candidate: treat as Bingjia class-external. Contested."
+  },
+  "Wuzi": {
+   "citation": "https://en.wikipedia.org/wiki/Wuzi",
+   "confidence": "contested",
+   "label": "Confucian",
+   "note": "CODEBOOK DECISION: Seven Military Classic (Bingjia shelf, absent from the six). Forced choice: Confucian - the received text is a dialogue of Wu Qi (traditionally a Zeng Shen-lineage Ru student) with Marquis Wu of Wei whose philosophy is explicitly 'a synthesis between Confucianism and Legalism' weighted to benevolent government and moral values. Rival candidate: Legalist (rewards-and-punishments half of the synthesis). Contested."
+  },
+  "Xiaojing": {
+   "citation": "https://en.wikipedia.org/wiki/Classic_of_Filial_Piety",
+   "confidence": "high",
+   "label": "Confucian",
+   "note": "Yiwenzhi jing-division 'Xiaojing' class; codebook rule 2 maps the Ru classics tradition to Confucian."
+  },
+  "Xunzi": {
+   "citation": "https://en.wikipedia.org/wiki/Xunzi_(book)",
+   "confidence": "high",
+   "label": "Confucian",
+   "note": "Yiwenzhi Rujia: Sun Qing shu sanshi'er pian (Xunzi). Standard assignment; note his two Legalist students (Han Fei, Li Si) do not change the book's class."
+  },
+  "Zhongyong": {
+   "citation": "https://en.wikipedia.org/wiki/Doctrine_of_the_Mean",
+   "confidence": "high",
+   "label": "Confucian",
+   "note": "Chapter of Liji; Yiwenzhi also lists a separate Zhongyong er pian under Rujia. Confucian assignment uncontested."
+  },
+  "Zhuangzi": {
+   "citation": "https://en.wikipedia.org/wiki/Zhuangzi_(book)",
+   "confidence": "high",
+   "label": "Daoist",
+   "note": "Yiwenzhi Daojia: Zhuangzi wushi'er pian. Named in Shiji 130 alongside Laozi as Daojia exemplar."
+  }
+ },
+ "lang": "zh",
+ "source_claim": "Formalization of the six-school scheme of Sima Tan (d. 110 BCE), 'Lun liujia yaozhi' / 'Essential Meanings of the Six Schools', Shiji ch. 130 (reprinted in Taishigong zixu): Yinyangjia, Rujia, Mojia, Mingjia, Fajia, Daojia (Daodejia). Book-level assignments follow the earliest extant bibliographic tradition, Hanshu ch. 30 'Yiwenzhi' (Ban Gu, 1st c. CE), cross-checked against modern reference scholarship: M. Loewe (ed.), Early Chinese Texts: A Bibliographical Guide (Berkeley: Society for the Study of Early China, 1993); K. Smith Jr., 'Sima Tan and the Invention of Daoism: Legist Thought and the Han', Journal of Asian Studies 62.1 (2003): 129-156. CODEBOOK: (1) Sima Tan's scheme has no Bingjia (military) or Zajia (syncretist) slot, though the Hanshu Yiwenzhi uses both; every such transmitted book receives a documented forced-choice nearest-school assignment and is marked 'contested'. (2) Confucian classics (Li, Xiao Jing, Zhongyong) stand under the Yiwenzhi jing-divisions rather than the zi 'Rujia' shelf; the codebook maps the Ru classics/tradition to Confucian. (3) Where catalog assignment changed over time (Guanzi: Daojia in Yiwenzhi, Fajia from Sui shu Jingji zhi on), the earliest attested Han assignment is used and the unit marked 'contested'. (4) Sealed excavated units (Huangdi_Sijing, Sun_Bin_Bingfa) are never labelled; they are the held-out tomb test.",
+ "submitted_by": "advocate_a",
+ "taxonomy_id": "six",
+ "title": "Sima Tan six-schools taxonomy (Shiji 130, 'Lun liujia yaozhi')"
+}

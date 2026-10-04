@@ -1,0 +1,21 @@
+{
+ "actor": "prober_b",
+ "batch_id": 9,
+ "guesses": [
+  {
+   "id": "zh_04_002",
+   "guess_book": "Xiaojing (孝經)",
+   "confidence": 0.97
+  },
+  {
+   "id": "zh_24_002",
+   "guess_book": "Sunzi Bingfa (孫子兵法) - hedged: lacunae-marked excavated military text, not nameable per probe rules",
+   "confidence": 0.25
+  },
+  {
+   "id": "zh_14_001",
+   "guess_book": "Gongsun Longzi (公孫龍子)",
+   "confidence": 0.98
+  }
+ ]
+}

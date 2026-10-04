@@ -1,0 +1,46 @@
+{
+ "actor": "prober_b",
+ "batch_id": 6,
+ "guesses": [
+  {
+   "id": "zh_16_096",
+   "guess_book": "Huainanzi (淮南子)",
+   "confidence": 0.97
+  },
+  {
+   "id": "zh_13_073",
+   "guess_book": "Guanzi (管子)",
+   "confidence": 0.95
+  },
+  {
+   "id": "zh_22_003",
+   "guess_book": "Weiliaozi (尉繚子)",
+   "confidence": 0.75
+  },
+  {
+   "id": "zh_10_021",
+   "guess_book": "Liezi (列子)",
+   "confidence": 0.97
+  },
+  {
+   "id": "zh_12_024",
+   "guess_book": "Shangjunshu (商君書)",
+   "confidence": 0.95
+  },
+  {
+   "id": "zh_06_004",
+   "guess_book": "Zhongyong (中庸)",
+   "confidence": 0.97
+  },
+  {
+   "id": "zh_16_121",
+   "guess_book": "Huainanzi (淮南子)",
+   "confidence": 0.88
+  },
+  {
+   "id": "zh_08_005",
+   "guess_book": "Laozi (老子/道德經)",
+   "confidence": 0.97
+  }
+ ]
+}

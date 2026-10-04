@@ -1,0 +1,161 @@
+{
+ "frozen_at": "2026-10-04T02:29:23Z",
+ "hypothesis_origin": "agent",
+ "labels": {
+  "Analects": {
+   "citation": "https://en.wikipedia.org/wiki/Analects",
+   "confidence": "high",
+   "label": "Analects-type sayings and lore collections (yu-lun ti)",
+   "note": "Short recorded sayings and conversations of Confucius and disciples, collected and edited by followers (Ban Gu, Hanshu); the paradigmatic analects-type (yu/lun-ji) collection. Csikszentmihalyi 2006 on 'Analects'-type texts; Lewis 1999 on recorded speech as a genre; Loewe (ed.) 1993."
+  },
+  "Gongsun_Longzi": {
+   "citation": "https://en.wikipedia.org/wiki/Gongsun_Long",
+   "confidence": "medium",
+   "label": "Thematic argumentative treatises (lun-type essays)",
+   "note": "Short dialectical argumentative essays in bian-disputation form ('Bai ma lun' and companions); survives as a 6-piece anthology of once-14 pieces with heavy corruption - form clear, integrity uncertain, hence medium. Graham, Studies in Chinese Philosophy and Logicians; Loewe (ed.) 1993."
+  },
+  "Guanzi": {
+   "citation": "https://en.wikipedia.org/wiki/Guanzi_(text)",
+   "confidence": "contested",
+   "label": "Encyclopedic compilations and composite summae",
+   "note": "Anonymous multi-author corpus (76 surviving of 86 chapters) of material spanning centuries, edited by Liu Xiang c. 26 BCE: mixes dialogue chapters, essays, technical economic/administrative chapters and verse-like passages; compilation class fits the redacted received whole, but the internal heterogeneity makes any single-form assignment contested. Rickett 1985/98; Loewe (ed.) 1993; Sato on its composition."
+  },
+  "Guiguzi": {
+   "citation": "https://en.wikipedia.org/wiki/Guiguzi",
+   "confidence": "contested",
+   "label": "Thematic argumentative treatises (lun-type essays)",
+   "note": "Manual of persuasion technique (zong-heng rhetoric): short chapters of technical instruction with appended commentary layers, compiled between late Warring States and end of Han, book III a later addition; whether the received whole is a technical treatise manual or a layered compilation is genuinely open - contested. Loewe (ed.) 1993."
+  },
+  "Han_Feizi": {
+   "citation": "https://en.wikipedia.org/wiki/Han_Feizi",
+   "confidence": "medium",
+   "label": "Thematic argumentative treatises (lun-type essays)",
+   "note": "Core is systematic argumentative essays of statecraft theory ('Wu du', 'Ding fa'), but the anthology also holds persuasion-anecdote corpora ('Shui lin', 'Shui nan') and Laozi-commentary chapters ('Jie Lao', 'Yu Lao'); treatise core dominant, heterogeneity flagged via medium. Loewe (ed.) 1993; A.C. Graham on Han Fei as synthesizer; Goldin on Han Fei's essays."
+  },
+  "Huainanzi": {
+   "citation": "https://en.wikipedia.org/wiki/Huainanzi",
+   "confidence": "contested",
+   "label": "Encyclopedic compilations and composite summae",
+   "note": "Twenty-one-essay compendium 'compiled as a compendium for an enlightened sovereign' at Liu An's court (before 139 BCE), synthesizing many traditions (Major et al. 2010). It sits between a planned systematic summa (like Lushi Chunqiu) and a loose compilation, and its essays are themselves rhetorically lush - hence compilation class, contested. Loewe (ed.) 1993."
+  },
+  "Huangdi_Sijing": {
+   "citation": "uncertain",
+   "confidence": "high",
+   "label": null,
+   "note": "SEALED excavated manuscript (Mawangdui silk texts, buried 168 BCE); intentionally not labelled or used in this taxonomy."
+  },
+  "Kongzi_Jiayu": {
+   "citation": "https://en.wikipedia.org/wiki/Kongzi_Jiayu",
+   "confidence": "medium",
+   "label": "Analects-type sayings and lore collections (yu-lun ti)",
+   "note": "Self-described supplement to the Analects: Confucius lore - recorded sayings, conversations and anecdotes - compiled from disciple records (received Wang Su recension). Genre unambiguous; medium only because it expands toward biographical narrative. Loewe (ed.) 1993; Csikszentmihalyi 2006; Nylan & Csikszentmihalyi 2003 on compilation practice."
+  },
+  "Laozi": {
+   "citation": "https://en.wikipedia.org/wiki/Tao_Te_Ching",
+   "confidence": "high",
+   "label": "Verse and aphoristic philosophical poetry",
+   "note": "81 short chapters of rhymed aphoristic verse - philosophical poetry, categorically distinct from the discursive prose genres; its 'poetic' character is noted even in comparison with other Daoist texts. Mair 1990 (verse-oriented translation and introduction); Lewis 1999 on canonical verse; Loewe (ed.) 1993."
+  },
+  "Liezi": {
+   "citation": "https://en.wikipedia.org/wiki/Liezi",
+   "confidence": "medium",
+   "label": "Dialogue- and parable-driven philosophical prose",
+   "note": "Anecdote- and fable-driven prose: chapters are chains of narrative and dialogue episodes rather than exposition (Graham, The Book of Lieh-tzu, 1960/1990). Medium because the received text is a layered compilation (Zhang Zhan recension, c. 4th c. CE)."
+  },
+  "Liji": {
+   "citation": "https://en.wikipedia.org/wiki/Book_of_Rites",
+   "confidence": "contested",
+   "label": "Encyclopedic compilations and composite summae",
+   "note": "49-chapter heterogeneous compilation of ritual records, expositions, dialogues and essays, lacking consistent structure (Riegel, 'Li ji', in Loewe (ed.) 1993; Nylan 2001). Compilation class, contested because whole chapters are strongly generic in different ways (treatise-like Zhongyong/Daxue, anecdote-dialogue like Tan Gong)."
+  },
+  "Liutao": {
+   "citation": "https://en.wikipedia.org/wiki/Six_Secret_Teachings",
+   "confidence": "medium",
+   "label": "Military treatises (bing-jia literature)",
+   "note": "'Treatise on civil and military strategy' among the Seven Military Classics, cast as instruction dictated by Jiang Ziya to King Wen; bing-jia genre clear, medium because of heavy dialogue framing and uncertain (likely late) composition. Sawyer 1993; Loewe (ed.) 1993."
+  },
+  "Lushi_Chunqiu": {
+   "citation": "https://en.wikipedia.org/wiki/L%C3%BCshi_Chunqiu",
+   "confidence": "high",
+   "label": "Encyclopedic compilations and composite summae",
+   "note": "Planned encyclopedic compilation produced by design under Lu Buwei (c. 239 BCE) with tripartite ji/lun/lan architecture; Loewe: 'unique among early works in that it is well organized and comprehensive'. Knoblock & Riegel 2000; Loewe (ed.) 1993."
+  },
+  "Mencius": {
+   "citation": "https://en.wikipedia.org/wiki/Mencius_(book)",
+   "confidence": "high",
+   "label": "Dialogue- and parable-driven philosophical prose",
+   "note": "Extended master-disciple dialogues and set-piece debates compiled by disciples; the classic dialogical philosophical prose bridging analects-type records and the treatise. Plaks 2003; Lewis 1999; Loewe (ed.) 1993."
+  },
+  "Mozi": {
+   "citation": "https://en.wikipedia.org/wiki/Mozi_(book)",
+   "confidence": "contested",
+   "label": "Thematic argumentative treatises (lun-type essays)",
+   "note": "Received text mixes four distinct forms: doctrinal essay triads (treatise core, the bulk), dialectical 'canon' chapters, narrative-dialogue sections, and defensive-siege technical manuals; no single form dominates the whole, so the treatise-plurality assignment is contested. Loewe (ed.) 1993; Fraser on Mohist dialectics; Lewis 1999."
+  },
+  "Shangjunshu": {
+   "citation": "https://doi.org/10.1017/eac.2016.3",
+   "confidence": "medium",
+   "label": "Thematic argumentative treatises (lun-type essays)",
+   "note": "Policy-argument essays with a few dialogic frames; Pines (2016, Early China 39; and The Book of Lord Shang, 2017) shows multi-author treatise-style chapters accruing over a century - treatise-dominant but layered, hence medium."
+  },
+  "Sima_Fa": {
+   "citation": "https://en.wikipedia.org/wiki/The_Methods_of_the_Sima",
+   "confidence": "high",
+   "label": "Military treatises (bing-jia literature)",
+   "note": "Short bing-jia text on military regulations and administration preserving fragments of older ritual-warfare lore; received form is a military treatise. Sawyer 1993; Loewe (ed.) 1993."
+  },
+  "Sun_Bin_Bingfa": {
+   "citation": "uncertain",
+   "confidence": "high",
+   "label": null,
+   "note": "SEALED excavated manuscript (Yinqueshan bamboo slips); intentionally not labelled or used in this taxonomy."
+  },
+  "Sunzi_Bingfa": {
+   "citation": "https://en.wikipedia.org/wiki/The_Art_of_War",
+   "confidence": "high",
+   "label": "Military treatises (bing-jia literature)",
+   "note": "Canonical bing-jia manual: terse topical chapters of strategic doctrine with minimal framing; listed among the Seven Military Classics. Sawyer 1993; Loewe (ed.) 1993."
+  },
+  "Wei_Liaozi": {
+   "citation": "https://en.wikipedia.org/wiki/Wei_Liaozi",
+   "confidence": "medium",
+   "label": "Military treatises (bing-jia literature)",
+   "note": "Military treatise combining dialogic audience chapters (King Hui of Liang) with expository chapters on command, discipline and civil-military organization; two same-titled works existed in Han catalogues, so integrity is uncertain - medium. Sawyer 1993; Loewe (ed.) 1993."
+  },
+  "Wuzi": {
+   "citation": "https://en.wikipedia.org/wiki/Wuzi",
+   "confidence": "high",
+   "label": "Military treatises (bing-jia literature)",
+   "note": "One of the Seven Military Classics; six topical chapters of military doctrine cast as dialogue between Wu Qi and Marquis Wen of Wei - the dialogue frame does not override the functional genre (codebook rule 2). Sawyer 1993."
+  },
+  "Xiaojing": {
+   "citation": "https://en.wikipedia.org/wiki/Classic_of_Filial_Piety",
+   "confidence": "medium",
+   "label": "Analects-type sayings and lore collections (yu-lun ti)",
+   "note": "Brief classic framed as recorded conversation between Confucius and Zengzi; dominant form is recorded discourse, not sustained exposition - hence sayings class, with medium confidence because its headed chapters show quasi-treatise organization. Loewe (ed.) 1993; Nylan 2001 on canon formation."
+  },
+  "Xunzi": {
+   "citation": "https://en.wikipedia.org/wiki/Xunzi_(book)",
+   "confidence": "high",
+   "label": "Thematic argumentative treatises (lun-type essays)",
+   "note": "Sustained titled argumentative essays - the first mature philosophical treatises in Chinese (lun-type discourse). Knoblock 1988-94; Loewe (ed.) 1993; Lewis 1999 on the rise of the essay."
+  },
+  "Zhongyong": {
+   "citation": "https://en.wikipedia.org/wiki/Doctrine_of_the_Mean",
+   "confidence": "medium",
+   "label": "Thematic argumentative treatises (lun-type essays)",
+   "note": "Originally a Liji chapter; the received work is a coherent expository treatise on zhong/yong and self-cultivation (Plaks 2003 treats it as essay-type). Medium because its layered composition has been debated since Cui Shu."
+  },
+  "Zhuangzi": {
+   "citation": "https://en.wikipedia.org/wiki/Zhuangzi_(book)",
+   "confidence": "contested",
+   "label": "Dialogue- and parable-driven philosophical prose",
+   "note": "Dominant mode is parable, anecdote and imaginary dialogue (yu-yan, 'goblet words'), but the received 33-chapter text is a layered compilation (Inner/Outer/Miscellaneous) that also contains argumentative essays; genuinely mixed form, hence contested. Loewe (ed.) 1993; Graham's chapter studies; Lewis 1999."
+  }
+ },
+ "lang": "zh",
+ "source_claim": "Proposed by Six Schools Lab Advocate A on 2026-10-03 in this dispatch conversation, as the H-C1 rival/confound control to the inherited six-schools taxonomy: every transmitted book is labelled by its dominant received literary form, never by doctrine or 'school'. The class set and assignments follow standard reference scholarship on early Chinese text types: Loewe (ed.), Early Chinese Texts: A Bibliographical Guide (1993); Mark Edward Lewis, Writing and Authority in Early China (1999) (genre spectrum from recorded speech/anecdote through persuasion and the argumentative essay to canonical verse); Nylan & Csikszentmihalyi on compilation practice and 'Analects'-type text formation (Csikszentmihalyi, Material Virtue, 2006; Nylan & Csikszentmihalyi, T'oung Pao 89, 2003); Ralph D. Sawyer, The Seven Military Classics of Ancient China (1993) on bing-jia literature as a literary form; Victor Mair, Tao Te Ching (1990) on the Laozi as rhymed philosophical verse; A.C. Graham, The Book of Lieh-tzu (1960/1990) on anecdote-driven prose; Yuri Pines, Early China 39 (2016) and The Book of Lord Shang (2017) on treatise-essay compilation; John S. Major et al., The Huainanzi (2010) on the compendium/summa form; Knoblock & Riegel, The Annals of Lu Buwei (2000) on the planned encyclopedic compilation; Allyn Rickett, Guanzi (1985/1998); Andrew Plaks, The Four Books (2003) on treatise vs recorded-discourse forms. CODEBOOK RULES (pre-registered): (1) assign the form that characterizes the majority of the received text's bulk and rhetorical mode; (2) functional genre overrides framing - a dialogue-framed military manual (Wuzi, Liutao) remains a bing-jia treatise; (3) multi-author, redactor-shaped collections (Guanzi, Liji, Lushi Chunqiu, Huainanzi) take the encyclopedic-compilation class; (4) where a text genuinely balances incompatible forms (Mozi, Zhuangzi, Guiguzi) or is so layered that single-form assignment is unstable (Guanzi, Liji, Huainanzi), the assignment is marked contested; (5) the two sealed excavated units (Huangdi_Sijing, Sun_Bin_Bingfa) are never labelled. NOTE ON CITATIONS: OpenAlex search was unavailable throughout this session (persistent HTTP 429), so citation fields use verified reference-article URLs (the convention used in the lab's already-frozen 'era' and 'region' taxonomies) plus one verified DOI (Pines 2016); the full scholarly works relied on are named in this source_claim and in each per-book note.",
+ "submitted_by": "advocate_a",
+ "taxonomy_id": "genre",
+ "title": "Genre / literary-form taxonomy of transmitted early Chinese texts (H-C1 rival confound control)"
+}

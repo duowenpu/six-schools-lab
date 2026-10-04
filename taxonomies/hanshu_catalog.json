@@ -1,0 +1,161 @@
+{
+ "frozen_at": "2026-10-04T02:33:00Z",
+ "hypothesis_origin": "agent",
+ "labels": {
+  "Analects": {
+   "citation": "https://en.wikipedia.org/wiki/Analects",
+   "confidence": "high",
+   "label": "Six-Arts (Han ritual/classical canon)",
+   "note": "The Yiwenzhi places Lunyu in its Six-Arts/Lunyu subsection; the page describes its early-Han status as a commentary on the Five Classics and central Confucian text."
+  },
+  "Gongsun_Longzi": {
+   "citation": "https://en.wikipedia.org/wiki/Gongsun_Long",
+   "confidence": "high",
+   "label": "School of Names (Mingjia)",
+   "note": "The Yiwenzhi lists Gongsun Longzi under Mingjia; the page identifies Gongsun Long and his anthology with the School of Names."
+  },
+  "Guanzi": {
+   "citation": "https://zh.wikipedia.org/wiki/管子_(書)",
+   "confidence": "contested",
+   "label": "Daoist Masters (Daojia)",
+   "note": "The Yiwenzhi lists Guanzi under Daojia, while the Sui catalogue moved it to Fajia; the page describes both placements and mixed Legalist/Daoist/Confucian content."
+  },
+  "Guiguzi": {
+   "citation": "https://zh.wikipedia.org/wiki/鬼谷子",
+   "confidence": "contested",
+   "label": "Diplomat Masters (Zonghengjia)",
+   "note": "The transmitted Guiguzi is absent from the operative Yiwenzhi list, so the ambiguity rule uses its cited identification as a representative Zongheng work; later bibliography could class it as Zajia, hence contested."
+  },
+  "Han_Feizi": {
+   "citation": "https://en.wikipedia.org/wiki/Han_Feizi",
+   "confidence": "high",
+   "label": "Legalist Masters (Fajia)",
+   "note": "The Yiwenzhi lists Hanzi under Fajia; the page describes essays in the Legalist tradition."
+  },
+  "Huainanzi": {
+   "citation": "https://en.wikipedia.org/wiki/Huainanzi",
+   "confidence": "contested",
+   "label": "Miscellaneous/Syncretist Masters (Zajia)",
+   "note": "Confucian bibliographers classified Huainanzi as Zajia/Syncretist, but it later came to be treated as a Daoist work; the page records both traditions."
+  },
+  "Huangdi_Sijing": {
+   "citation": "uncertain",
+   "confidence": "high",
+   "label": null,
+   "note": "Sealed excavated manuscript; intentionally not labelled and not used to set any transmitted assignment."
+  },
+  "Kongzi_Jiayu": {
+   "citation": "https://en.wikipedia.org/wiki/Kongzi_Jiayu",
+   "confidence": "medium",
+   "label": "Six-Arts (Han ritual/classical canon)",
+   "note": "The Yiwenzhi lists Kongzi Jiayu with the Lunyu group; the page confirms this first-century listing but stresses the disputed later formation of the received text."
+  },
+  "Laozi": {
+   "citation": "https://en.wikipedia.org/wiki/Tao_Te_Ching",
+   "confidence": "high",
+   "label": "Daoist Masters (Daojia)",
+   "note": "The Yiwenzhi places Laozi materials under Daojia; the page calls the text foundational for Taoism."
+  },
+  "Liezi": {
+   "citation": "https://en.wikipedia.org/wiki/Liezi",
+   "confidence": "medium",
+   "label": "Daoist Masters (Daojia)",
+   "note": "The Yiwenzhi lists Liezi in eight pian under Daojia; the page also notes scholarly argument that the received compilation is much later."
+  },
+  "Liji": {
+   "citation": "https://en.wikipedia.org/wiki/Book_of_Rites",
+   "confidence": "medium",
+   "label": "Six-Arts (Han ritual/classical canon)",
+   "note": "The Yiwenzhi Li subsection includes the Records; the page calls Liji part of the ritual component of the Confucian Five Classics, while its layers are diverse and unevenly dated."
+  },
+  "Liutao": {
+   "citation": "https://en.wikipedia.org/wiki/Book_of_Han",
+   "confidence": "contested",
+   "label": "Confucian Masters (Rujia)",
+   "note": "Yiwenzhi lists Zhou Shi Liu Tao under Rujia, so the exact-catalogue rule controls despite the later Seven Military Classics classification; the transmitted formation and Taigong associations remain disputed."
+  },
+  "Lushi_Chunqiu": {
+   "citation": "https://en.wikipedia.org/wiki/Lüshi_Chunqiu",
+   "confidence": "high",
+   "label": "Miscellaneous/Syncretist Masters (Zajia)",
+   "note": "The Yiwenzhi lists Lüshi Chunqiu under Zajia; the page says it was traditionally classified as Syncretist because it combines many schools."
+  },
+  "Mencius": {
+   "citation": "https://en.wikipedia.org/wiki/Mencius_(book)",
+   "confidence": "high",
+   "label": "Confucian Masters (Rujia)",
+   "note": "The Yiwenzhi lists Mengzi under Rujia; the page identifies the anthology with the Confucian philosopher Mencius."
+  },
+  "Mozi": {
+   "citation": "https://en.wikipedia.org/wiki/Mozi_(book)",
+   "confidence": "high",
+   "label": "Mohist Masters (Mojia)",
+   "note": "The Yiwenzhi lists Mozi under Mojia; the page describes the book as expounding Mohism."
+  },
+  "Shangjunshu": {
+   "citation": "https://en.wikipedia.org/wiki/The_Book_of_Lord_Shang",
+   "confidence": "contested",
+   "label": "Legalist Masters (Fajia)",
+   "note": "The Yiwenzhi lists Shangjun in Fajia, but also lists a separate 27-pian Gongsun Yang work among military strategists; the layered transmission makes the book/ancestor mapping contested."
+  },
+  "Sima_Fa": {
+   "citation": "https://en.wikipedia.org/wiki/The_Methods_of_the_Sima",
+   "confidence": "contested",
+   "label": "Six-Arts (Han ritual/classical canon)",
+   "note": "Yiwenzhi puts Military Rites Sima Fa under Li, and the page says Ban Gu classified it as concerning rites and propriety; later tradition makes it a military classic, so the category conflict is flagged."
+  },
+  "Sun_Bin_Bingfa": {
+   "citation": "uncertain",
+   "confidence": "high",
+   "label": null,
+   "note": "Sealed excavated manuscript; intentionally not labelled and not used to set any transmitted assignment."
+  },
+  "Sunzi_Bingfa": {
+   "citation": "https://en.wikipedia.org/wiki/The_Art_of_War",
+   "confidence": "high",
+   "label": "Military literature (Bingshu)",
+   "note": "The Yiwenzhi military-strategies subsection lists Wu Sunzi's military text; the page identifies the work as an ancient Chinese military treatise."
+  },
+  "Wei_Liaozi": {
+   "citation": "https://en.wikipedia.org/wiki/Wei_Liaozi",
+   "confidence": "contested",
+   "label": "Miscellaneous/Syncretist Masters (Zajia)",
+   "note": "Yiwenzhi lists Wei Liaozi under Zajia, whereas the received text is now one of the Seven Military Classics and has Legalist affinities; the page notes two same-titled Han works."
+  },
+  "Wuzi": {
+   "citation": "https://en.wikipedia.org/wiki/Wuzi",
+   "confidence": "high",
+   "label": "Military literature (Bingshu)",
+   "note": "The Yiwenzhi military-strategies subsection lists Wu Qi; the page identifies Wuzi as one of China's Seven Military Classics."
+  },
+  "Xiaojing": {
+   "citation": "https://en.wikipedia.org/wiki/Classic_of_Filial_Piety",
+   "confidence": "high",
+   "label": "Six-Arts (Han ritual/classical canon)",
+   "note": "The Yiwenzhi has a Xiaojing subsection within Six-Arts; the page identifies it as a Confucian classic."
+  },
+  "Xunzi": {
+   "citation": "https://en.wikipedia.org/wiki/Xunzi_(book)",
+   "confidence": "high",
+   "label": "Confucian Masters (Rujia)",
+   "note": "The Yiwenzhi lists Sun Qingzi under Rujia; the page associates Xunzi with the Confucian tradition."
+  },
+  "Zhongyong": {
+   "citation": "https://en.wikipedia.org/wiki/Doctrine_of_the_Mean",
+   "confidence": "medium",
+   "label": "Six-Arts (Han ritual/classical canon)",
+   "note": "The Yiwenzhi Li subsection contains a Zhongyong treatise; the page says the transmitted Zhongyong was originally a chapter of the Book of Rites, although authorship and dating are controversial."
+  },
+  "Zhuangzi": {
+   "citation": "https://en.wikipedia.org/wiki/Zhuangzi_(book)",
+   "confidence": "high",
+   "label": "Daoist Masters (Daojia)",
+   "note": "The Yiwenzhi lists Zhuangzi under Daojia; the page identifies it as a foundational Taoist text."
+  }
+ },
+ "lang": "zh",
+ "source_claim": "The partition is the bibliographic scheme of the Yiwenzhi treatise in Ban Gu, Ban Zhao, and Ban Biao's Book of Han (finished 111 CE), itself based on Liu Xin's earlier imperial catalogue. It sorts learning into Six-Arts, Masters, poetry, military, technical, and medical shelves; for this corpus the operative shelves are Six-Arts, the Masters' schools (Confucian, Daoist, Legalist, Names, Mohist, Diplomats, Miscellaneous/Syncretist, etc.), and Military literature. Modern scholarship on retrospective jia construction (e.g. Smith 2003; Csikszentmihalyi and Nylan 2003) is the reason categories are treated as a historical bibliographic hypothesis, not discovered intellectual essence. Source URL: https://en.wikipedia.org/wiki/Book_of_Han. Pre-registered codebook: (1) assign each transmitted book to the Yiwenzhi shelf on which its title or direct Han catalogue ancestor appears; (2) label the whole book, not individual layers, because the unit is book-level; (3) preserve the Han catalogue's distinction between Six-Arts, Masters, and Military shelves rather than collapsing them into Sima Tan's six schools; (4) if the source catalogue omits or ambiguously identifies a transmitted title, use the nearest category explicitly supplied by cited scholarship and lower confidence; (5) mark contested whenever later bibliography or modern scholarship assigns the same book to another category; (6) the two sealed excavated units are always null.",
+ "submitted_by": "advocate_b",
+ "taxonomy_id": "hanshu_catalog",
+ "title": "Hanshu Yiwenzhi bibliographic-shelf taxonomy"
+}

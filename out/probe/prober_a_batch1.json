@@ -1,0 +1,46 @@
+{
+ "actor": "prober_a",
+ "batch_id": 1,
+ "guesses": [
+  {
+   "id": "zh_22_002",
+   "guess_book": "商君书",
+   "confidence": 0.3
+  },
+  {
+   "id": "zh_11_006",
+   "guess_book": "韩非子",
+   "confidence": 0.97
+  },
+  {
+   "id": "zh_13_134",
+   "guess_book": "管子",
+   "confidence": 0.9
+  },
+  {
+   "id": "zh_01_020",
+   "guess_book": "孟子",
+   "confidence": 0.98
+  },
+  {
+   "id": "zh_15_046",
+   "guess_book": "吕氏春秋",
+   "confidence": 0.9
+  },
+  {
+   "id": "zh_20_014",
+   "guess_book": "六韬",
+   "confidence": 0.5
+  },
+  {
+   "id": "zh_21_001",
+   "guess_book": "司马法",
+   "confidence": 0.95
+  },
+  {
+   "id": "zh_23_004",
+   "guess_book": "十六经",
+   "confidence": 0.5
+  }
+ ]
+}

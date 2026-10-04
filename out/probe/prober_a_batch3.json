@@ -1,0 +1,46 @@
+{
+ "actor": "prober_a",
+ "batch_id": 3,
+ "guesses": [
+  {
+   "id": "zh_07_037",
+   "guess_book": "墨子",
+   "confidence": 0.9
+  },
+  {
+   "id": "zh_17_009",
+   "guess_book": "鬼谷子",
+   "confidence": 0.9
+  },
+  {
+   "id": "zh_17_006",
+   "guess_book": "鬼谷子",
+   "confidence": 0.9
+  },
+  {
+   "id": "zh_22_001",
+   "guess_book": "尉缭子",
+   "confidence": 0.5
+  },
+  {
+   "id": "zh_10_002",
+   "guess_book": "列子",
+   "confidence": 0.9
+  },
+  {
+   "id": "zh_10_019",
+   "guess_book": "列子",
+   "confidence": 0.95
+  },
+  {
+   "id": "zh_21_002",
+   "guess_book": "司马法",
+   "confidence": 0.95
+  },
+  {
+   "id": "zh_07_038",
+   "guess_book": "墨子",
+   "confidence": 0.95
+  }
+ ]
+}

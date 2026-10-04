@@ -1,0 +1,46 @@
+{
+ "actor": "prober_b",
+ "batch_id": 8,
+ "guesses": [
+  {
+   "id": "zh_17_008",
+   "guess_book": "Guiguzi (鬼谷子)",
+   "confidence": 0.9
+  },
+  {
+   "id": "zh_20_001",
+   "guess_book": "Liu tao (六韜 / Tai Gong Six Secret Teachings)",
+   "confidence": 0.9
+  },
+  {
+   "id": "zh_24_004",
+   "guess_book": "Sunzi Bingfa (孫子兵法) - hedged: bamboo-slip lacunae and wording indicate an excavated military corpus I am not permitted to name",
+   "confidence": 0.25
+  },
+  {
+   "id": "zh_07_075",
+   "guess_book": "Mozi (墨子)",
+   "confidence": 0.9
+  },
+  {
+   "id": "zh_02_000",
+   "guess_book": "Xunzi (荀子)",
+   "confidence": 0.96
+  },
+  {
+   "id": "zh_03_023",
+   "guess_book": "Liji (禮記)",
+   "confidence": 0.93
+  },
+  {
+   "id": "zh_02_013",
+   "guess_book": "Xunzi (荀子)",
+   "confidence": 0.95
+  },
+  {
+   "id": "zh_04_000",
+   "guess_book": "Xiaojing (孝經)",
+   "confidence": 0.97
+  }
+ ]
+}

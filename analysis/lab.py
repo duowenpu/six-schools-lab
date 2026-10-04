@@ -17,6 +17,7 @@ scores well if chunks of a held-out unit fall nearest to the centroid of the
 from __future__ import annotations
 
 import json
+import re
 from functools import lru_cache
 from pathlib import Path
 
@@ -40,6 +41,9 @@ def _l2(X: np.ndarray) -> np.ndarray:
     return X / np.maximum(np.linalg.norm(X, axis=1, keepdims=True), 1e-12)
 
 
+STRIP_LACUNAE = False  # set by the experiment runner: drop editorial lacuna marks before vectorising
+
+
 @lru_cache(maxsize=None)
 def vectors(lang: str, instrument: str, layer: str = "mid", masked: bool = True) -> np.ndarray:
     """Return an (n_chunks, d) matrix, mean-centred and L2-normalised."""
@@ -51,6 +55,8 @@ def vectors(lang: str, instrument: str, layer: str = "mid", masked: bool = True)
             texts = [c["translation"] for c in cs]
         else:
             texts = [c["text"] if masked else c["text_raw"] for c in cs]
+        if STRIP_LACUNAE:  # control requested by the lab's blind readers: lacuna marks only occur in excavated texts
+            texts = [re.sub("[\u25a1\u25a2\u25fb]", "", x) for x in texts]
         if lang == "zh":
             vec = TfidfVectorizer(analyzer="char", ngram_range=(2, 2), max_features=3000, sublinear_tf=True, min_df=3)
         else:
