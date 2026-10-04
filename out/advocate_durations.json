@@ -1,0 +1,56 @@
+{
+ "source": "Omnigent session start time of each advocate dispatch to the timestamp of its taxonomy_frozen record",
+ "per_taxonomy": {
+  "era": {
+   "agent": "advocate_b",
+   "minutes": 5.2,
+   "freeze_record": "r0004"
+  },
+  "region": {
+   "agent": "advocate_b",
+   "minutes": 10.5,
+   "freeze_record": "r0013"
+  },
+  "six": {
+   "agent": "advocate_a",
+   "minutes": 4.2,
+   "freeze_record": "r0026"
+  },
+  "genre": {
+   "agent": "advocate_a",
+   "minutes": 11.5,
+   "freeze_record": "r0031"
+  },
+  "hanshu_yiwenzhi": {
+   "agent": "advocate_b",
+   "minutes": 14.2,
+   "freeze_record": "r0040"
+  },
+  "T_nation": {
+   "agent": "advocate_a",
+   "minutes": 3.5,
+   "freeze_record": "r0123"
+  },
+  "T_translated": {
+   "agent": "advocate_b",
+   "minutes": 4.1,
+   "freeze_record": "r0127"
+  },
+  "T_retro": {
+   "agent": "advocate_a",
+   "minutes": 13.9,
+   "freeze_record": "r0130"
+  },
+  "T_1930": {
+   "agent": "advocate_b",
+   "minutes": 16.7,
+   "freeze_record": "r0132"
+  }
+ },
+ "median_minutes": 10.5,
+ "mean_minutes": 9.3,
+ "min_minutes": 3.5,
+ "max_minutes": 16.7,
+ "n": 9,
+ "note": "the first two dispatches (era, region) ran before the reasoning-effort setting was lowered"
+}

@@ -43,7 +43,7 @@ Record entries: 167 · hash chain intact: **True** · frozen taxonomies: 10 · e
 
 ## Run B
 
-Record entries: 104 · hash chain intact: **True** · frozen taxonomies: 9 · experiment runs: 17
+Record entries: 106 · hash chain intact: **True** · frozen taxonomies: 9 · experiment runs: 17
 
 | record | taxonomy | lang | instrument | options | testable units | accuracy | null mean | chance-corrected | 95% CI (accuracy) | p (perm.) |
 |---|---|---|---|---|---|---|---|---|---|---|
