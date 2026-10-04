@@ -143,9 +143,15 @@ def main() -> None:
         out.append(f"- Rival taxonomies formalized with citations: {acc['rival_taxonomies_formalized_with_citations']} ({acc['taxonomies_per_hour_net']} per hour); controlled tests run: {acc['controlled_tests_run']} ({acc['controlled_tests_per_hour_net']} per hour)")
         if "human_baseline" in acc:
             hb = acc["human_baseline"]
-            out.append(f"- Human baseline: {hb['minutes']} minutes for one taxonomy ({hb['who']}; {hb['notes']}). Lab: {acc['lab_minutes_per_taxonomy_including_all_other_work']} minutes per taxonomy "
-                       f"with all other lab work included, a factor of **{acc['speedup_taxonomy_formalization']}**. Partition agreement between the human and the agent taxonomy: adjusted Rand index "
-                       f"{hb['agreement_with_agent_region_taxonomy']['adjusted_rand_index']}.")
+            am = acc.get("agent_minutes_per_taxonomy", {})
+            pb = acc.get("parallel_batch", {})
+            out.append(f"- One taxonomy with one citation per label: human {hb['minutes']} minutes ({hb['who']}; {hb['notes']}); agent median {am.get('median_minutes')} minutes "
+                       f"(range {am.get('min_minutes')} to {am.get('max_minutes')}, n = {am.get('n')}), a factor of **{acc.get('speedup_single_taxonomy')}**.")
+            if pb:
+                out.append(f"- Agents work in parallel: {pb['taxonomies']} taxonomies were frozen within {pb['wall_clock_minutes']} minutes of wall-clock time; one person working through them one after another would need about "
+                           f"{pb['one_person_sequential_minutes_extrapolated']} minutes (extrapolated from the single trial), a factor of **{acc.get('speedup_parallel_batch')}**.")
+            out.append(f"- Minutes from a skeptic critique to the next executed test result: {acc['minutes_from_critique_to_next_result']}.")
+            out.append(f"- Partition agreement between the human and the agent taxonomy of the same kind: adjusted Rand index {hb['agreement_with_agent_region_taxonomy']['adjusted_rand_index']}.")
     (ROOT / "docs" / "RESULTS.md").write_text("\n".join(out) + "\n", encoding="utf-8")
     print(f"run A: record={len(A['record'])} chain_ok={A['chain_ok']} results={len(A['results'])} taxonomies={len(A['taxonomies'])} | "
           + (f"run B: record={len(B['record'])} chain_ok={B['chain_ok']} results={len(B['results'])}" if B else "no run B"))

@@ -68,4 +68,7 @@ Record entries: 104 · hash chain intact: **True** · frozen taxonomies: 9 · ex
 
 - Net wall-clock time: 2.73 h (gross 3.59 h, of which 0.86 h infrastructure downtime)
 - Rival taxonomies formalized with citations: 11 (4.02 per hour); controlled tests run: 15 (5.49 per hour)
-- Human baseline: 14.63 minutes for one taxonomy (one team member who is familiar with these texts; single timed trial; labels with known answers were filled from memory and a supporting page was then looked up). Lab: 14.9 minutes per taxonomy with all other lab work included, a factor of **0.98**. Partition agreement between the human and the agent taxonomy: adjusted Rand index 0.609.
+- One taxonomy with one citation per label: human 14.63 minutes (one team member who is familiar with these texts; single timed trial; labels with known answers were filled from memory and a supporting page was then looked up); agent median 10.5 minutes (range 3.5 to 16.7, n = 9), a factor of **1.39**.
+- Agents work in parallel: 4 taxonomies were frozen within 16.8 minutes of wall-clock time; one person working through them one after another would need about 58.5 minutes (extrapolated from the single trial), a factor of **3.48**.
+- Minutes from a skeptic critique to the next executed test result: [9.2, 29.5, 13.9].
+- Partition agreement between the human and the agent taxonomy of the same kind: adjusted Rand index 0.609.

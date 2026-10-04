@@ -57,12 +57,28 @@ def main() -> None:
                     "the human baseline is a single timed trial by one person"],
     }
     hb = ROOT / "out" / "human_baseline.json"
+    ad = ROOT / "out" / "advocate_durations.json"
+    if ad.exists():
+        a = json.loads(ad.read_text(encoding="utf-8"))
+        out["agent_minutes_per_taxonomy"] = {k: a[k] for k in ("median_minutes", "mean_minutes", "min_minutes", "max_minutes", "n", "source", "note")}
+    # one batch of taxonomies formalized in parallel: the four English taxonomies of PHASE 2
+    en = [r for r in frozen if r["payload"].get("lang") == "en"]
+    if en and ad.exists():
+        per = json.loads(ad.read_text(encoding="utf-8"))["per_taxonomy"]
+        starts = [t(r["ts"]) - dt.timedelta(minutes=per[r["payload"]["taxonomy_id"]]["minutes"]) for r in en if r["payload"]["taxonomy_id"] in per]
+        if starts:
+            wall = (max(t(r["ts"]) for r in en) - min(starts)).total_seconds() / 60
+            out["parallel_batch"] = {"taxonomies": len(en), "wall_clock_minutes": round(wall, 1)}
     if hb.exists():
         h = json.loads(hb.read_text(encoding="utf-8"))
         out["human_baseline"] = h
-        lab_minutes_per_taxonomy = net * 60 / max(1, len(frozen))
-        out["lab_minutes_per_taxonomy_including_all_other_work"] = round(lab_minutes_per_taxonomy, 1)
-        out["speedup_taxonomy_formalization"] = round(h["minutes"] / lab_minutes_per_taxonomy, 2)
+        if "agent_minutes_per_taxonomy" in out:
+            out["speedup_single_taxonomy"] = round(h["minutes"] / out["agent_minutes_per_taxonomy"]["median_minutes"], 2)
+        if "parallel_batch" in out:
+            pb = out["parallel_batch"]
+            pb["one_person_sequential_minutes_extrapolated"] = round(h["minutes"] * pb["taxonomies"], 1)
+            out["speedup_parallel_batch"] = round(h["minutes"] * pb["taxonomies"] / pb["wall_clock_minutes"], 2)
+        out["caveats"].append("the sequential human time for a batch is the single timed trial multiplied by the number of taxonomies")
     (ROOT / "out" / "acceleration.json").write_text(json.dumps(out, indent=1), encoding="utf-8")
     print(json.dumps(out, indent=1))
 
