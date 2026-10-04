@@ -13,7 +13,7 @@ A modern language model cannot answer this honestly, because it has memorized bo
 | **Sealed text** | Sima Tan's six schools | The Mawangdui silk manuscripts ("Huangdi Sijing"), buried 168 BCE and never edited by the Han collators who compiled the transmitted books | The reader cannot be sealed, so test the taxonomy on a text sealed before the taxonomy existed |
 | **Sealed reader** | Analytic vs continental | `talkie-1930`, a 13B language model trained only on text published before 1931 | The texts cannot be sealed, so read them with a reader sealed before the label existed |
 
-**Live replay of the run:** https://duowenpu.github.io/six-schools-lab/demo/ (source in [`demo/`](demo/)). Full result tables: [`docs/RESULTS.md`](docs/RESULTS.md), generated from the research records.
+**Live replay of the run:** [duowenpu.github.io/six-schools-lab](https://duowenpu.github.io/six-schools-lab/) (source in [`demo/`](demo/)). Full result tables: [`docs/RESULTS.md`](docs/RESULTS.md), generated from the research records.
 
 ## What the lab found
 
