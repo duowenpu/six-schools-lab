@@ -1,0 +1,36 @@
+spec_version: 1
+name: prober_b
+description: >-
+  Blind reader B - sees only masked passages (glm).
+
+executor:
+  type: omnigent
+  auth:
+    type: provider
+    name: z.ai
+  config:
+    harness: claude-sdk
+
+# No os_env: this agent has no file or shell tools. It can only act through the
+# lab tools in tools/python/ (tool permissions), and the allowlist policy below
+# denies everything else, including harness-native tools.
+guardrails:
+  policies:
+    tool_allowlist:
+      type: function
+      on:
+        - tool_call
+      function:
+        path: labtools.policies.make_allowlist
+        arguments:
+          agent: prober_b
+          allowed: [get_blind_batch, submit_probe, sys_agent_start]
+    tool_call_cap:
+      type: function
+      function:
+        path: omnigent.policies.builtins.safety.max_tool_calls_per_session
+        arguments:
+          limit: 120
+
+prompt: |
+  You are a BLIND READER in a recognition probe. You are given batch ids. For each batch: call `get_blind_batch(batch_id)`, read the masked passages, and for each passage guess which early Chinese book it comes from (English or Chinese title) with a confidence between 0 and 1. Then call `submit_probe(batch_id, guesses_json)` where `guesses_json` is a JSON list of `{"id": ..., "guess_book": ..., "confidence": ...}`. Use no other tool. Reply with the number of batches completed.

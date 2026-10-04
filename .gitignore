@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+data_raw/
+out/*.npz
+out/*.log
+corpus/*/chunks.jsonl
+corpus/*/blind.jsonl
+.codex-tmp/
+auth.json
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+.claude/
+.omnigent/

@@ -1,0 +1,161 @@
+{
+ "frozen_at": "2026-10-04T01:26:37Z",
+ "hypothesis_origin": "agent",
+ "labels": {
+  "Analects": {
+   "citation": "https://en.wikipedia.org/wiki/Analects",
+   "confidence": "contested",
+   "label": "Qin-Han (221 BCE-220 CE)",
+   "note": "Layered text; codebook rule = final compilation. Cited source: large portions Warring States, but the work 'achieved its final form during the mid-Han dynasty'. Brooks & Brooks would place completion in the late Warring States (~315 BCE), so era assignment is contested."
+  },
+  "Gongsun_Longzi": {
+   "citation": "https://en.wikipedia.org/wiki/Gongsun_Long",
+   "confidence": "medium",
+   "label": "Late Warring States (c. 350-221 BCE)",
+   "note": "Anthology of works of Gongsun Long (c. 320-250 BCE); six of fourteen original essays survive, so integrity/dating are somewhat uncertain."
+  },
+  "Guanzi": {
+   "citation": "https://en.wikipedia.org/wiki/Guanzi_(text)",
+   "confidence": "contested",
+   "label": "Qin-Han (221 BCE-220 CE)",
+   "note": "Layered compilation; codebook rule = final compilation. Received Guanzi edited by Liu Xiang c. 26 BCE from material of many authors (4th c. BCE onward); Sato and Rickett disagree over whether some chapters are Han."
+  },
+  "Guiguzi": {
+   "citation": "https://en.wikipedia.org/wiki/Guiguzi",
+   "confidence": "contested",
+   "label": "Qin-Han (221 BCE-220 CE)",
+   "note": "Layered compilation; codebook rule = final compilation. Cited source: compiled between the late Warring States period and the end of the Han dynasty, and book III is likely a later addition; genuine Warring States rhetorical corpus underlies it."
+  },
+  "Han_Feizi": {
+   "citation": "https://en.wikipedia.org/wiki/Han_Feizi",
+   "confidence": "high",
+   "label": "Late Warring States (c. 350-221 BCE)",
+   "note": "Most chapters date to the mid-3rd century BCE (Han Fei d. 233 BCE); later Laozi-commentary chapters are addenda."
+  },
+  "Huainanzi": {
+   "citation": "https://en.wikipedia.org/wiki/Huainanzi",
+   "confidence": "high",
+   "label": "Qin-Han (221 BCE-220 CE)",
+   "note": "Essays from debates at the court of Liu An, presented to Emperor Wu before 139 BCE."
+  },
+  "Huangdi_Sijing": {
+   "citation": "uncertain",
+   "confidence": "medium",
+   "label": null,
+   "note": "SEALED excavated manuscript; never labeled or used in this taxonomy."
+  },
+  "Kongzi_Jiayu": {
+   "citation": "https://en.wikipedia.org/wiki/Kongzi_Jiayu",
+   "confidence": "contested",
+   "label": "Post-Han (c. 220-420 CE)",
+   "note": "Layered text; codebook rule = final compilation. Received text associated with Cao Wei scholar Wang Su (195-256 CE); Han tomb finds at Dingzhou and Shuanggudui complicate the old 'forgery' verdict, and earlier Han versions existed."
+  },
+  "Laozi": {
+   "citation": "https://en.wikipedia.org/wiki/Tao_Te_Ching",
+   "confidence": "contested",
+   "label": "Late Warring States (c. 350-221 BCE)",
+   "note": "Guodian slips (c. 300 BCE) attest early Laozi-like bundles that were not yet a unified text; a conservative estimate dates the consolidated text to the mid-3rd century BCE, consolidating older sayings."
+  },
+  "Liezi": {
+   "citation": "https://en.wikipedia.org/wiki/Liezi",
+   "confidence": "medium",
+   "label": "Post-Han (c. 220-420 CE)",
+   "note": "Layered text; codebook rule = final compilation. Received text compiled around the 4th century CE by Zhang Zhan (fl. c. 370 CE); Han-era references and Liu Xiang's edition attest an earlier related work."
+  },
+  "Liji": {
+   "citation": "https://en.wikipedia.org/wiki/Book_of_Rites",
+   "confidence": "medium",
+   "label": "Qin-Han (221 BCE-220 CE)",
+   "note": "Layered compilation; codebook rule = final compilation. Diverse Warring States and early Han materials compiled in the Han (title associated with Han scholar Dai Sheng); individual chapter datings remain debated."
+  },
+  "Liutao": {
+   "citation": "https://en.wikipedia.org/wiki/Six_Secret_Teachings",
+   "confidence": "contested",
+   "label": "Late Warring States (c. 350-221 BCE)",
+   "note": "Cited source: modern historians nominally date final composition to the Warring States period (475-221 BCE) while some see Han-era material; assigned to the later part of that span, contested."
+  },
+  "Lushi_Chunqiu": {
+   "citation": "https://en.wikipedia.org/wiki/L%C3%BCshi_Chunqiu",
+   "confidence": "high",
+   "label": "Late Warring States (c. 350-221 BCE)",
+   "note": "Compiled c. 239 BCE under Lü Buwei, with completion possibly stretching to just after his death (235 BCE)."
+  },
+  "Mencius": {
+   "citation": "https://en.wikipedia.org/wiki/Mencius_(book)",
+   "confidence": "high",
+   "label": "Late Warring States (c. 350-221 BCE)",
+   "note": "Cited source: written during the late 4th century BCE, largely by Mencius's disciples; Mencius d. c. 289 BCE."
+  },
+  "Mozi": {
+   "citation": "https://en.wikipedia.org/wiki/Mozi_(book)",
+   "confidence": "medium",
+   "label": "Late Warring States (c. 350-221 BCE)",
+   "note": "Layered anthology: early chapters derive from the 5th-century-BCE Mozi, but the dialectical chapters are a later 3rd-century-BCE development; codebook rule places the compilation horizon in the late Warring States."
+  },
+  "Shangjunshu": {
+   "citation": "https://doi.org/10.1017/eac.2016.3",
+   "confidence": "high",
+   "label": "Late Warring States (c. 350-221 BCE)",
+   "note": "Pines (2016) shows a 3rd-century-BCE core under Shang Yang's name but argues the book took over a century to write, remaining a pre-imperial Warring States compilation."
+  },
+  "Sima_Fa": {
+   "citation": "https://en.wikipedia.org/wiki/The_Methods_of_the_Sima",
+   "confidence": "medium",
+   "label": "Early and mid Warring States (c. 480-350 BCE)",
+   "note": "Developed in Qi during the 4th century BCE, mid-Warring States period; falls at the boundary of the two Warring States eras."
+  },
+  "Sun_Bin_Bingfa": {
+   "citation": "uncertain",
+   "confidence": "medium",
+   "label": null,
+   "note": "SEALED excavated manuscript; never labeled or used in this taxonomy."
+  },
+  "Sunzi_Bingfa": {
+   "citation": "https://en.wikipedia.org/wiki/The_Art_of_War",
+   "confidence": "contested",
+   "label": "Early and mid Warring States (c. 480-350 BCE)",
+   "note": "Cited source: dating from roughly the late Spring and Autumn period (5th century BCE); earliest parts probably postdate the 6th-century-BCE Sun Tzu by at least a century. Some scholarship pushes portions later."
+  },
+  "Wei_Liaozi": {
+   "citation": "https://en.wikipedia.org/wiki/Wei_Liaozi",
+   "confidence": "high",
+   "label": "Late Warring States (c. 350-221 BCE)",
+   "note": "Warring States text; present form assumed around the end of the 4th century BCE."
+  },
+  "Wuzi": {
+   "citation": "https://en.wikipedia.org/wiki/Wuzi",
+   "confidence": "contested",
+   "label": "Early and mid Warring States (c. 480-350 BCE)",
+   "note": "Core nominally composed around Wu Qi's lifetime (440-381 BCE), mid-Warring States; cited source states there is no consensus on the latest date of final composition."
+  },
+  "Xiaojing": {
+   "citation": "https://en.wikipedia.org/wiki/Classic_of_Filial_Piety",
+   "confidence": "contested",
+   "label": "Late Warring States (c. 350-221 BCE)",
+   "note": "Cited source: 'most likely written during the late Warring States period and early Han dynasty', dated 4th-3rd century BCE; the span straddles the era boundary, so assignment is contested."
+  },
+  "Xunzi": {
+   "citation": "https://en.wikipedia.org/wiki/Xunzi_(book)",
+   "confidence": "high",
+   "label": "Late Warring States (c. 350-221 BCE)",
+   "note": "Core essays attributed to Xun Kuang, a 3rd-century BCE philosopher; later 1st-century-CE recension by Liu Xiang treated as transmission, not composition horizon."
+  },
+  "Zhongyong": {
+   "citation": "https://en.wikipedia.org/wiki/Doctrine_of_the_Mean",
+   "confidence": "contested",
+   "label": "Qin-Han (221 BCE-220 CE)",
+   "note": "Layered text; codebook rule = final compilation. Traditional attribution to Zisi doubted since Cui Shu; some modern scholars hold parts were written or edited at the Qin-Han transition, while a Warring States dating is also defended."
+  },
+  "Zhuangzi": {
+   "citation": "https://en.wikipedia.org/wiki/Zhuangzi_(book)",
+   "confidence": "medium",
+   "label": "Late Warring States (c. 350-221 BCE)",
+   "note": "Cited source: written during the late Warring States period; outer and mixed layers continued to accrete into the Han before the later Guo Xiang recension."
+  }
+ },
+ "lang": "zh",
+ "source_claim": "Proposed by the Six Schools Lab advocate, 2026-10-03, in this dispatch conversation, as a rival hypothesis to the inherited six-schools taxonomy. Era boundaries follow standard periodizations of early Chinese intellectual history; per-book datings follow standard reference scholarship of the type surveyed in Michael Loewe (ed.), Early Chinese Texts: A Bibliographical Guide (1993), with later specialist studies including Brooks & Brooks, The Original Analects (1998), Yuri Pines, 'Dating a Pre-Imperial Text: The Case Study of the Book of Lord Shang' (2016), and the cited reference articles. CODEBOOK RULE (pre-registered): layered/compilatory texts (Analects, Liji, Guanzi, Kongzi Jiayu, Zhongyong, Liezi, Guiguzi) are assigned by the date of final compilation/redaction of the RECEIVED text as reported by the cited reference, not by their earliest stratum; where cited scholarship genuinely diverges, the assignment is marked contested. Sealed excavated units (Huangdi_Sijing, Sun_Bin_Bingfa) are never labeled.",
+ "submitted_by": "advocate_b",
+ "taxonomy_id": "era",
+ "title": "Composition-date era taxonomy (rival to inherited six schools)"
+}

@@ -1,0 +1,202 @@
+{
+ "Analects": {
+  "title": "Lunyu / Analects",
+  "title_zh": "论语",
+  "n_units": 20,
+  "n_chunks": 21,
+  "n_chars": 20734,
+  "sealed": false
+ },
+ "Mencius": {
+  "title": "Mengzi / Mencius",
+  "title_zh": "孟子",
+  "n_units": 261,
+  "n_chunks": 44,
+  "n_chars": 43343,
+  "sealed": false
+ },
+ "Xunzi": {
+  "title": "Xunzi",
+  "title_zh": "荀子",
+  "n_units": 13,
+  "n_chunks": 30,
+  "n_chars": 31493,
+  "sealed": false
+ },
+ "Liji": {
+  "title": "Liji / Book of Rites",
+  "title_zh": "礼记",
+  "n_units": 49,
+  "n_chunks": 113,
+  "n_chars": 117363,
+  "sealed": false
+ },
+ "Xiaojing": {
+  "title": "Xiaojing / Classic of Filial Piety",
+  "title_zh": "孝经",
+  "n_units": 18,
+  "n_chunks": 3,
+  "n_chars": 2242,
+  "sealed": false
+ },
+ "Kongzi_Jiayu": {
+  "title": "Kongzi Jiayu / School Sayings of Confucius",
+  "title_zh": "孔子家语",
+  "n_units": 44,
+  "n_chunks": 59,
+  "n_chars": 55061,
+  "sealed": false
+ },
+ "Zhongyong": {
+  "title": "Zhongyong / Doctrine of the Mean",
+  "title_zh": "中庸",
+  "n_units": 33,
+  "n_chunks": 5,
+  "n_chars": 4360,
+  "sealed": false
+ },
+ "Mozi": {
+  "title": "Mozi",
+  "title_zh": "墨子",
+  "n_units": 50,
+  "n_chunks": 88,
+  "n_chars": 83249,
+  "sealed": false
+ },
+ "Laozi": {
+  "title": "Laozi / Daodejing",
+  "title_zh": "老子",
+  "n_units": 81,
+  "n_chunks": 7,
+  "n_chars": 6434,
+  "sealed": false
+ },
+ "Zhuangzi": {
+  "title": "Zhuangzi",
+  "title_zh": "庄子",
+  "n_units": 33,
+  "n_chunks": 75,
+  "n_chars": 78332,
+  "sealed": false
+ },
+ "Liezi": {
+  "title": "Liezi",
+  "title_zh": "列子",
+  "n_units": 8,
+  "n_chunks": 34,
+  "n_chars": 37366,
+  "sealed": false
+ },
+ "Han_Feizi": {
+  "title": "Han Feizi",
+  "title_zh": "韩非子",
+  "n_units": 55,
+  "n_chunks": 123,
+  "n_chars": 127095,
+  "sealed": false
+ },
+ "Shangjunshu": {
+  "title": "Shangjunshu / Book of Lord Shang",
+  "title_zh": "商君书",
+  "n_units": 24,
+  "n_chunks": 27,
+  "n_chars": 24273,
+  "sealed": false
+ },
+ "Guanzi": {
+  "title": "Guanzi",
+  "title_zh": "管子",
+  "n_units": 76,
+  "n_chunks": 143,
+  "n_chars": 144664,
+  "sealed": false
+ },
+ "Gongsun_Longzi": {
+  "title": "Gongsun Longzi",
+  "title_zh": "公孙龙子",
+  "n_units": 6,
+  "n_chunks": 4,
+  "n_chars": 3667,
+  "sealed": false
+ },
+ "Lushi_Chunqiu": {
+  "title": "Lüshi Chunqiu",
+  "title_zh": "吕氏春秋",
+  "n_units": 23,
+  "n_chunks": 93,
+  "n_chars": 101177,
+  "sealed": false
+ },
+ "Huainanzi": {
+  "title": "Huainanzi",
+  "title_zh": "淮南子",
+  "n_units": 21,
+  "n_chunks": 136,
+  "n_chars": 154832,
+  "sealed": false
+ },
+ "Guiguzi": {
+  "title": "Guiguzi",
+  "title_zh": "鬼谷子",
+  "n_units": 21,
+  "n_chunks": 13,
+  "n_chars": 9641,
+  "sealed": false
+ },
+ "Sunzi_Bingfa": {
+  "title": "Sunzi Bingfa / Art of War",
+  "title_zh": "孙子兵法",
+  "n_units": 13,
+  "n_chunks": 9,
+  "n_chars": 7279,
+  "sealed": false
+ },
+ "Wuzi": {
+  "title": "Wuzi",
+  "title_zh": "吴子",
+  "n_units": 6,
+  "n_chunks": 6,
+  "n_chars": 5856,
+  "sealed": false
+ },
+ "Liutao": {
+  "title": "Liutao / Six Secret Teachings",
+  "title_zh": "六韬",
+  "n_units": 60,
+  "n_chunks": 20,
+  "n_chars": 19191,
+  "sealed": false
+ },
+ "Sima_Fa": {
+  "title": "Sima Fa",
+  "title_zh": "司马法",
+  "n_units": 5,
+  "n_chunks": 5,
+  "n_chars": 3871,
+  "sealed": false
+ },
+ "Wei_Liaozi": {
+  "title": "Wei Liaozi",
+  "title_zh": "尉缭子",
+  "n_units": 24,
+  "n_chunks": 15,
+  "n_chars": 11055,
+  "sealed": false
+ },
+ "Huangdi_Sijing": {
+  "title": "Mawangdui silk manuscripts ('Huangdi Sijing'), buried 168 BCE",
+  "title_zh": "黄帝四经",
+  "n_units": 26,
+  "n_chunks": 17,
+  "n_chars": 12773,
+  "sealed": true
+ },
+ "Sun_Bin_Bingfa": {
+  "title": "Sun Bin Bingfa (Yinqueshan bamboo slips)",
+  "title_zh": "孙膑兵法",
+  "n_units": 30,
+  "n_chunks": 11,
+  "n_chars": 9717,
+  "sealed": true
+ }
+}

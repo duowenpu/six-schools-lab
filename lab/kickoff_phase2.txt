@@ -1,0 +1,5 @@
+Human scientist here. PHASE 1 is accepted as recorded. Start PHASE 2 (the sealed reader) and follow your protocol, steps 9 to 11, then stop and wait for me.
+
+Objective: test whether the division of philosophy into "analytic" and "continental", which became standard only after 1945, is already visible to a reader who has never heard of it. The corpus has 25 authors who published before 1931, read in English. Three instruments are available: "talkie" (a language model trained only on text from before 1931), "qwen" (a modern language model) and "lex" (vocabulary). The hindsight gap needs one retrospective taxonomy and one taxonomy that a reader in 1930 would have used.
+
+Use the experiment credits that are left. If credits do not cover every taxonomy on every instrument, decide which runs teach the most, record the candidates and your choice, and run those.

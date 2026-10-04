@@ -1,0 +1,332 @@
+{
+ "pg5827": {
+  "source": "Project Gutenberg",
+  "url": "https://www.gutenberg.org/ebooks/5827",
+  "sha256": "b34242ab29673ac59926224b527f371759df5d8e2851cd3d7fc8b20fd3c48c27",
+  "n_chunks": 60
+ },
+ "pg25447": {
+  "source": "Project Gutenberg",
+  "url": "https://www.gutenberg.org/ebooks/25447",
+  "sha256": "3b335408b3e555114c13b4130725c46c9bb75b3df702d58d4a87f7cbf32a64b6",
+  "n_chunks": 60
+ },
+ "pg37090": {
+  "source": "Project Gutenberg",
+  "url": "https://www.gutenberg.org/ebooks/37090",
+  "sha256": "896291f6e7bd44864f8f4d62d39c8ad67307e1c360b6d0bc3033cdc7ce87e3dd",
+  "n_chunks": 60
+ },
+ "pg2529": {
+  "source": "Project Gutenberg",
+  "url": "https://www.gutenberg.org/ebooks/2529",
+  "sha256": "ce11b32f0dd2085c9657be9ad07c19394e909d7145338d99cfb84f5a0627a9d5",
+  "n_chunks": 60
+ },
+ "pg53430": {
+  "source": "Project Gutenberg",
+  "url": "https://www.gutenberg.org/ebooks/53430",
+  "sha256": "610684ca1a939825cecb2d713fd5c01b08243c41a933b8f282ee961a3c00cb0f",
+  "n_chunks": 60
+ },
+ "pg50141": {
+  "source": "Project Gutenberg",
+  "url": "https://www.gutenberg.org/ebooks/50141",
+  "sha256": "c3d50bcdc715bc760f65c7fbb06e245fe8eb275e371cfe263b8f308b2351a02a",
+  "n_chunks": 60
+ },
+ "pg18835": {
+  "source": "Project Gutenberg",
+  "url": "https://www.gutenberg.org/ebooks/18835",
+  "sha256": "14a8e67d4b3f56a1d2d644fd7f320ed07aabe82376b8765f05a206e80e8d81ea",
+  "n_chunks": 60
+ },
+ "pg68611": {
+  "source": "Project Gutenberg",
+  "url": "https://www.gutenberg.org/ebooks/68611",
+  "sha256": "8fc85818a4dcbf0ccabd56b387f2f16a53f1a7176ac279968dac0a77d635b065",
+  "n_chunks": 60
+ },
+ "pg26163": {
+  "source": "Project Gutenberg",
+  "url": "https://www.gutenberg.org/ebooks/26163",
+  "sha256": "393bd3e6cc0e0f5addecd686c8f2e9868526b7f5f3f64895b3afe6efe99d3d80",
+  "n_chunks": 60
+ },
+ "pg56852": {
+  "source": "Project Gutenberg",
+  "url": "https://www.gutenberg.org/ebooks/56852",
+  "sha256": "bf35a19e30e22b492ec4233a74f6f120f30eb52c2642d69c2383085be310ee76",
+  "n_chunks": 60
+ },
+ "pg4363": {
+  "source": "Project Gutenberg",
+  "url": "https://www.gutenberg.org/ebooks/4363",
+  "sha256": "271aa86d6a3529f8285bc697ac6c3736eddb2b9d9d5934c965c2227f40d120ab",
+  "n_chunks": 60
+ },
+ "pg39955": {
+  "source": "Project Gutenberg",
+  "url": "https://www.gutenberg.org/ebooks/39955",
+  "sha256": "2489ed436ba7866fc2a4c030fc4179bd48168142533ecf36f89bc03a6e8cf45f",
+  "n_chunks": 60
+ },
+ "pg51356": {
+  "source": "Project Gutenberg",
+  "url": "https://www.gutenberg.org/ebooks/51356",
+  "sha256": "a64c26fa4a239cbe5e61c4c5d606833374bfcd4096205e452b1fb7d3eb5fae4b",
+  "n_chunks": 60
+ },
+ "pg38145": {
+  "source": "Project Gutenberg",
+  "url": "https://www.gutenberg.org/ebooks/38145",
+  "sha256": "5d9f5676482769a3cfb4e3cd33e312830f66eac050e02628aff7fd05ba546b34",
+  "n_chunks": 53
+ },
+ "pg38427": {
+  "source": "Project Gutenberg",
+  "url": "https://www.gutenberg.org/ebooks/38427",
+  "sha256": "4357f6210b5c41d04b4df42d2375b1038e77841ece5e255a76c53bd18bc0fce0",
+  "n_chunks": 60
+ },
+ "pg10732": {
+  "source": "Project Gutenberg",
+  "url": "https://www.gutenberg.org/ebooks/10732",
+  "sha256": "880118051563e47cd423cf462e2b348fa53ee0af74336e60fac21133b118a3e3",
+  "n_chunks": 44
+ },
+ "pg44929": {
+  "source": "Project Gutenberg",
+  "url": "https://www.gutenberg.org/ebooks/44929",
+  "sha256": "c2fe4b227e3b6b93dea9c54ec6c2172e6a6589b70c62ea56238ba98eb40ab30a",
+  "n_chunks": 60
+ },
+ "pg55108": {
+  "source": "Project Gutenberg",
+  "url": "https://www.gutenberg.org/ebooks/55108",
+  "sha256": "3cba1f0edd1f29b90178969e03f141856d6489e6e860ffc9b657098e3353139f",
+  "n_chunks": 60
+ },
+ "pg39064": {
+  "source": "Project Gutenberg",
+  "url": "https://www.gutenberg.org/ebooks/39064",
+  "sha256": "8c81410577c2d39720d71a66835b89140ff7e4161ece6b46bfeb914e0561f0f7",
+  "n_chunks": 60
+ },
+ "pg4280": {
+  "source": "Project Gutenberg",
+  "url": "https://www.gutenberg.org/ebooks/4280",
+  "sha256": "360d1a1194c946b1d9249b73b5c8b6f9c89435242feb1628f9776f5a8f09c571",
+  "n_chunks": 60
+ },
+ "pg52821": {
+  "source": "Project Gutenberg",
+  "url": "https://www.gutenberg.org/ebooks/52821",
+  "sha256": "bf388e2fe63ad38fed2f775ad90ba7b5ed6903e2fc98c5cc73b7498bf988d5eb",
+  "n_chunks": 60
+ },
+ "pg5682": {
+  "source": "Project Gutenberg",
+  "url": "https://www.gutenberg.org/ebooks/5682",
+  "sha256": "f55d0c9aac64958ed820ae545a28814f556d1a88e7afcc7d82888583c76a30bf",
+  "n_chunks": 44
+ },
+ "pg60333": {
+  "source": "Project Gutenberg",
+  "url": "https://www.gutenberg.org/ebooks/60333",
+  "sha256": "428fea45788a6fb477fc624d47e2367e1d16fd3039611251fe0364dcfb1f554b",
+  "n_chunks": 60
+ },
+ "pg9306": {
+  "source": "Project Gutenberg",
+  "url": "https://www.gutenberg.org/ebooks/9306",
+  "sha256": "f24f4aae8f7212f08e43a0515333b9d30ff65cadd53a6def2619072f9de46024",
+  "n_chunks": 60
+ },
+ "pg54137": {
+  "source": "Project Gutenberg",
+  "url": "https://www.gutenberg.org/ebooks/54137",
+  "sha256": "4030a405def136bb6b64457856ae95a147e0f373cc1ddb4dc58547e680e7e2e1",
+  "n_chunks": 60
+ },
+ "pg54938": {
+  "source": "Project Gutenberg",
+  "url": "https://www.gutenberg.org/ebooks/54938",
+  "sha256": "e875ca7f0d721804e891bf19f07f975aa17cd252d1e9bd092e1f43724ccbf761",
+  "n_chunks": 60
+ },
+ "pg43719": {
+  "source": "Project Gutenberg",
+  "url": "https://www.gutenberg.org/ebooks/43719",
+  "sha256": "a0cb1acaf2bfc45d0741e24efecaa301fdde2c501a9215a64cd0d8abebb7295a",
+  "n_chunks": 60
+ },
+ "pg43405": {
+  "source": "Project Gutenberg",
+  "url": "https://www.gutenberg.org/ebooks/43405",
+  "sha256": "d62225dbfb702bc84c989abe6a2d616376b5e23daca4b71d374f1ccacebc7b99",
+  "n_chunks": 28
+ },
+ "pg53799": {
+  "source": "Project Gutenberg",
+  "url": "https://www.gutenberg.org/ebooks/53799",
+  "sha256": "d593e0b47957cd8014c0d93ea847e675fe785d2712e69503778e0b646028727f",
+  "n_chunks": 60
+ },
+ "pg39713": {
+  "source": "Project Gutenberg",
+  "url": "https://www.gutenberg.org/ebooks/39713",
+  "sha256": "c05f8c83e874faedded83b55dfd1a6fde78c9e897a0c7ec6ea69f547afcb191e",
+  "n_chunks": 60
+ },
+ "pg39508": {
+  "source": "Project Gutenberg",
+  "url": "https://www.gutenberg.org/ebooks/39508",
+  "sha256": "67304368a1e798702d62ac1b411dc738635e53fbbc991d9361cacbd8fe286146",
+  "n_chunks": 60
+ },
+ "pg63598": {
+  "source": "Project Gutenberg",
+  "url": "https://www.gutenberg.org/ebooks/63598",
+  "sha256": "5f4213f780e23966b34e0de9b7bc285c1922b71c3159019e7eabdf21551db295",
+  "n_chunks": 60
+ },
+ "pg63249": {
+  "source": "Project Gutenberg",
+  "url": "https://www.gutenberg.org/ebooks/63249",
+  "sha256": "a71393e0a6e5c9cd845c0470bebad28020d9a34b17389af0dded5655398f8d1f",
+  "n_chunks": 60
+ },
+ "pg61889": {
+  "source": "Project Gutenberg",
+  "url": "https://www.gutenberg.org/ebooks/61889",
+  "sha256": "c6fd9daca2a9ded502049709f5716bc60cfa4c6b433df404ca197fff33ba5ea8",
+  "n_chunks": 60
+ },
+ "pg33677": {
+  "source": "Project Gutenberg",
+  "url": "https://www.gutenberg.org/ebooks/33677",
+  "sha256": "31d8e2fc7077dd6b3df819f5c326f530ef2d561b281b8101d59326d0a6ea8d58",
+  "n_chunks": 60
+ },
+ "pg5116": {
+  "source": "Project Gutenberg",
+  "url": "https://www.gutenberg.org/ebooks/5116",
+  "sha256": "e17097d0b2d0045fe4b7e39dca1298df3442e79dbace4668ceec0e6c12daf090",
+  "n_chunks": 60
+ },
+ "pg5117": {
+  "source": "Project Gutenberg",
+  "url": "https://www.gutenberg.org/ebooks/5117",
+  "sha256": "2476b5de4e4d884aa7c5ac67f8ce7b50a1a6f0fd1d67ae33482bdecda28d09b1",
+  "n_chunks": 60
+ },
+ "pg11984": {
+  "source": "Project Gutenberg",
+  "url": "https://www.gutenberg.org/ebooks/11984",
+  "sha256": "8e400bda39b5a58bae9da9b2b624b878b46ddff32420fcd4117507a9cc4c7a90",
+  "n_chunks": 60
+ },
+ "pg32547": {
+  "source": "Project Gutenberg",
+  "url": "https://www.gutenberg.org/ebooks/32547",
+  "sha256": "dede866314b948b6afa864c44a56afc8ec3f6367d22af96470c7828a1f50c76f",
+  "n_chunks": 60
+ },
+ "pg40089": {
+  "source": "Project Gutenberg",
+  "url": "https://www.gutenberg.org/ebooks/40089",
+  "sha256": "ff72923bc4b34e653ca4c892e8f36648964681a66acd4c75f20315d8b9dca9b8",
+  "n_chunks": 60
+ },
+ "pg40794": {
+  "source": "Project Gutenberg",
+  "url": "https://www.gutenberg.org/ebooks/40794",
+  "sha256": "6745c41abe4e654bcb6369e29aac73d9a13048f90bccb8e6a27773f109dd7703",
+  "n_chunks": 60
+ },
+ "pg51525": {
+  "source": "Project Gutenberg",
+  "url": "https://www.gutenberg.org/ebooks/51525",
+  "sha256": "c7879c6e5de4931772488281606233dec8c95e9b64306a9f64d7cd526c10f403",
+  "n_chunks": 60
+ },
+ "pg41386": {
+  "source": "Project Gutenberg",
+  "url": "https://www.gutenberg.org/ebooks/41386",
+  "sha256": "6ce3d728b222ce856c0d1a2a9972c1c26b5240fd05dddd54b0491c1e3fde09c6",
+  "n_chunks": 60
+ },
+ "pg65274": {
+  "source": "Project Gutenberg",
+  "url": "https://www.gutenberg.org/ebooks/65274",
+  "sha256": "3f9cc5712d92c11150d9999e000bd9287590eda5387d10b6077c9e30f0052a0c",
+  "n_chunks": 60
+ },
+ "pg15000": {
+  "source": "Project Gutenberg",
+  "url": "https://www.gutenberg.org/ebooks/15000",
+  "sha256": "1456a55996330b4ec9ac557847ab09411e13f77912eb391a5f1b158f4a5d2fe6",
+  "n_chunks": 60
+ },
+ "pg77155": {
+  "source": "Project Gutenberg",
+  "url": "https://www.gutenberg.org/ebooks/77155",
+  "sha256": "44772b685446cdbfd62626fa55f0a13d8c8b96ab04da285d9beeb0e8eb0c9d91",
+  "n_chunks": 60
+ },
+ "pg17771": {
+  "source": "Project Gutenberg",
+  "url": "https://www.gutenberg.org/ebooks/17771",
+  "sha256": "2fcd0877843d825cbabed16c42f098103bfd5eeac975e06c49f82496f84c4235",
+  "n_chunks": 60
+ },
+ "pg25110": {
+  "source": "Project Gutenberg",
+  "url": "https://www.gutenberg.org/ebooks/25110",
+  "sha256": "527a969f21187b479711bad232ea80f75f4bdfe8071bfa967d0b6bf84d241311",
+  "n_chunks": 60
+ },
+ "pg22135": {
+  "source": "Project Gutenberg",
+  "url": "https://www.gutenberg.org/ebooks/22135",
+  "sha256": "14a7c1722af8328e78fcc2fc86966c51b2f3fc4c59962627fd2d55450442ab21",
+  "n_chunks": 60
+ },
+ "pg11224": {
+  "source": "Project Gutenberg",
+  "url": "https://www.gutenberg.org/ebooks/11224",
+  "sha256": "581a9fb602e74013e1f638db64e7f3f88ba2bad2742120f62a77a78aed3cd2f2",
+  "n_chunks": 40
+ },
+ "pg27942": {
+  "source": "Project Gutenberg",
+  "url": "https://www.gutenberg.org/ebooks/27942",
+  "sha256": "8db2bcf47981e6125a9bef22d4b664dfdc5fe335853377329b028e97a1173261",
+  "n_chunks": 60
+ },
+ "pg16833": {
+  "source": "Project Gutenberg",
+  "url": "https://www.gutenberg.org/ebooks/16833",
+  "sha256": "29ddb436d24cd643ae83d802de5482a3b871ee9ddd755edf07ca7b348dfa07fd",
+  "n_chunks": 60
+ },
+ "pg55046": {
+  "source": "Project Gutenberg",
+  "url": "https://www.gutenberg.org/ebooks/55046",
+  "sha256": "790059760d2cc162a520f5b572bc0ab6d651c273b4ccbe773e9f7d546965d8f2",
+  "n_chunks": 60
+ },
+ "pg46129": {
+  "source": "Project Gutenberg",
+  "url": "https://www.gutenberg.org/ebooks/46129",
+  "sha256": "8e8cc28a0b4f1f5f1326958b4ed54bdfa64a231ef8ae73add76a63aec29a08a7",
+  "n_chunks": 60
+ },
+ "pg46743": {
+  "source": "Project Gutenberg",
+  "url": "https://www.gutenberg.org/ebooks/46743",
+  "sha256": "0bd1ab05557a191694f72ea43c7885d2f14b5dc9bf59151605d062faec04d828",
+  "n_chunks": 60
+ }
+}

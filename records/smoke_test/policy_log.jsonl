@@ -1,0 +1,2 @@
+{"ts": "2026-10-04T01:08:10Z", "policy": "allowlist", "agent": "prober_a", "tool": "sys_agent_start", "verdict": "DENY"}
+{"ts": "2026-10-04T01:08:11Z", "policy": "allowlist", "agent": "advocate_b", "tool": "sys_agent_start", "verdict": "DENY"}

@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Six Schools Lab — two time capsules</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,700;1,500&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#f3eee2;--card:#fbf8f0;--ink:#1c1a16;--muted:#6b655a;--line:#d9d0bd;--seal:#b0302a;--teal:#27706b;--gold:#a67c1e}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.55 "IBM Plex Sans",system-ui,sans-serif}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+header{padding:64px 0 36px;border-bottom:1px solid var(--line)}
+.kicker{font:500 12px/1 "IBM Plex Mono",monospace;letter-spacing:.14em;text-transform:uppercase;color:var(--seal)}
+h1{font:700 clamp(40px,7vw,76px)/1.02 "Cormorant Garamond",serif;margin:14px 0 16px;letter-spacing:-.01em}
+h1 em{color:var(--seal);font-style:italic;font-weight:500}
+.lede{font-size:19px;max-width:760px;color:#2e2a23}
+.capsules{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:30px}
+.capsule{background:var(--card);border:1px solid var(--line);border-top:4px solid var(--seal);padding:18px 20px;border-radius:3px}
+.capsule.t{border-top-color:var(--teal)}
+.capsule h3{font:700 24px/1.1 "Cormorant Garamond",serif;margin:0 0 6px}
+.capsule p{margin:0;color:#3a352c;font-size:15px}
+section{padding:44px 0;border-bottom:1px solid var(--line)}
+h2{font:700 34px/1.1 "Cormorant Garamond",serif;margin:0 0 6px}
+.sub{color:var(--muted);margin:0 0 22px;max-width:780px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:26px 0 0}
+.stat{background:var(--card);border:1px solid var(--line);padding:14px 16px;border-radius:3px}
+.stat b{display:block;font:700 30px/1 "Cormorant Garamond",serif}
+.stat span{font-size:12.5px;color:var(--muted)}
+.agents{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+.agent{background:var(--card);border:1px solid var(--line);padding:14px 16px;border-radius:3px}
+.agent h4{margin:0 0 4px;font:600 15px "IBM Plex Mono",monospace}
+.agent p{margin:0;font-size:13.5px;color:#3a352c}
+.tag{display:inline-block;font:500 11px "IBM Plex Mono",monospace;padding:2px 7px;border-radius:2px;background:#e9e1cf;color:#4a4335;margin:6px 4px 0 0}
+.tag.q{background:#e4d3d1;color:#7a221d}.tag.g{background:#d3e4e2;color:#1d5551}
+.bars{display:grid;gap:9px}
+.bar{display:grid;grid-template-columns:150px 1fr 250px;gap:12px;align-items:center;font-size:14px}
+.bar .name{font:500 13.5px "IBM Plex Mono",monospace}
+.track{height:20px;background:#e6dfce;border-radius:2px;position:relative;overflow:hidden}
+.fill{position:absolute;left:0;top:0;bottom:0;background:var(--seal)}
+.fill.t{background:var(--teal)}.fill.m{background:var(--gold)}
+.bar .num{font:400 12.5px "IBM Plex Mono",monospace;color:#3a352c}
+.inst{font:500 12px "IBM Plex Mono",monospace;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:20px 0 8px}
+.timeline{border-left:2px solid var(--line);margin-left:8px;padding-left:18px;display:grid;gap:8px}
+.entry{background:var(--card);border:1px solid var(--line);border-radius:3px;padding:9px 13px;position:relative}
+.entry:before{content:"";position:absolute;left:-25px;top:15px;width:10px;height:10px;border-radius:50%;background:var(--ink)}
+.entry.human:before{background:var(--seal)}.entry.decision:before,.entry.candidate_experiments:before{background:var(--gold)}
+.entry .head{display:flex;gap:10px;flex-wrap:wrap;align-items:baseline;font:500 12.5px "IBM Plex Mono",monospace}
+.entry .actor{font-weight:600}.entry .type{color:var(--seal)}.entry .ts{color:var(--muted)}
+.entry .text{font-size:14px;margin-top:4px;color:#2e2a23}
+details summary{cursor:pointer;font:400 12px "IBM Plex Mono",monospace;color:var(--muted);margin-top:4px}
+pre{white-space:pre-wrap;word-break:break-word;font:400 12px/1.45 "IBM Plex Mono",monospace;background:#efe8d8;padding:10px;border-radius:3px;max-height:340px;overflow:auto}
+.filters{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.filters button{font:500 12px "IBM Plex Mono",monospace;border:1px solid var(--line);background:var(--card);padding:5px 10px;border-radius:2px;cursor:pointer}
+.filters button.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+table{border-collapse:collapse;width:100%;font-size:14px;background:var(--card)}
+th,td{border:1px solid var(--line);padding:7px 10px;text-align:left;vertical-align:top}
+th{font:500 12px "IBM Plex Mono",monospace;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.big{font:700 54px/1 "Cormorant Garamond",serif}
+.note{font-size:13.5px;color:var(--muted)}
+.callout{background:var(--card);border-left:4px solid var(--gold);padding:14px 18px;margin:14px 0;border-radius:2px}
+.shares{display:flex;height:34px;border-radius:3px;overflow:hidden;border:1px solid var(--line);margin:10px 0}
+.shares div{display:flex;align-items:center;justify-content:center;color:#fff;font:500 12px "IBM Plex Mono",monospace;white-space:nowrap;overflow:hidden}
+footer{padding:36px 0 60px;color:var(--muted);font-size:13.5px}
+@media(max-width:760px){.capsules{grid-template-columns:1fr}.bar{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="kicker">Six Schools Lab · an Omnigent research lab · run replay</div>
+  <h1>Were the schools <em>discovered</em> — or <em>invented</em>?</h1>
+  <p class="lede">Every field inherits its categories. Modern AI cannot tell us whether they are real, because it has memorized the labels. This lab audits a taxonomy with two time capsules that the labels never reached.</p>
+  <div class="capsules">
+    <div class="capsule"><h3>A sealed text</h3><p>A silk manuscript buried at Mawangdui in 168 BCE, before the "six schools" were first written down and before Han editors compiled the books we read today. Rival taxonomies are trained on the transmitted books and tested on the manuscript.</p></div>
+    <div class="capsule t"><h3>A sealed reader</h3><p>A 13B language model trained only on text from before 1931 reads philosophers who were later sorted into "analytic" and "continental". A modern model reads the same pages. The difference is hindsight, measured.</p></div>
+  </div>
+  <div class="stats" id="stats"></div>
+</header>
+
+<section><h2>The lab</h2><p class="sub">Nine specialist agents on two model vendors and two harnesses, orchestrated by Omnigent. No agent has file or shell access: each acts only through audited lab tools, and policies in the orchestration layer enforce the experimental controls.</p><div class="agents" id="agents"></div></section>
+
+<section><h2>Taxonomy tournament — early Chinese corpus</h2><p class="sub">Each rival taxonomy was formalized by an advocate agent with citations and frozen before any result existed. Score: leave one book out, and ask whether its passages fall nearest to the other books that share its label. Bars show the chance-corrected score against a book-level permutation null.</p><div id="tour_zh"></div></section>
+
+<section><h2>The decision gate</h2><p class="sub">After the first result the skeptic attacked it, and the planner had to choose between competing follow-up experiments under a fixed credit budget.</p><div id="gate"></div></section>
+
+<section><h2>Instrument validation and the tomb test</h2><p class="sub">Before any conclusion may be published, the instrument must find chapters that scholars already regard as Daoist-leaning inside "Legalist" books. Then the sealed manuscript gives its verdict.</p><div id="validation"></div><div id="tomb"></div></section>
+
+<section><h2>Can a modern model read blind?</h2><p class="sub">Blind readers saw passages with every name masked and were asked to name the source book.</p><div id="probe"></div></section>
+
+<section><h2>The sealed reader — philosophy before 1931</h2><p class="sub">The same tournament, run on what a 1930 model sees, what a modern model sees, and plain vocabulary. The hindsight gap compares the modern model's advantage on a label coined later with its advantage on a label that already existed in 1930.</p><div id="tour_en"></div><div id="gap"></div></section>
+
+<section><h2>Policies at work</h2><p class="sub">Verdicts issued by the lab's policies during the run.</p><div id="policy"></div></section>
+
+<section><h2>Research record</h2><p class="sub">Append-only and hash-chained. Every entry is attributed by the orchestration layer, not self-reported by a model.</p><div class="filters" id="filters"></div><div class="timeline" id="timeline"></div></section>
+
+<footer id="footer"></footer>
+</div>
+<script>
+const AGENTS=[["planner","qwen3.8-max · claude-sdk","q","Which experiment runs next under the credit budget; when a result reopens an assumption; when to ask the human."],
+["advocate_a","qwen3.8-max · claude-sdk","q","How one rival taxonomy maps onto the corpus, with a citation for every label."],
+["advocate_b","glm-5.3 · codex","g","Same role on a different vendor and harness, so no taxonomy depends on one model."],
+["historian","glm-5.3 · codex","g","Whether a background claim is supported by sources."],
+["statistician","qwen3.8-max · claude-sdk","q","The only agent that can run experiments; how a result is read."],
+["skeptic","glm-5.3 · claude-sdk","g","Which objections must be answered before a claim stands."],
+["auditor","glm-5.3 · claude-sdk","g","Safety and integrity: do citations resolve, is anything overclaimed."],
+["prober_a / prober_b","qwen3.8-max / glm-5.3","q","Blind readers. Allowed exactly two tools."],
+["human","scientist","","Sets the objective, pre-registers hypotheses, approves publication."]];
+const COL=["#b0302a","#27706b","#a67c1e","#4a5a8a","#7a4f8a","#5c7a2f","#8a5a3a","#3a3a3a","#b56a2a"];
+const $=id=>document.getElementById(id), esc=s=>String(s).replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
+const f=(x,d=3)=>x==null?"–":Number(x).toFixed(d);
+function short(p){const s=typeof p==="string"?p:(p.text||p.summary_text||p.claim||p.decision||p.objective||p.title||p.experiment||JSON.stringify(p));return esc(String(typeof s==="string"?s:JSON.stringify(s)).slice(0,300));}
+function bars(rows,cls){return '<div class="bars">'+rows.map(r=>{const x=r.result,w=Math.max(0,Math.min(1,x.chance_corrected))*100;
+ return `<div class="bar"><div class="name">${esc(x.taxonomy_id)}</div><div class="track"><div class="fill ${cls}" style="width:${w}%"></div></div><div class="num">${f(x.chance_corrected)} · acc ${f(x.accuracy,2)} vs null ${f(x.null_mean,2)} · p=${f(x.p_perm,4)} · ${x.n_testable}/${x.n_units} units · ${r.record_id}</div></div>`}).join("")+'</div>';}
+function tour(D,lang,el){const t=D.results.filter(r=>r.experiment==="tournament"&&r.result.lang===lang);if(!t.length){$(el).innerHTML='<p class="note">No runs recorded yet.</p>';return;}
+ const insts=[...new Set(t.map(r=>r.result.instrument))];const label={lex:"vocabulary (names masked)",lex_tr:"vocabulary of the modern translation (style control)",qwen:"modern reader (Qwen3-14B hidden states)",talkie:"sealed reader (talkie-1930 hidden states)"};
+ $(el).innerHTML=insts.map(i=>`<div class="inst">instrument: ${i} — ${label[i]||""}</div>`+bars(t.filter(r=>r.result.instrument===i).sort((a,b)=>b.result.chance_corrected-a.result.chance_corrected),i==="talkie"?"t":i==="qwen"?"m":"")).join("");}
+fetch("data.json").then(r=>r.json()).then(D=>{
+ const rec=D.record,exps=rec.filter(r=>r.type==="experiment"),cred=exps.reduce((s,r)=>s+(r.credits||0),0);
+ $("stats").innerHTML=[[rec.length,"record entries, hash chain "+(D.chain_ok?"intact":"BROKEN")],[Object.keys(D.taxonomies).length,"rival taxonomies frozen by agents"],[exps.length,"experiments run"],[cred+" / "+D.preregistration.credits_total,"experiment credits spent"],[D.policy_log.length,"policy interventions"],[new Set(rec.map(r=>r.actor)).size,"actors in the record"]].map(s=>`<div class="stat"><b>${s[0]}</b><span>${s[1]}</span></div>`).join("");
+ $("agents").innerHTML=AGENTS.map(a=>`<div class="agent"><h4>${a[0]}</h4><p>${a[3]}</p><span class="tag ${a[2]}">${a[1]}</span></div>`).join("");
+ tour(D,"zh","tour_zh");tour(D,"en","tour_en");
+ const gate=rec.filter(r=>["critique","candidate_experiments","decision"].includes(r.type));
+ $("gate").innerHTML=gate.length?gate.map(r=>`<div class="callout"><div class="note">${r.id} · ${r.actor} · ${r.type}</div><pre>${esc(JSON.stringify(r.payload,null,1))}</pre></div>`).join(""):'<p class="note">Not reached yet.</p>';
+ const def=D.results.filter(r=>r.experiment==="defectors");
+ $("validation").innerHTML=def.map(r=>{const x=r.result;return `<div class="callout"><span class="big">${f(x.mean_target_percentile,1)}</span> mean within-book percentile of the pre-registered Daoist-leaning chapters (instrument ${x.instrument}, permutation p=${f(x.p_perm,4)}, threshold 80). ${Object.entries(x.detail).map(([b,d])=>`<div class="note">${b}: ${Object.entries(d.target_percentiles).map(([c,p])=>c+" "+p).join(" · ")} — top five by Daoist affinity: ${d.top5.join(", ")}</div>`).join("")}<div class="note">${r.record_id}${D.validation?" · validation status "+D.validation.status:""}</div></div>`}).join("")||'<p class="note">Validation not run yet.</p>';
+ const tomb=D.results.filter(r=>r.experiment==="tomb_test");
+ $("tomb").innerHTML=tomb.map(r=>{const x=r.result,ks=Object.entries(x.label_shares).sort((a,b)=>b[1]-a[1]);return `<div class="inst">tomb test · taxonomy ${x.taxonomy_id} · instrument ${x.instrument} · ${r.record_id}</div><div class="shares">${ks.map(([k,v],i)=>`<div style="width:${v*100}%;background:${COL[i%COL.length]}">${k} ${Math.round(v*100)}%</div>`).join("")}</div><p class="note">${x.n_chunks} passages of the sealed manuscript. Dominant share ${f(x.dominant_share,2)} (pre-registered threshold 0.70). Its mean margin sits at the ${f(x.margin_percentile_vs_transmitted,0)}th percentile of transmitted books.</p>`}).join("");
+ const pr=D.results.filter(r=>r.experiment==="probe_score").pop();
+ $("probe").innerHTML=pr?Object.entries(pr.result.readers).map(([a,v])=>`<div class="callout"><span class="big">${Math.round(v.recognition_rate*100)}%</span> of masked passages attributed to the correct book by <b>${a}</b> (${v.correct}/${v.n}). Hiding the names does not blind a model that has memorized the texts.</div>`).join(""):'<p class="note">Probe not scored yet.</p>';
+ const g=D.results.filter(r=>r.experiment==="hindsight_gap").pop();
+ $("gap").innerHTML=g?`<div class="callout"><span class="big">G = ${f(g.result.G)}</span> (95% interval ${f(g.result.ci95[0])} to ${f(g.result.ci95[1])}). Modern-minus-1930 advantage on the later label: ${f(g.result.retro_advantage_of_modern)}; on the label that existed in 1930: ${f(g.result.contemporary_advantage_of_modern)}. <span class="note">${g.record_id}</span></div>`:"";
+ const pc={};D.policy_log.forEach(p=>{const k=p.policy+" → "+p.verdict;pc[k]=(pc[k]||0)+1});
+ $("policy").innerHTML='<table><tr><th>policy → verdict</th><th>count</th></tr>'+Object.entries(pc).map(([k,v])=>`<tr><td>${k}</td><td>${v}</td></tr>`).join("")+'</table><details><summary>all events</summary><pre>'+esc(D.policy_log.map(p=>JSON.stringify(p)).join("\n"))+'</pre></details>';
+ const types=[...new Set(rec.map(r=>r.type))];let on=null;
+ const draw=()=>{$("filters").innerHTML=`<button class="${on?"":"on"}" data-t="">all</button>`+types.map(t=>`<button class="${on===t?"on":""}" data-t="${t}">${t}</button>`).join("");
+  $("timeline").innerHTML=rec.filter(r=>!on||r.type===on).map(r=>`<div class="entry ${r.actor} ${r.type}"><div class="head"><span>${r.id}</span><span class="ts">${r.ts.slice(11,19)} UTC</span><span class="actor">${r.actor}</span><span class="type">${r.type}</span>${r.links.length?`<span class="ts">↳ ${r.links.join(", ")}</span>`:""}${r.hypothesis_origin?`<span class="tag">origin: ${r.hypothesis_origin}</span>`:""}</div><div class="text">${short(r.payload)}</div><details><summary>payload · sha ${r.sha256.slice(0,12)}</summary><pre>${esc(JSON.stringify(r.payload,null,1))}</pre></details></div>`).join("");
+  $("filters").querySelectorAll("button").forEach(b=>b.onclick=()=>{on=b.dataset.t||null;draw()});};draw();
+ $("footer").innerHTML="Every number on this page is copied from a result record written through the lab's <code>run_experiment</code> tool. Corpus: NiuTrans/Classical-Modern (MIT) and Project Gutenberg. Readers: talkie-1930-13b (Apache-2.0) and Qwen3-14B-Base, both run locally and offline."+(D.calibration_null?` Null calibration: ${Math.round(D.calibration_null["share_p_below_0.05"]*100)}% of random labellings reach p<0.05.`:"");
+});
+</script>
+</body>
+</html>

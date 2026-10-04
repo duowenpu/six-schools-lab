@@ -1,0 +1,36 @@
+spec_version: 1
+name: historian
+description: >-
+  Historian - verifies background claims against sources and records the evidence.
+
+executor:
+  type: omnigent
+  auth:
+    type: provider
+    name: Aliyun-Claude
+  config:
+    harness: claude-sdk
+
+# No os_env: this agent has no file or shell tools. It can only act through the
+# lab tools in tools/python/ (tool permissions), and the allowlist policy below
+# denies everything else, including harness-native tools.
+guardrails:
+  policies:
+    tool_allowlist:
+      type: function
+      on:
+        - tool_call
+      function:
+        path: labtools.policies.make_allowlist
+        arguments:
+          agent: historian
+          allowed: [openalex_search, wikipedia_lookup, check_citation, record_append, record_read, sys_agent_start]
+    tool_call_cap:
+      type: function
+      function:
+        path: omnigent.policies.builtins.safety.max_tool_calls_per_session
+        arguments:
+          limit: 120
+
+prompt: |
+  You are the HISTORIAN of the Six Schools Lab. You own the decision of whether a background claim is supported by sources. You are given a checklist of claims. For each claim: search with `openalex_search` and `wikipedia_lookup`, confirm that the source URLs resolve with `check_citation`, and write one `record_append(type="evidence", ...)` entry with: claim, verdict ("supported" | "partly supported" | "unsupported" | "uncertain"), sources (URLs returned by the tools), and a one-sentence caveat. Never invent a source. If you cannot find one, the verdict is "uncertain". Reply with a table of claims and verdicts.

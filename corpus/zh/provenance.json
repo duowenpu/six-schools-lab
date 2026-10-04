@@ -1,0 +1,107 @@
+{
+ "source": "https://github.com/NiuTrans/Classical-Modern",
+ "license": "MIT",
+ "commit": "4e746ea9fa99c3c0d7051c45397330bef7b0962d",
+ "books": {
+  "Analects": {
+   "path": "双语数据/论语",
+   "sha256_source_text": "7ca25f03d837bf96c9f1984411c604feb094c103a27dc339f9df6f18ec1107d7"
+  },
+  "Mencius": {
+   "path": "双语数据/孟子",
+   "sha256_source_text": "c7281017f3221ee1d16beab6df422a13608a5cb9ddefc78bf47fc9ed026b3874"
+  },
+  "Xunzi": {
+   "path": "双语数据/荀子",
+   "sha256_source_text": "ee50ceca9e9b0cabcd05ddebbf019a0ce3d35ee1d0e14f8eb32ef24c08566fdc"
+  },
+  "Liji": {
+   "path": "双语数据/礼记",
+   "sha256_source_text": "808c0d02ae298145ee96905e41d786a606ee9bc33d38971a906b0b150d0f27d2"
+  },
+  "Xiaojing": {
+   "path": "双语数据/孝经",
+   "sha256_source_text": "f49633c7b14733ea66a3bf5093f07b7b8382ba032b1289311023a8c2878ee1bb"
+  },
+  "Kongzi_Jiayu": {
+   "path": "双语数据/孔子家语",
+   "sha256_source_text": "5de7dc9692d1eb9d884470c597a0f568493aef5692e6e108e62d0849af2e682c"
+  },
+  "Zhongyong": {
+   "path": "双语数据/中庸",
+   "sha256_source_text": "f786ac99f64e5000ec44e09b9c07744452f1b500aef18d24603e03e21aeda1a6"
+  },
+  "Mozi": {
+   "path": "双语数据/墨子",
+   "sha256_source_text": "f58615f042bbeef8bd8d8f7193e7c2ef6aa647eb2972da13853f2b2d4e30da8a"
+  },
+  "Laozi": {
+   "path": "双语数据/老子",
+   "sha256_source_text": "a47b709b66a4277200ff1639c26c2dd5143f8680a77975e0780c6ba84b3366c9"
+  },
+  "Zhuangzi": {
+   "path": "双语数据/庄子",
+   "sha256_source_text": "15daf5ef3759f828520099d916954b86ae94fc5e90cef39aaa63fad9209b2c98"
+  },
+  "Liezi": {
+   "path": "双语数据/列子",
+   "sha256_source_text": "fbb32c82016fe88de0e575ffe7a98c4cc58ec33e9a8cd7d1b1684afaa54dcc54"
+  },
+  "Han_Feizi": {
+   "path": "双语数据/韩非子",
+   "sha256_source_text": "f96bf14c79daf99751c5da085aeed71bd1c35cc082efba4e7edad63e0fbb53fd"
+  },
+  "Shangjunshu": {
+   "path": "双语数据/商君书",
+   "sha256_source_text": "90db248a6ce47d0bff97700488492e9d2de9e2914b24c60e6c7b1ab425e38dfb"
+  },
+  "Guanzi": {
+   "path": "双语数据/管子",
+   "sha256_source_text": "9ad39ec31f4779ad03203ed37b3e23cddec6f39a83e7293e77b5a8b43bad33ae"
+  },
+  "Gongsun_Longzi": {
+   "path": "双语数据/公孙龙子",
+   "sha256_source_text": "78793d687210f5e65afae222ca3bb87671722b25dc6051049fbd9b53532a97b0"
+  },
+  "Lushi_Chunqiu": {
+   "path": "双语数据/吕氏春秋",
+   "sha256_source_text": "5e45bcc8c701537b68f45eb66bdcfa2bf666f0db6e6441cc97a2e5a243300d59"
+  },
+  "Huainanzi": {
+   "path": "双语数据/淮南子",
+   "sha256_source_text": "2bd145e5b5b608c4dad4b58e900d79d06ced65b69ff7664a1c4afd06a88dac0e"
+  },
+  "Guiguzi": {
+   "path": "双语数据/鬼谷子",
+   "sha256_source_text": "7ebb1cce99ccdd99a561c0c289e298ea8697de41a0eb89a0bd24d7e3e97521d9"
+  },
+  "Sunzi_Bingfa": {
+   "path": "双语数据/孙子兵法",
+   "sha256_source_text": "73e41efe7ff1f86d03acb8d80bc2c13a4fe7905d8872abd140f110cc2dade2ab"
+  },
+  "Wuzi": {
+   "path": "双语数据/吴子",
+   "sha256_source_text": "8a7bfe7aae34e22a0107698ac5b4361b7ce944c3cebc78093d4ceff81cda9d07"
+  },
+  "Liutao": {
+   "path": "双语数据/六韬",
+   "sha256_source_text": "748dac5a24ee80c202351908f194dbd81919cbe31f41f5f55b3f9b355937a9b0"
+  },
+  "Sima_Fa": {
+   "path": "双语数据/司马法",
+   "sha256_source_text": "6b17229d67549bc68cbc03f34eb5f55e6182f40ba349180afa4e743228dc6834"
+  },
+  "Wei_Liaozi": {
+   "path": "双语数据/尉缭子",
+   "sha256_source_text": "8853b052648388fc5b8ca284216713a80d0f48e32b38c22506e05894e1473a46"
+  },
+  "Huangdi_Sijing": {
+   "path": "双语数据/黄帝四经",
+   "sha256_source_text": "ed6b5dfc5fa657d4657f086ff00f943c37ce4f9a2689ad87f65a6463b618a1e0"
+  },
+  "Sun_Bin_Bingfa": {
+   "path": "双语数据/孙膑兵法",
+   "sha256_source_text": "12c8248eaa215d81be47f500c5a963c64e2753c3c6dea68b736f54fae46c7eef"
+  }
+ }
+}

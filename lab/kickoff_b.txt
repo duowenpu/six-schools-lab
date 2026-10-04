@@ -1,0 +1,15 @@
+Human scientist here. This is run B of the Six Schools Lab, an independent self-directed run. Design and carry out the study of the sealed-text line, then stop and wait for me.
+
+Objective: test whether the six-schools taxonomy of early Chinese thought, first written down by Sima Tan around 100 BCE, is a structure already present in the texts or a later construction. The corpus (lang "zh") has 23 transmitted books and 2 sealed excavated manuscripts that no taxonomy may label. The pre-registered hypotheses, thresholds and decision rules are in the research record; do not change them.
+
+Background checklist for the historian (verify each with sources):
+1. The date of Sima Tan's essay on the six schools and the six names it uses.
+2. The later nine-streams classification of Liu Xin and Ban Gu (Hanshu Yiwenzhi).
+3. Whether the transmitted masters texts were collated into their present form by Liu Xiang in the Western Han.
+4. Kidder Smith 2003, "Sima Tan and the Invention of Daoism, 'Legalism,' et cetera", and Csikszentmihalyi and Nylan 2003.
+5. The burial date of Mawangdui tomb 3, and the dispute over the identification and dating of the so-called Huangdi Sijing manuscripts.
+6. How the Guanzi was classified in the Hanshu Yiwenzhi compared with later catalogues.
+7. The scholarly basis for regarding the Guanzi chapters Neiye, Xinshu I, Xinshu II and Baixin, and the Han Feizi chapters Jie Lao and Yu Lao, as Daoist-leaning.
+8. Earlier computational studies of early Chinese texts (for example by Slingerland and colleagues), so that the lab does not overclaim novelty.
+
+Budget: 16 experiment credits for the whole study. Keep at least 7 credits for the second line (the sealed reader), which I will start later.
