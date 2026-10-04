@@ -1,0 +1,37 @@
+{
+ "source": "timestamps of records/research_record.jsonl",
+ "wall_clock_hours_gross": 2.67,
+ "infrastructure_downtime_hours": 0.86,
+ "wall_clock_hours_net": 1.81,
+ "rival_taxonomies_formalized_with_citations": 11,
+ "controlled_tests_run": 15,
+ "taxonomies_per_hour_net": 6.07,
+ "controlled_tests_per_hour_net": 8.28,
+ "minutes_from_critique_to_next_result": [
+  9.2,
+  29.5,
+  13.9
+ ],
+ "caveats": [
+  "one lab run, one corpus",
+  "agent labels are checked for citation resolution, not for scholarly quality",
+  "the human baseline is a single timed trial by one person"
+ ],
+ "human_baseline": {
+  "task": "formalize one taxonomy (region of origin) for the 23 transmitted books: one label, one citation URL and a confidence mark per book",
+  "minutes": 14.63,
+  "who": "one team member who is familiar with these texts",
+  "date": "2026-10-03",
+  "tools_allowed": "web search and encyclopedia pages; no AI assistance; the agent's region taxonomy was not seen beforehand",
+  "notes": "single timed trial; labels with known answers were filled from memory and a supporting page was then looked up",
+  "file": "records/human_baseline_region.csv",
+  "agreement_with_agent_region_taxonomy": {
+   "books_compared": 23,
+   "adjusted_rand_index": 0.609,
+   "rand_index": 0.909,
+   "note": "partition agreement, independent of label names; human used 12 fine-grained state labels, the agent 6 broader regional cultures"
+  }
+ },
+ "lab_minutes_per_taxonomy_including_all_other_work": 9.9,
+ "speedup_taxonomy_formalization": 1.48
+}

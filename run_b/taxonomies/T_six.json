@@ -1,0 +1,149 @@
+{
+ "frozen_at": "2026-10-04T01:40:29Z",
+ "hypothesis_origin": "agent",
+ "labels": {
+  "Analects": {
+   "citation": "https://en.wikipedia.org/wiki/Analects",
+   "confidence": "high",
+   "label": "Confucian",
+   "note": "Sayings of Confucius compiled by his followers; by the end of Han 'a central text of Confucianism' (origin account via Ban Gu, Book of Han); core ru jia text."
+  },
+  "Gongsun_Longzi": {
+   "citation": "https://en.wikipedia.org/wiki/Gongsun_Long",
+   "confidence": "high",
+   "label": "Names",
+   "note": "Gongsun Long (c. 320-250 BC) was 'a member of the School of Names' (Logicians/Sophists); his collected works comprise the Gongsun Longzi anthology (White Horse dialogue, 'white horses are not horses')."
+  },
+  "Guanzi": {
+   "citation": "https://zh.wikipedia.org/wiki/管子_(書)",
+   "confidence": "contested",
+   "label": "Daoist",
+   "note": "CONTESTED: the Hanshu Yiwenzhi classifies the Guanzi under the Daoist school (道家類), the Suishu Jingjizhi reclassified it under the Legalist school (法家類), and modern scholarship (Rickett; Sato) treats it as a syncretic Jixia composite with strong Legalist, Confucian and Huang-Lao/Neiye layers (English overview: https://en.wikipedia.org/wiki/Guanzi_(text)); assigned Daoist per the earliest, Han-dynasty classification."
+  },
+  "Guiguzi": {
+   "citation": "https://en.wikipedia.org/wiki/Guiguzi",
+   "confidence": "contested",
+   "label": "Daoist",
+   "note": "CONTESTED: 'originally associated with the School of Diplomacy' (Zongheng jia, the persuaders' school of Su Qin and Zhang Yi), which is not one of the six schools, but the text 'was later integrated into the Daoist canon'; least-bad six-school class = Daoist."
+  },
+  "Han_Feizi": {
+   "citation": "https://en.wikipedia.org/wiki/Han_Feizi",
+   "confidence": "high",
+   "label": "Legalist",
+   "note": "'A selection of essays in the Legalist tradition'; often considered the culminating Legalist text (A.C. Graham's 'great synthesizer' of Legalism)."
+  },
+  "Huainanzi": {
+   "citation": "https://en.wikipedia.org/wiki/Huainanzi",
+   "confidence": "contested",
+   "label": "Daoist",
+   "note": "CONTESTED: 'Confucian bibliographers classified it as Zajia (Syncretist), but came to often consider it a Taoist classic'; K.C. Hsiao and the work's modern translators consider it a principal example of Han Taoism (Huang-Lao synthesis subverting Confucian, Mohist and Legalist material toward a less active ruler); assigned Daoist."
+  },
+  "Kongzi_Jiayu": {
+   "citation": "https://en.wikipedia.org/wiki/Kongzi_Jiayu",
+   "confidence": "medium",
+   "label": "Confucian",
+   "note": "Sayings of Confucius written as a supplement to the Analects; listed in the 1st-century imperial bibliography (Yiwenzhi) with 27 scrolls; received text long dismissed as Wang Su's 3rd-c. compilation, partially rehabilitated by Dingzhou (55 BC) and Shuanggudui (165 BC) finds; school identity Confucian."
+  },
+  "Laozi": {
+   "citation": "https://en.wikipedia.org/wiki/Tao_Te_Ching",
+   "confidence": "high",
+   "label": "Daoist",
+   "note": "'Regarded as the foundational Taoist text'; the dao jia core text (Guodian fragments c. 300 BCE, received text consolidated by mid-3rd c. BCE)."
+  },
+  "Liezi": {
+   "citation": "https://en.wikipedia.org/wiki/Liezi",
+   "confidence": "contested",
+   "label": "Daoist",
+   "note": "CONTESTED: the Hanshu bibliography knew an 8-pian Liezi and Tang canonization made it a Daoist classic alongside Laozi and Zhuangzi, but many Chinese and Western scholars hold the received text is a compilation of ca. 4th c. CE (Zhang Zhan redaction); school placement Daoist, textual dating and authenticity disputed."
+  },
+  "Liji": {
+   "citation": "https://en.wikipedia.org/wiki/Book_of_Rites",
+   "confidence": "contested",
+   "label": "Confucian",
+   "note": "CONTESTED: composite ritual anthology of uncertain Warring States-Han origin, canonized as one of the Confucian Five Classics ('a core Confucian text'); as a ritual classic it belongs to the canon category rather than a masters' school, so the Confucian assignment rests on canonization, not school authorship."
+  },
+  "Liutao": {
+   "citation": "uncertain",
+   "confidence": "contested",
+   "label": "Daoist",
+   "note": "CONTESTED: Seven Military Classics strategist text attributed to Taigong/Jiang Ziya (https://en.wikipedia.org/wiki/Six_Secret_Teachings); no natural six-school class; the Hanshu Yiwenzhi is traditionally said to group the Taigong corpus under the Daoist school, but no citable URL for that placement was retrievable from the lab's research tools, hence 'uncertain'; least-bad class = Daoist."
+  },
+  "Lushi_Chunqiu": {
+   "citation": "https://zh.wikipedia.org/wiki/呂氏春秋",
+   "confidence": "contested",
+   "label": "Daoist",
+   "note": "CONTESTED: Han bibliography classes this 239 BCE Qin court compendium as Zajia/Syncretist (https://en.wikipedia.org/wiki/Lüshi_Chunqiu), a category outside Sima Tan's six; zh-wiki characterizes it as Huang-Lao Daoist-dominant (以道家黃老思想為主) while the Siku quanshu editors read it as Confucian-dominant (大抵以儒為主); least-bad six-school class = Daoist."
+  },
+  "Mencius": {
+   "citation": "https://en.wikipedia.org/wiki/Mencius_(book)",
+   "confidence": "high",
+   "label": "Confucian",
+   "note": "Anthology of the Confucian philosopher Mencius (c. 371-289 BC); 'one of the most important texts that explores the philosophy of Confucianism', developing Confucius's doctrines."
+  },
+  "Mozi": {
+   "citation": "https://en.wikipedia.org/wiki/Mozi_(book)",
+   "confidence": "high",
+   "label": "Mohist",
+   "note": "'Expounds the philosophy of Mohism' (impartial care, meritocracy, anti-ostentation, defensive warfare); the mo jia core text."
+  },
+  "Shangjunshu": {
+   "citation": "https://en.wikipedia.org/wiki/The_Book_of_Lord_Shang",
+   "confidence": "high",
+   "label": "Legalist",
+   "note": "'Regarded as a foundational work of Chinese Legalism'; earliest surviving Legalist text, associated with Qin reformer Shang Yang; listed as 'Lord Shang' 29 pian in the Book of Han catalogue."
+  },
+  "Sima_Fa": {
+   "citation": "https://en.wikipedia.org/wiki/The_Methods_of_the_Sima",
+   "confidence": "contested",
+   "label": "Confucian",
+   "note": "CONTESTED: a Seven Military Classics text on military administration, but 'in the East Han dynasty, The Methods of the Sima was classified as a work describing rites and propriety (li), by Ban Gu', filing it with the ritual/Confucian tradition; least-bad six-school class = Confucian."
+  },
+  "Sunzi_Bingfa": {
+   "citation": "https://en.wikipedia.org/wiki/Han_Feizi",
+   "confidence": "contested",
+   "label": "Daoist",
+   "note": "CONTESTED: a Seven Military Classics strategist text (https://en.wikipedia.org/wiki/The_Art_of_War); the Hanshu catalogue filed Sun Wu under the military (bing) category, outside the six schools; the literature describes its philosophy as combining 'a Daoist philosophy of inaction and impartiality' with a Legalist system of rewards and punishments; least-bad class = Daoist."
+  },
+  "Wei_Liaozi": {
+   "citation": "https://en.wikipedia.org/wiki/Wei_Liaozi",
+   "confidence": "contested",
+   "label": "Legalist",
+   "note": "CONTESTED: Seven Military Classics text; Wei Liao is 'said to have either been a student of Lord Shang or an important advisor during the Qin dynasty', and the text punishes heterodoxy 'using draconian measures' while advocating humanistic government; the Hanshu catalogue knew two works of this name (one in the military category); least-bad class = Legalist per the Lord Shang linkage and law-centered statecraft."
+  },
+  "Wuzi": {
+   "citation": "https://en.wikipedia.org/wiki/Wuzi",
+   "confidence": "contested",
+   "label": "Legalist",
+   "note": "CONTESTED: 'the philosophical content of the work mainly consists of a synthesis between Confucianism and Legalism' - Wu Qi trained three years as a Confucian student and frames the army as guardian of benevolence and righteousness, but the text's operative doctrine is strict rewards and punishments (zh-wiki: 賞罰嚴明，進有重賞，退有重刑, https://zh.wikipedia.org/wiki/吳子); assigned Legalist as the operative administrative doctrine."
+  },
+  "Xiaojing": {
+   "citation": "https://en.wikipedia.org/wiki/Classic_of_Filial_Piety",
+   "confidence": "medium",
+   "label": "Confucian",
+   "note": "'A Confucian classic treatise' on filial piety (late Warring States-early Han; author unknown, framed as Confucius-Zengzi dialogue); medium confidence because it is a classic-category text whose school identity, though unambiguous, rests on canonical tradition."
+  },
+  "Xunzi": {
+   "citation": "https://en.wikipedia.org/wiki/Xunzi_(book)",
+   "confidence": "high",
+   "label": "Confucian",
+   "note": "Writings of Xun Kuang, 'a 3rd-century BC philosopher usually associated with the Confucian tradition'; he influenced Legalist students (Han Fei) but his school label is ru jia."
+  },
+  "Zhongyong": {
+   "citation": "https://en.wikipedia.org/wiki/Doctrine_of_the_Mean",
+   "confidence": "high",
+   "label": "Confucian",
+   "note": "Originally a Liji chapter attributed to Zisi, grandson of Confucius; 'a central doctrine of Confucianism' and one of the Four Books; authorship debated (possible Qin-Han Confucian editing) but the school identity is unambiguous."
+  },
+  "Zhuangzi": {
+   "citation": "https://en.wikipedia.org/wiki/Zhuangzi_(book)",
+   "confidence": "high",
+   "label": "Daoist",
+   "note": "'One of the two foundational texts of Taoism' alongside the Tao Te Ching."
+  }
+ },
+ "lang": "zh",
+ "source_claim": "Six-fold partition of the early Chinese masters proposed by Sima Tan (Grand Astrologer, d. 110 BCE) in his essay 'Lun liujia yaozhi' (論六家要旨), preserved in Shiji ch. 130 (Taishigong zixu), completed by his son Sima Qian ca. 91 BCE; Tan's essay names yinyang jia, ru jia, mo jia, ming jia, fa jia and dao jia (documented at https://en.wikipedia.org/wiki/Sima_Tan and https://en.wikipedia.org/wiki/Hundred_Schools_of_Thought). This taxonomy transfers Tan's six labels onto the 23 transmitted books of the corpus, following the Han bibliographic tradition (Hanshu Yiwenzhi; context in Hunter 2019, https://doi.org/10.7817/jameroriesoci.138.4.0763) and standard sinological reference works. Books that Han bibliography placed in categories OUTSIDE the six schools (military/bing, ritual canon, Zajia eclectics, Zongheng diplomacy) are force-assigned to the least-bad class and marked contested; the Yin-Yang class receives no book because its central figure Zou Yan's writings are all lost (https://en.wikipedia.org/wiki/Zou_Yan).",
+ "submitted_by": "advocate_a",
+ "taxonomy_id": "T_six",
+ "title": "Sima Tan's six schools (Lun liujia yaozhi, Shiji 130): Yin-Yang, Confucian, Mohist, Names, Legalist, Daoist"
+}

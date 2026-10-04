@@ -27,7 +27,8 @@ def main() -> None:
     # downtime: from the last agent entry before an operator note to the first agent entry after it
     down = dt.timedelta()
     for i, r in enumerate(rec):
-        if r["actor"] == "operator":
+        # only operator notes that mark a real outage or restart count as downtime
+        if r["actor"] == "operator" and any(k in str(r["payload"].get("event", "")) for k in ("interruption", "restart")):
             before = [x for x in rec[:i] if x["actor"] not in ("human", "operator")]
             after = [x for x in rec[i + 1:] if x["actor"] not in ("human", "operator")]
             if before and after:

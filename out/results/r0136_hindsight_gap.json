@@ -1,0 +1,67 @@
+{
+ "experiment": "hindsight_gap",
+ "params": {
+  "retro_taxonomy_id": "T_retro",
+  "contemporary_taxonomy_id": "T_1930"
+ },
+ "result": {
+  "G": 0.024190476190476186,
+  "ci95": [
+   -0.027957806735836636,
+   0.07821455481283422
+  ],
+  "retro_advantage_of_modern": 0.027738095238095235,
+  "contemporary_advantage_of_modern": 0.003547619047619048,
+  "n_authors_retro": 21,
+  "n_authors_contemporary": 21,
+  "layer": "mid",
+  "per_author_retro_diff": {
+   "Bergson": 0.0917,
+   "Bosanquet": 0.1,
+   "Croce": -0.0056,
+   "Dewey": 0.0083,
+   "Eucken": 0.0,
+   "Green": 0.0334,
+   "Hegel": 0.0583,
+   "James": 0.075,
+   "Kierkegaard": 0.0167,
+   "Mach": 0.1333,
+   "Mill": 0.0126,
+   "Moore": -0.0167,
+   "Nietzsche": 0.0171,
+   "Peirce": -0.0167,
+   "Perry": 0.0417,
+   "Poincare": -0.1167,
+   "Royce": 0.1833,
+   "Russell": 0.0166,
+   "Schopenhauer": -0.0915,
+   "Sidgwick": 0.1334,
+   "Whitehead": -0.0917
+  },
+  "per_author_contemporary_diff": {
+   "Bergson": 0.0667,
+   "Bosanquet": 0.05,
+   "Comte": 0.0,
+   "Croce": 0.05,
+   "Dewey": -0.0334,
+   "Eucken": 0.0455,
+   "Green": 0.0334,
+   "Hegel": 0.0834,
+   "James": 0.0791,
+   "Kant": -0.0488,
+   "Mach": 0.3167,
+   "Mill": 0.0625,
+   "Moore": -0.0584,
+   "Peirce": 0.0,
+   "Perry": -0.0083,
+   "Poincare": 0.1,
+   "Royce": 0.0,
+   "Russell": -0.3167,
+   "Santayana": 0.0111,
+   "Sidgwick": -0.0167,
+   "Whitehead": -0.3416
+  },
+  "retro_taxonomy_id": "T_retro",
+  "contemporary_taxonomy_id": "T_1930"
+ }
+}

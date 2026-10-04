@@ -1,0 +1,149 @@
+{
+ "frozen_at": "2026-10-04T02:23:30Z",
+ "hypothesis_origin": "agent",
+ "labels": {
+  "Analects": {
+   "citation": "https://en.wikipedia.org/wiki/Yiwenzhi",
+   "confidence": "high",
+   "label": "Six Arts (Liujia)",
+   "note": "The Yiwenzhi catalogs the Lunyu in the Six Arts division as its own appended class (not under the masters); the treatise's six-domain system derives from Liu Xin's Qilüe per the cited article."
+  },
+  "Gongsun_Longzi": {
+   "citation": "https://en.wikipedia.org/wiki/Gongsun_Long",
+   "confidence": "high",
+   "label": "School of Names (Mingjia)",
+   "note": "Yiwenzhi Mingjia section: Gongsun Longzi 14 pian (6 essays extant); cited article confirms Gongsun Long as member of the School of Names (Logicians)."
+  },
+  "Guanzi": {
+   "citation": "https://zh.wikipedia.org/wiki/管子_(書)",
+   "confidence": "high",
+   "label": "Daoists (Daojia)",
+   "note": "zh Wikipedia states explicitly that the Hanshu Yiwenzhi lists the Guanzi under Daojia, with reclassification to Fajia only in the Suishu jingjizhi. This surprising placement is exactly as the Han catalog recorded it."
+  },
+  "Guiguzi": {
+   "citation": "https://en.wikipedia.org/wiki/Guiguzi",
+   "confidence": "contested",
+   "label": "Strategists (Zonghengjia)",
+   "note": "NOT recorded in the Hanshu Yiwenzhi; first cataloged under zongheng (School of Diplomacy) in the Sui-period jingjizhi (the zh 藝文志 article notes the zongheng category gained the Guiguzi only later). Least-best fit: Strategists (Zonghengjia), the Yiwenzhi category for Su Qin / Zhang Yi persuasion literature to which the Guiguzi tradition belongs; contested because the book eludes the Han catalog and its dating/attribution are disputed."
+  },
+  "Han_Feizi": {
+   "citation": "https://zh.wikipedia.org/wiki/韓非子",
+   "confidence": "high",
+   "label": "Legalists (Fajia)",
+   "note": "Yiwenzhi Fajia section: Hanzi (Han Feizi) 55 pian; cited article confirms the text as the synthesizer of Fajia thought."
+  },
+  "Huainanzi": {
+   "citation": "https://en.wikipedia.org/wiki/Huainanzi",
+   "confidence": "high",
+   "label": "Eclectics (Zajia)",
+   "note": "Yiwenzhi Zajia section: Huainan nei 21 pian; cited article confirms Han bibliographers classified it as Zajia (Syncretist), its Daoist reputation being largely later."
+  },
+  "Kongzi_Jiayu": {
+   "citation": "https://en.wikipedia.org/wiki/Kongzi_Jiayu",
+   "confidence": "contested",
+   "label": "Confucians (Rujia)",
+   "note": "The Yiwenzhi does record a Kongzi Jiayu (27 juan), transmitted within the Confucian (Rujia) tradition; however the received 10-juan/44-section text is associated with Wang Su (3rd c. CE) and long deemed a forgery, its status only partially rehabilitated by the Dingzhou and Shuanggudui finds. Contested because the received text's relation to the Yiwenzhi entry is disputed."
+  },
+  "Laozi": {
+   "citation": "https://zh.wikipedia.org/wiki/藝文志",
+   "confidence": "high",
+   "label": "Daoists (Daojia)",
+   "note": "Yiwenzhi zhuzi lüe, Daojia section (Laozi with Han commentaries/transmissions); anchor article documents the Daojia category of the Yiwenzhi."
+  },
+  "Liezi": {
+   "citation": "https://en.wikipedia.org/wiki/Liezi",
+   "confidence": "contested",
+   "label": "Daoists (Daojia)",
+   "note": "Yiwenzhi Daojia section records Liezi 8 pian; but the received text is by many scholars considered a 4th-c. CE compilation (Zhang Zhan tradition), so the received book's identity with the Yiwenzhi entry is disputed."
+  },
+  "Liji": {
+   "citation": "https://en.wikipedia.org/wiki/Book_of_Rites",
+   "confidence": "high",
+   "label": "Six Arts (Liujia)",
+   "note": "Recorded in the Yiwenzhi Six Arts division under the Li class (Ji 131 pian, the Records corpus of which the received Liji is the transmitted portion); cited article confirms its status as the ritual classic of the Five Classics."
+  },
+  "Liutao": {
+   "citation": "uncertain",
+   "confidence": "contested",
+   "label": "Daoists (Daojia)",
+   "note": "The Liutao is not separately titled in the Yiwenzhi; the catalog registers the parent Taigong corpus (237 pian: mou 81, yan 71, bing 85 - the bing portion corresponding to the Liutao) under the DAOJIA section, not the military division. Least-best fit faithful to the Han catalog: Daoists; contested because the received Liutao's equation with the Yiwenzhi Taigong-bing portion rests on the standard reading of Hanshu ch. 30 (cf. https://zh.wikipedia.org/wiki/藝文志) but no tool-verified URL stated it explicitly, and later catalogs (Sui onward) treat the Liutao as a military classic."
+  },
+  "Lushi_Chunqiu": {
+   "citation": "https://en.wikipedia.org/wiki/Lüshi_Chunqiu",
+   "confidence": "high",
+   "label": "Eclectics (Zajia)",
+   "note": "Yiwenzhi Zajia section: Lüshi chunqiu 26 pian; cited article confirms traditional 'Syncretist' (Zajia) classification."
+  },
+  "Mencius": {
+   "citation": "https://en.wikipedia.org/wiki/Mencius_(book)",
+   "confidence": "high",
+   "label": "Confucians (Rujia)",
+   "note": "Recorded in the Yiwenzhi zhuzi lüe, Rujia section (Mengzi 11 pian); the cited article confirms it as a Confucian anthology, canonized as a classic only later (Song)."
+  },
+  "Mozi": {
+   "citation": "https://zh.wikipedia.org/wiki/藝文志",
+   "confidence": "high",
+   "label": "Mohists (Mojia)",
+   "note": "Yiwenzhi zhuzi lüe, Mojia section: Mozi 71 pian; uncontroversial placement in the catalog that defines the nine streams."
+  },
+  "Shangjunshu": {
+   "citation": "https://zh.wikipedia.org/wiki/藝文志",
+   "confidence": "high",
+   "label": "Legalists (Fajia)",
+   "note": "Yiwenzhi Fajia section: Shangjun 29 pian; uncontroversial catalog placement."
+  },
+  "Sima_Fa": {
+   "citation": "https://en.wikipedia.org/wiki/The_Methods_of_the_Sima",
+   "confidence": "medium",
+   "label": "Six Arts (Liujia)",
+   "note": "Cited article: in the Eastern Han the Sima Fa was classified by Ban Gu as a work of rites and propriety (li) - i.e., the Yiwenzhi registers it as junli Sima Fa (military ritual) in the Li class of the Six Arts division, NOT in the military division; its bingjia classification is later. Medium confidence because the received text is a remnant of the 155-pian original."
+  },
+  "Sunzi_Bingfa": {
+   "citation": "https://en.wikipedia.org/wiki/The_Art_of_War",
+   "confidence": "high",
+   "label": "Military Works (Bingshu)",
+   "note": "Yiwenzhi Military division (Bingshu lüe), strategy section (bing quanmou): Wu Sunzi bingfa 82 pian (13-chapter core received); the military division is one of the Yiwenzhi's six, outside the masters lüe."
+  },
+  "Wei_Liaozi": {
+   "citation": "https://en.wikipedia.org/wiki/Wei_Liaozi",
+   "confidence": "contested",
+   "label": "Military Works (Bingshu)",
+   "note": "The Yiwenzhi records TWO works of this name: Weiliao 31 pian under the Eclectics (Zajia) and Weiliaozi 29 pian under the Military division; cited article confirms two different works of the same name were known in the Han. Least-best fit: Military Works (following the majority identification of the received text with the 29-pian military entry, supported by the 1972 Yinqueshan find among military texts); contested because of the dual listing."
+  },
+  "Wuzi": {
+   "citation": "https://en.wikipedia.org/wiki/Wu_Qi",
+   "confidence": "high",
+   "label": "Military Works (Bingshu)",
+   "note": "Yiwenzhi Military division (bing quanmou): Wu Qi 48 pian; cited article confirms the Wuzi as Wu Qi's military treatise later canonized among the Seven Military Classics."
+  },
+  "Xiaojing": {
+   "citation": "https://en.wikipedia.org/wiki/Classic_of_Filial_Piety",
+   "confidence": "high",
+   "label": "Six Arts (Liujia)",
+   "note": "The Yiwenzhi gives the Xiaojing its own class within the Six Arts division; cited article confirms its status as a Confucian classic treatise used in Han education."
+  },
+  "Xunzi": {
+   "citation": "https://zh.wikipedia.org/wiki/藝文志",
+   "confidence": "high",
+   "label": "Confucians (Rujia)",
+   "note": "Yiwenzhi Rujia section records Sun Qingzi (Xunzi) 33 pian; the anchor article documents the Yiwenzhi as the source catalog of the nine-streams scheme."
+  },
+  "Zhongyong": {
+   "citation": "https://en.wikipedia.org/wiki/Doctrine_of_the_Mean",
+   "confidence": "medium",
+   "label": "Six Arts (Liujia)",
+   "note": "The Yiwenzhi knows the Zhongyong only as material of the Records (Ji 131 pian) and a Zhongyong shuo (2 pian) within the Six Arts/Li class; separate-book status is a later (Tang/Song) development. Cited article confirms it was originally a chapter of the Liji."
+  },
+  "Zhuangzi": {
+   "citation": "https://zh.wikipedia.org/wiki/藝文志",
+   "confidence": "high",
+   "label": "Daoists (Daojia)",
+   "note": "Yiwenzhi Daojia section: Zhuangzi 52 pian (received text has 33); uncontroversial."
+  }
+ },
+ "lang": "zh",
+ "source_claim": "Proposed by Liu Xin (Qilue, c. late 1st c. BCE - 23 CE) and preserved by Ban Gu in the Yiwenzhi bibliographic treatise (Hanshu ch. 30, by 111 CE), which organizes all known literature into six divisions and whose 'Zhuzi lüe' defines the ten schools / nine streams (jiuliu shijia). Documented at https://en.wikipedia.org/wiki/Yiwenzhi and https://zh.wikipedia.org/wiki/藝文志 ('九流十家'一詞便出自《漢書藝文志略序》); studied in Hunter 2019, JAOS, https://doi.org/10.7817/jameroriesoci.138.4.0763. Each book is placed in the Yiwenzhi category where the catalog records it; least-best-fit assignments marked contested. Sealed excavated units (Huangdi_Sijing, Sun_Bin_Bingfa) are excluded entirely and receive no label.",
+ "submitted_by": "advocate_a",
+ "taxonomy_id": "T_yiwenzhi_nine",
+ "title": "Liu Xin / Ban Gu nine-streams scheme (Hanshu Yiwenzhi, early 1st c. CE)"
+}

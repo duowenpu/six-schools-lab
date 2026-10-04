@@ -71,13 +71,15 @@ footer{padding:36px 0 60px;color:var(--muted);font-size:13.5px}
 <header>
   <div class="kicker">Six Schools Lab · an Omnigent research lab · run replay</div>
   <h1>Were the schools <em>discovered</em> — or <em>invented</em>?</h1>
-  <p class="lede">Every field inherits its categories. Modern AI cannot tell us whether they are real, because it has memorized the labels. This lab audits a taxonomy with two time capsules that the labels never reached.</p>
+  <p class="lede">Every field inherits its categories. Modern AI cannot tell us whether they are real, because it has memorized the labels. This lab audits a taxonomy with two time capsules that the labels never reached, and reports what its own skeptic could not break.</p>
   <div class="capsules">
     <div class="capsule"><h3>A sealed text</h3><p>A silk manuscript buried at Mawangdui in 168 BCE, before the "six schools" were first written down and before Han editors compiled the books we read today. Rival taxonomies are trained on the transmitted books and tested on the manuscript.</p></div>
     <div class="capsule t"><h3>A sealed reader</h3><p>A 13B language model trained only on text from before 1931 reads philosophers who were later sorted into "analytic" and "continental". A modern model reads the same pages. The difference is hindsight, measured.</p></div>
   </div>
   <div class="stats" id="stats"></div>
 </header>
+
+<section><h2>What survived two independent runs</h2><p class="sub">The whole study was run twice, on two machines, with separate research records, the model vendors swapped, and no shared taxonomies. Run A followed a fixed protocol; run B designed its own study. A finding is reported as a result only if both runs agree.</p><div id="replication"></div></section>
 
 <section><h2>The lab</h2><p class="sub">Nine specialist agents on two model vendors and two harnesses, orchestrated by Omnigent. No agent has file or shell access: each acts only through audited lab tools, and policies in the orchestration layer enforce the experimental controls.</p><div class="agents" id="agents"></div></section>
 
@@ -121,6 +123,7 @@ fetch("data.json").then(r=>r.json()).then(D=>{
  $("stats").innerHTML=[[rec.length,"record entries, hash chain "+(D.chain_ok?"intact":"BROKEN")],[Object.keys(D.taxonomies).length,"rival taxonomies frozen by agents"],[exps.length,"experiments run"],[cred+" / "+D.preregistration.credits_total,"experiment credits spent"],[D.policy_log.length,"policy interventions"],[new Set(rec.map(r=>r.actor)).size,"actors in the record"]].map(s=>`<div class="stat"><b>${s[0]}</b><span>${s[1]}</span></div>`).join("");
  $("agents").innerHTML=AGENTS.map(a=>`<div class="agent"><h4>${a[0]}</h4><p>${a[3]}</p><span class="tag ${a[2]}">${a[1]}</span></div>`).join("");
  tour(D,"zh","tour_zh");tour(D,"en","tour_en");
+ $("replication").innerHTML=(D.replication&&D.replication.length)?'<table><tr><th>finding</th><th>run A</th><th>run B</th><th>replicated</th></tr>'+D.replication.map(r=>`<tr><td>${esc(r.finding)}</td><td>${esc(r.run_a)}</td><td>${esc(r.run_b)}</td><td style="font-weight:600;color:${r.replicated.startsWith("no")?"var(--seal)":"var(--teal)"}">${esc(r.replicated)}</td></tr>`).join("")+'</table>'+(D.run_b?`<p class="note">Run B: ${D.run_b.record.length} record entries, ${Object.keys(D.run_b.taxonomies).length} frozen taxonomies, ${D.run_b.results.length} experiment runs, hash chain ${D.run_b.chain_ok?"intact":"BROKEN"}.</p>`:""):'<p class="note">Second run not loaded.</p>';
  const gate=rec.filter(r=>["critique","candidate_experiments","decision"].includes(r.type));
  $("gate").innerHTML=gate.length?gate.map(r=>`<div class="callout"><div class="note">${r.id} · ${r.actor} · ${r.type}</div><pre>${esc(JSON.stringify(r.payload,null,1))}</pre></div>`).join(""):'<p class="note">Not reached yet.</p>';
  const def=D.results.filter(r=>r.experiment==="defectors");

@@ -1,0 +1,60 @@
+{
+ "experiment": "tournament",
+ "params": {
+  "taxonomy_id": "T_1930",
+  "instrument": "talkie",
+  "lang": "en",
+  "layer": "mid"
+ },
+ "result": {
+  "lang": "en",
+  "instrument": "talkie",
+  "layer": "mid",
+  "masked": true,
+  "n_units": 25,
+  "n_labeled": 25,
+  "n_testable": 24,
+  "n_classes": 6,
+  "accuracy": 0.38774239547327843,
+  "null_mean": 0.16723538138536256,
+  "null_sd": 0.05809738902412671,
+  "z": 3.795472013317907,
+  "p_perm": 0.0004997501249375312,
+  "chance_corrected": 0.2647891242722881,
+  "ci95": [
+   0.25985926978114476,
+   0.5212243519265283
+  ],
+  "per_unit": {
+   "Bergson": 0.0417,
+   "Bosanquet": 0.3583,
+   "Comte": 0.8333,
+   "Croce": 0.0111,
+   "Dewey": 0.1375,
+   "Eucken": 0.5455,
+   "Green": 0.2167,
+   "Hegel": 0.1,
+   "James": 0.3458,
+   "Kant": null,
+   "Kierkegaard": 1.0,
+   "Mach": 0.15,
+   "Mill": 0.9375,
+   "Moore": 0.1917,
+   "Nietzsche": 0.9871,
+   "Peirce": 0.05,
+   "Perry": 0.0583,
+   "Poincare": 0.3833,
+   "Royce": 0.0,
+   "Russell": 0.5208,
+   "Santayana": 0.0111,
+   "Schopenhauer": 0.5427,
+   "Sidgwick": 0.55,
+   "Spencer": 0.875,
+   "Whitehead": 0.4583
+  },
+  "untestable": [
+   "Kant"
+  ],
+  "taxonomy_id": "T_1930"
+ }
+}

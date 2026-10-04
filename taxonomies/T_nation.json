@@ -1,0 +1,161 @@
+{
+ "frozen_at": "2026-10-04T03:34:22Z",
+ "hypothesis_origin": "agent",
+ "labels": {
+  "Bergson": {
+   "citation": "https://plato.stanford.edu/entries/bergson/",
+   "confidence": "high",
+   "label": "French",
+   "note": "French philosopher (b. Paris 1859); Time and Free Will (1889), Creative Evolution (1907); College de France, 1927 Nobel Prize in Literature."
+  },
+  "Bosanquet": {
+   "citation": "https://plato.stanford.edu/entries/bosanquet/",
+   "confidence": "high",
+   "label": "British",
+   "note": "British idealist philosopher (b. Northumberland 1848; Oxford Balliol fellow, London career); The Essentials of Logic (1888), The Philosophical Theory of the State (1899)."
+  },
+  "Comte": {
+   "citation": "https://plato.stanford.edu/entries/comte/",
+   "confidence": "high",
+   "label": "French",
+   "note": "French philosopher, founder of positivism (b. Montpellier 1798; Paris career); A General View of Positivism (1851)."
+  },
+  "Croce": {
+   "citation": "https://plato.stanford.edu/entries/croce/",
+   "confidence": "high",
+   "label": "Italian",
+   "note": "Italian idealist philosopher, critic and politician (b. Pescasseroli 1866; Naples career); Aesthetic (1902) et al. translated from Italian."
+  },
+  "Dewey": {
+   "citation": "https://plato.stanford.edu/entries/dewey/",
+   "confidence": "high",
+   "label": "American",
+   "note": "American philosopher (b. Burlington, Vermont 1859; Chicago then Columbia career); Reconstruction in Philosophy (1920) et al."
+  },
+  "Eucken": {
+   "citation": "https://en.wikipedia.org/wiki/Rudolf_Christoph_Eucken",
+   "confidence": "high",
+   "label": "German",
+   "note": "Standard sources: 'German philosopher'; b. Aurich, Kingdom of Hanover 1846; Jena professor 1874-1920; 1908 Nobel Prize in Literature."
+  },
+  "Green": {
+   "citation": "https://plato.stanford.edu/entries/green/",
+   "confidence": "high",
+   "label": "British",
+   "note": "T.H. Green, British idealist (b. Birkin 1836; Oxford Balliol/White's Professor); Lectures on the Principles of Political Obligation (1886, posthumous)."
+  },
+  "Hegel": {
+   "citation": "https://plato.stanford.edu/entries/hegel/",
+   "confidence": "high",
+   "label": "German",
+   "note": "German idealist philosopher (b. Stuttgart 1770; Berlin professor 1818-1831); corpus works are English translations of his German system."
+  },
+  "James": {
+   "citation": "https://plato.stanford.edu/entries/james/",
+   "confidence": "high",
+   "label": "American",
+   "note": "William James, American philosopher/psychologist (b. New York 1842; Harvard career); Pragmatism (1907) et al.; central figure of the American pragmatist tradition."
+  },
+  "Kant": {
+   "citation": "https://plato.stanford.edu/entries/kant/",
+   "confidence": "high",
+   "label": "German",
+   "note": "German philosopher (b. Konigsberg, Prussia 1724, lifelong resident); founder of German transcendental idealism."
+  },
+  "Kierkegaard": {
+   "citation": "https://plato.stanford.edu/entries/kierkegaard/",
+   "confidence": "high",
+   "label": "Danish",
+   "note": "Danish philosopher/theologian (Copenhagen 1813-1855); corpus selections translated from his Danish writings."
+  },
+  "Mach": {
+   "citation": "https://en.wikipedia.org/wiki/Ernst_Mach",
+   "confidence": "high",
+   "label": "Austrian",
+   "note": "EDGE CASE, decided Austrian: verified 'Austrian physicist and philosopher'; b. Chrlice (Turas), Moravia, AUSTRIAN EMPIRE (now Brno, Czech Republic) 1838 - a German-speaking Moravian subject of the Habsburg state, not Czech; career in Austrian imperial institutions: Vienna doctorate, Graz professorship, 28 years at Charles-Ferdinand University Prague (then German-language, Austrian-administered), Vienna 1895-1901. Standard references classify him Austrian; Austrian(-Hungarian/Czech-lands) tradition accordingly."
+  },
+  "Mill": {
+   "citation": "https://plato.stanford.edu/entries/mill/",
+   "confidence": "high",
+   "label": "British",
+   "note": "J.S. Mill, British philosopher/economist (b. London 1806; East India House, Westminster MP); Utilitarianism (1863), A System of Logic (1843)."
+  },
+  "Moore": {
+   "citation": "https://plato.stanford.edu/entries/moore/",
+   "confidence": "high",
+   "label": "British",
+   "note": "British philosopher, Cambridge don and analytic-philosophy founder; Principia Ethica (1903), Philosophical Studies (1922)."
+  },
+  "Nietzsche": {
+   "citation": "https://plato.stanford.edu/entries/nietzsche/",
+   "confidence": "high",
+   "label": "German",
+   "note": "German philosopher/philologist (b. Rocken, Prussian Saxony 1844); Basel professor; all corpus works written in German in the German philosophical tradition."
+  },
+  "Peirce": {
+   "citation": "https://plato.stanford.edu/entries/peirce/",
+   "confidence": "high",
+   "label": "American",
+   "note": "C.S. Peirce, American philosopher/logician/scientist (b. Cambridge, Massachusetts 1839); founder of pragmatism; Chance, Love, and Logic (1923, posthumous collection)."
+  },
+  "Perry": {
+   "citation": "https://en.wikipedia.org/wiki/Ralph_Barton_Perry",
+   "confidence": "high",
+   "label": "American",
+   "note": "Verified: 'American philosopher'; b. Poultney, Vermont 1876; Princeton-Harvard education, Harvard professor 1913-1946; pupil and Pulitzer-winning biographer of William James; New Realism leader."
+  },
+  "Poincare": {
+   "citation": "https://en.wikipedia.org/wiki/Henri_Poincar%C3%A9",
+   "confidence": "high",
+   "label": "French",
+   "note": "Verified: 'French mathematician, theoretical physicist, engineer, and philosopher of science' (b. Nancy 1854; Paris career); The Foundations of Science translates his French philosophy-of-science essays."
+  },
+  "Royce": {
+   "citation": "https://en.wikipedia.org/wiki/Josiah_Royce",
+   "confidence": "high",
+   "label": "American",
+   "note": "Verified: 'American pragmatist and absolute idealist philosopher and the founder of American idealism'; b. Grass Valley, California 1855; Harvard career 1882-1916; The Sources of Religious Insight (1912)."
+  },
+  "Russell": {
+   "citation": "https://plato.stanford.edu/entries/russell/",
+   "confidence": "high",
+   "label": "British",
+   "note": "British philosopher/logician (b. Wales 1872); Cambridge career throughout the corpus period (Problems of Philosophy 1912 - Analysis of Mind 1921)."
+  },
+  "Santayana": {
+   "citation": "https://en.wikipedia.org/wiki/George_Santayana",
+   "confidence": "medium",
+   "label": "American",
+   "note": "EDGE CASE, decided American: verified 'Spanish American philosopher'; b. Madrid 1863 but moved to the US at age eight, raised/educated in Boston, Harvard BA-PhD and Harvard faculty career (left 1912); standard references state he 'identified as an American' though he retained a Spanish passport. All corpus works (Life of Reason 1905-06; Winds of Doctrine 1913; Scepticism and Animal Faith 1923) belong to the American/Harvard intellectual milieu and were published in the US/UK. Spanish-alternative noted but rejected for this corpus cut; confidence medium due to dual identity and post-1912 European residence."
+  },
+  "Schopenhauer": {
+   "citation": "https://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+   "confidence": "high",
+   "label": "German",
+   "note": "Standard sources: 'German philosopher and writer'; b. Danzig 1788 to German patrician family, raised and worked in the German lands (Hamburg, Gottingen, Berlin, Frankfurt)."
+  },
+  "Sidgwick": {
+   "citation": "https://plato.stanford.edu/entries/sidgwick/",
+   "confidence": "high",
+   "label": "British",
+   "note": "Henry Sidgwick, British moral philosopher/economist (b. Skipton 1838; Cambridge professor); The Methods of Ethics (1874)."
+  },
+  "Spencer": {
+   "citation": "https://plato.stanford.edu/entries/spencer/",
+   "confidence": "high",
+   "label": "British",
+   "note": "Herbert Spencer, British philosopher/sociologist (b. Derby 1820); First Principles (1862), The Data of Ethics (1879); Victorian British evolutionary-philosophy tradition."
+  },
+  "Whitehead": {
+   "citation": "https://en.wikipedia.org/wiki/Alfred_North_Whitehead",
+   "confidence": "medium",
+   "label": "British",
+   "note": "EDGE CASE, decided by corpus-period rule: b. Ramsgate, England 1861; 'English mathematician and philosopher' with Cambridge/London career; moved to Harvard only in 1924. Corpus works are The Concept of Nature (1920, wholly British period) and Science and the Modern World (1925, Lowell Lectures composed in transition), i.e. pre-1925 formation - hence British. American-period alternative (post-1924, naturalized US 1945) noted but rejected for this corpus. Confidence medium due to this dual-nationality judgment."
+  }
+ },
+ "lang": "en",
+ "source_claim": "The 25 authors of the sealed pre-1931 English-read corpus partition cleanly into national intellectual traditions (British, American, German, French, Danish, Italian, Austrian) per stable biographical references (SEP entries, Wikipedia/ODNB/DAB-derived articles). This is a CONTROL/RIVAL cut: it tests whether downstream label structure tracks national-intellectual community rather than doctrine; it makes no claim about philosophical schools.",
+ "submitted_by": "advocate_a",
+ "taxonomy_id": "T_nation",
+ "title": "Author nationality / national intellectual tradition taxonomy (control/rival cut, not a doctrine taxonomy)"
+}

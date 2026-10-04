@@ -1,0 +1,161 @@
+{
+ "frozen_at": "2026-10-04T04:05:41Z",
+ "hypothesis_origin": "agent",
+ "labels": {
+  "Bergson": {
+   "citation": "https://doi.org/10.5040/9781472544148.ch-007",
+   "confidence": "high",
+   "label": "Voluntarism, vitalism and philosophy of life",
+   "note": "Elan vital / creative evolution; Bergson resisted the strict biological sense of 'vitalism', but the label is standard in the literature."
+  },
+  "Bosanquet": {
+   "citation": "https://doi.org/10.3138/9781442684058-002",
+   "confidence": "high",
+   "label": "Idealism (transcendental and absolute)",
+   "note": "Leading British idealist after Bradley (Sweet 2005)."
+  },
+  "Comte": {
+   "citation": "https://doi.org/10.1017/cbo9780511701467",
+   "confidence": "high",
+   "label": "Empiricism, naturalism, positivism and realism",
+   "note": "Founder of positivism."
+  },
+  "Croce": {
+   "citation": "https://en.wikipedia.org/wiki/Benedetto_Croce",
+   "confidence": "high",
+   "label": "Idealism (transcendental and absolute)",
+   "note": "Self-described absolute idealist; his 'philosophy of spirit' is a Hegelian revision."
+  },
+  "Dewey": {
+   "citation": "https://doi.org/10.7551/mitpress/9780262026604.003.0005",
+   "confidence": "high",
+   "label": "Pragmatism",
+   "note": "Instrumentalism; naturalist strand noted."
+  },
+  "Eucken": {
+   "citation": "https://doi.org/10.1525/curh.1916.3.5.881",
+   "confidence": "medium",
+   "label": "Idealism (transcendental and absolute)",
+   "note": "Eucken's 'ethical activism' is an idealist metaphysics of spiritual life explicitly continuous with German idealism (Current History 1916; also Cimino, BJHP 2024); secondary literature is thin, hence medium."
+  },
+  "Green": {
+   "citation": "https://doi.org/10.1017/cbo9781844654765.011",
+   "confidence": "high",
+   "label": "Idealism (transcendental and absolute)",
+   "note": "Neo-Hegelian British absolute idealism ('from Green to Bradley')."
+  },
+  "Hegel": {
+   "citation": "https://doi.org/10.4324/9780203087053-12",
+   "confidence": "high",
+   "label": "Idealism (transcendental and absolute)",
+   "note": "Absolute idealism takes its canonical form in Hegel."
+  },
+  "James": {
+   "citation": "https://doi.org/10.7551/mitpress/9780262026604.003.0005",
+   "confidence": "high",
+   "label": "Pragmatism",
+   "note": "One of the 'Big Three' pragmatists; his 'radical empiricism' also ties him to the empiricist class."
+  },
+  "Kant": {
+   "citation": "https://doi.org/10.1017/9781139871389.004",
+   "confidence": "high",
+   "label": "Idealism (transcendental and absolute)",
+   "note": "Transcendental idealism is Kant's own doctrine in the Critique of Pure Reason (Allais 2017)."
+  },
+  "Kierkegaard": {
+   "citation": "https://doi.org/10.1017/cbo9780511997747.010",
+   "confidence": "contested",
+   "label": "Voluntarism, vitalism and philosophy of life",
+   "note": "Fierce critic of Hegelian systematic idealism and forerunner of existentialism; grouped with the anti-rationalist Lebensphilosophie current (Beiser 2023), but he is a Christian existentialist, not a vitalist - placement disputed."
+  },
+  "Mach": {
+   "citation": "https://doi.org/10.1093/9780198927280.003.0006",
+   "confidence": "high",
+   "label": "Empiricism, naturalism, positivism and realism",
+   "note": "Empiriocriticism; Beiser places him in the positist lineage."
+  },
+  "Mill": {
+   "citation": "https://doi.org/10.1007/978-94-009-2579-3_10",
+   "confidence": "high",
+   "label": "Empiricism, naturalism, positivism and realism",
+   "note": "Classical British empiricism (Scarre 1989)."
+  },
+  "Moore": {
+   "citation": "https://doi.org/10.1093/oxfordhb/9780199238842.013.0024",
+   "confidence": "high",
+   "label": "Empiricism, naturalism, positivism and realism",
+   "note": "'Refutation of Idealism' (1903); sense-data realism in the revolt against British idealism (Griffin 2013)."
+  },
+  "Nietzsche": {
+   "citation": "https://doi.org/10.1093/oso/9780192899767.003.0008",
+   "confidence": "contested",
+   "label": "Voluntarism, vitalism and philosophy of life",
+   "note": "Standard life-philosophy/voluntarist placement contested by the 'Nietzsche as philosophical naturalist' literature (Janaway & Robertson 2012, https://doi.org/10.1093/acprof:oso/9780199583676.003.0001)."
+  },
+  "Peirce": {
+   "citation": "https://doi.org/10.7551/mitpress/9780262026604.003.0005",
+   "confidence": "high",
+   "label": "Pragmatism",
+   "note": "Founder ('pragmaticism'); note his self-described scholastic realism, which pulls toward the realist class."
+  },
+  "Perry": {
+   "citation": "https://doi.org/10.2307/2178158",
+   "confidence": "high",
+   "label": "Empiricism, naturalism, positivism and realism",
+   "note": "Co-author of The New Realism (1912); standard-bearer of American new realism."
+  },
+  "Poincare": {
+   "citation": "https://doi.org/10.1017/cbo9780511584404",
+   "confidence": "high",
+   "label": "Empiricism, naturalism, positivism and realism",
+   "note": "Conventionalism as positivist-adjacent philosophy of science (Ben-Menahem 2006); his scientific realism ('no miracles' argument) noted as a tension."
+  },
+  "Royce": {
+   "citation": "https://doi.org/10.2307/2023824",
+   "confidence": "high",
+   "label": "Idealism (transcendental and absolute)",
+   "note": "American absolute idealism is standardly identified with Royce (Randall 1966)."
+  },
+  "Russell": {
+   "citation": "https://doi.org/10.1093/oxfordhb/9780199238842.013.0024",
+   "confidence": "high",
+   "label": "Empiricism, naturalism, positivism and realism",
+   "note": "Realist revolt against idealism (Griffin 2013); later neutral monism noted."
+  },
+  "Santayana": {
+   "citation": "https://doi.org/10.4324/9780203790793-20",
+   "confidence": "contested",
+   "label": "Empiricism, naturalism, positivism and realism",
+   "note": "Critical realist (Scepticism and Animal Faith) but a member of the Harvard pragmatist circle who rejected the pragmatist label; placement between the realist and pragmatist classes is disputed."
+  },
+  "Schopenhauer": {
+   "citation": "https://doi.org/10.4324/9780203022108-10",
+   "confidence": "contested",
+   "label": "Voluntarism, vitalism and philosophy of life",
+   "note": "Transcendental idealist by doctrine (WWR Book I) but founder of the metaphysics of Will leading to Nietzsche; standard histories (e.g. Passmore 1957) group him with voluntarism rather than with Kant/Hegel, so placement is genuinely disputed."
+  },
+  "Sidgwick": {
+   "citation": "https://doi.org/10.1093/0198250231.003.0001",
+   "confidence": "high",
+   "label": "Empiricism, naturalism, positivism and realism",
+   "note": "Utilitarian empiricist (Methods of Ethics); intuitionist side-doctrine noted."
+  },
+  "Spencer": {
+   "citation": "https://doi.org/10.1007/978-3-476-05728-0_20306-1",
+   "confidence": "high",
+   "label": "Empiricism, naturalism, positivism and realism",
+   "note": "Evolutionary naturalism of the System of Synthetic Philosophy."
+  },
+  "Whitehead": {
+   "citation": "https://doi.org/10.4324/9781315830162-27",
+   "confidence": "contested",
+   "label": "Empiricism, naturalism, positivism and realism",
+   "note": "Philosophy of organism continuous with his mathematical physics and realism about nature, but the speculative metaphysics of Process and Reality is sometimes read as quasi-idealist; placement disputed."
+  }
+ },
+ "lang": "en",
+ "source_claim": "A historiographic partition rather than a single author's scheme: the organizing line of 19th- and early 20th-century philosophy as the confrontation between (transcendental/absolute) idealism and its empiricist-naturalist-positivist critics, with pragmatism and the voluntarist/vitalist 'philosophy of life' as intermediate movements. Codified in John Passmore, A Hundred Years of Philosophy (Duckworth, 1957; reviewed in The Philosophical Review 1959, https://doi.org/10.2307/2182174), the 'revolt against idealism' literature (N. Griffin, 'Russell and Moore's Revolt against British Idealism', Oxford Handbook of Bertrand Russell, 2013, https://doi.org/10.1093/oxfordhb/9780199238842.013.0024), and F. Beiser, Philosophy of Life (OUP, 2023, https://doi.org/10.1093/oso/9780192899767.001.0001) for the Lebensphilosophie grouping.",
+ "submitted_by": "advocate_a",
+ "taxonomy_id": "T_ideanat",
+ "title": "Idealism vs. empiricism/naturalism axis, with pragmatism and philosophy of life as mediating movements"
+}

@@ -1,0 +1,60 @@
+{
+ "experiment": "tournament",
+ "params": {
+  "taxonomy_id": "T_nation",
+  "instrument": "talkie"
+ },
+ "result": {
+  "lang": "en",
+  "instrument": "talkie",
+  "layer": "mid",
+  "masked": true,
+  "n_units": 25,
+  "n_labeled": 25,
+  "n_testable": 22,
+  "n_classes": 7,
+  "accuracy": 0.5902457348049166,
+  "null_mean": 0.13640050778733875,
+  "null_sd": 0.057757326282551945,
+  "z": 7.857794953965539,
+  "p_perm": 0.0004997501249375312,
+  "chance_corrected": 0.5255274361669245,
+  "ci95": [
+   0.4669906410470194,
+   0.7055091697536925
+  ],
+  "per_unit": {
+   "Bergson": 0.55,
+   "Bosanquet": 0.4917,
+   "Comte": 0.0,
+   "Croce": null,
+   "Dewey": 0.8708,
+   "Eucken": 0.9659,
+   "Green": 0.8333,
+   "Hegel": 0.5417,
+   "James": 0.575,
+   "Kant": 0.7744,
+   "Kierkegaard": null,
+   "Mach": null,
+   "Mill": 0.6125,
+   "Moore": 0.9917,
+   "Nietzsche": 0.133,
+   "Peirce": 0.05,
+   "Perry": 0.575,
+   "Poincare": 0.4167,
+   "Royce": 0.7833,
+   "Russell": 0.7667,
+   "Santayana": 0.8556,
+   "Schopenhauer": 0.3232,
+   "Sidgwick": 0.9833,
+   "Spencer": 0.5417,
+   "Whitehead": 0.35
+  },
+  "untestable": [
+   "Croce",
+   "Kierkegaard",
+   "Mach"
+  ],
+  "taxonomy_id": "T_nation"
+ }
+}

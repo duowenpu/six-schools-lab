@@ -1,0 +1,161 @@
+{
+ "frozen_at": "2026-10-04T04:05:03Z",
+ "hypothesis_origin": "agent",
+ "labels": {
+  "Bergson": {
+   "citation": "https://doi.org/10.2307/2013424",
+   "confidence": "high",
+   "label": "Philosophy of life / voluntarism (irrationalist reaction)",
+   "note": "J. E. Russell, 'Bergson's Anti-Intellectualism' (J. Phil. Psych. Sci. Meth. 9, 1912): the standard pre-1931 English sorting of Bergson as intuitionist/vitalist philosopher of life; Creative Evolution Eng. trans. 1911 (doi:10.5962/bhl.title.166289)."
+  },
+  "Bosanquet": {
+   "citation": "https://doi.org/10.2307/2176373",
+   "confidence": "high",
+   "label": "Absolute idealism (Hegelian/neo-Hegelian)",
+   "note": "S. W. Dyde's review of The Philosophical Theory of the State (Philosophical Review 9, 1900) places Bosanquet with Green in British Hegelian idealism."
+  },
+  "Comte": {
+   "citation": "https://doi.org/10.1037/13650-000",
+   "confidence": "high",
+   "label": "Positivism and utilitarian empiricism",
+   "note": "Mill, Auguste Comte and Positivism (1865; 5th ed. 1907): Comte is the name-giver of positivism; A General View of Positivism (Eng. trans. Bridges, 1865) was his own English-facing statement."
+  },
+  "Croce": {
+   "citation": "https://doi.org/10.2307/2178564",
+   "confidence": "high",
+   "label": "Absolute idealism (Hegelian/neo-Hegelian)",
+   "note": "G. W. Cunningham's review of Croce, What is Living and What is Dead of the Philosophy of Hegel (Eng. trans. Ainslie; Philosophical Review 25, 1916): Croce received in English as a neo-Hegelian 'philosophy of spirit' idealist."
+  },
+  "Dewey": {
+   "citation": "https://doi.org/10.1017/s0017816000013006",
+   "confidence": "high",
+   "label": "Pragmatism (pragmaticism/instrumentalism)",
+   "note": "James's Pragmatism (1907) names Dewey's 'Chicago school' of pragmatism; Lovejoy's review of Perry, The Present Conflict of Ideals (Harvard Theological Review, 1920) documents pragmatism, incl. Dewey's 'instrumentalism', as one of the standing camps."
+  },
+  "Eucken": {
+   "citation": "https://doi.org/10.2307/2178154",
+   "confidence": "contested",
+   "label": "Philosophy of life / voluntarism (irrationalist reaction)",
+   "note": "Contested: Eucken's 'activism'/independent spiritual life-philosophy (Knowledge and Life, Eng. 1913; Main Currents of Modern Thought, Eng. trans. 1912; W. T. Jones, An Interpretation of Rudolf Eucken's Philosophy, 1912) was sorted by some pre-1931 surveys as a new idealism and by others alongside Bergson as life-philosophy; placed with the life-philosophy current."
+  },
+  "Green": {
+   "citation": "https://doi.org/10.1093/mind/x.1.18",
+   "confidence": "high",
+   "label": "Absolute idealism (Hegelian/neo-Hegelian)",
+   "note": "Sidgwick, 'The Philosophy of T. H. Green' (Mind 10, 1901): Green canonically sorted as founder of the British neo-Hegelian/idealist revival; his Prolegomena to Ethics (1883) argues against empiricism from idealist premises."
+  },
+  "Hegel": {
+   "citation": "https://doi.org/10.2307/2175484",
+   "confidence": "high",
+   "label": "Absolute idealism (Hegelian/neo-Hegelian)",
+   "note": "J. E. Creighton's review of W. Wallace, The Logic of Hegel, 2nd ed. (Philosophical Review 4, 1895) treats Hegel as the head of absolute idealism; Wallace's Prolegomena (1874/1892) was the standard English presentation."
+  },
+  "James": {
+   "citation": "https://doi.org/10.1037/10851-000",
+   "confidence": "high",
+   "label": "Pragmatism (pragmaticism/instrumentalism)",
+   "note": "James, Pragmatism: A New Name for Some Old Ways of Thinking (1907) - the school's name-giving manifesto (contemporary review: Phil. Rev. 16, 1907, doi:10.2307/2177297)."
+  },
+  "Kant": {
+   "citation": "https://doi.org/10.1093/mind/os-v.17.114",
+   "confidence": "high",
+   "label": "Critical philosophy (Kantian transcendental idealism)",
+   "note": "E. Caird, 'Kant's Refutation of Idealism' (Mind os-5, 1880, and companion piece by Sidgwick, doi:10.1093/mind/os-v.17.111): c.1900 English scholarship sorts Kant as 'transcendental/critical idealist' distinct from Hegelian absolute idealism; the neo-Kantian label for his successors was current by 1930."
+  },
+  "Kierkegaard": {
+   "citation": "https://en.wikipedia.org/wiki/Harald_H%C3%B8ffding",
+   "confidence": "contested",
+   "label": "Philosophy of life / voluntarism (irrationalist reaction)",
+   "note": "Contested: barely a school figure for 1930 English readers; pre-1931 sources (Hoeffding, Soeren Kierkegaard als Philosoph, 1896, Germ. ed. 1910 - documented at the cited URL; Brandes, Main Currents, Eng. trans. 1901-05) sort him as religious anti-Hegelian philosopher of subjective existence/will rather than under any recognized '-ism'."
+  },
+  "Mach": {
+   "citation": "https://doi.org/10.2307/2175813",
+   "confidence": "contested",
+   "label": "Positivism and utilitarian empiricism",
+   "note": "Contested: Washburn's review of Contributions to the Analysis of the Sensations (Eng. trans. 1897; Philosophical Review 6, 1897, and E. A. Singer in Science 6, 1897, doi:10.1126/science.6.152.810.b) shows pre-1931 sources alternating among 'positivist', 'empirio-criticist' (with Avenarius) and 'phenomenalist' for Mach; sorted here in the positivist current."
+  },
+  "Mill": {
+   "citation": "https://doi.org/10.1037/13650-000",
+   "confidence": "high",
+   "label": "Positivism and utilitarian empiricism",
+   "note": "Sorted pre-1931 in the empiricist-utilitarian-positivist line (System of Logic 1843; Utilitarianism 1863; Auguste Comte and Positivism 1865) even though Mill also criticized Comte's later 'religion of humanity'."
+  },
+  "Moore": {
+   "citation": "https://doi.org/10.1093/mind/xii.4.433",
+   "confidence": "high",
+   "label": "Realism (new realism/critical realism)",
+   "note": "Moore, 'The Refutation of Idealism' (Mind 12, 1903) was cited by the six new realists as the opening move of the realist revolt (Holt et al., 'The Program and First Platform of Six Realists', J. Phil. 7, 1910, doi:10.2307/2010710)."
+  },
+  "Nietzsche": {
+   "citation": "https://doi.org/10.1017/s0017816000008993",
+   "confidence": "contested",
+   "label": "Philosophy of life / voluntarism (irrationalist reaction)",
+   "note": "Contested: W. M. Salter's review (Harvard Theological Review 8, 1915) of Carus, Nietzsche and Other Exponents of Individualism (1914), Mencken, The Philosophy of Friedrich Nietzsche (1908/1913) and Chatterton-Hill (1914) shows pre-1931 English sources variously sorting him as individualist, Schopenhauerian voluntarist, or aristocratic irrationalist - grouped here as Schopenhauer's voluntarist heir."
+  },
+  "Peirce": {
+   "citation": "https://doi.org/10.5840/monist19051544",
+   "confidence": "contested",
+   "label": "Pragmatism (pragmaticism/instrumentalism)",
+   "note": "Contested: Peirce founded pragmatism ('What Pragmatism Is', Monist 15, 1905, doi:10.5840/monist190515230) but in 'The Issues of Pragmaticism' (Monist 15, 1905) he renames his doctrine 'pragmaticism' and repudiates the James-Dewey version - pre-1931 sources disagree on whether he belongs to the school he named."
+  },
+  "Perry": {
+   "citation": "https://doi.org/10.2307/2010710",
+   "confidence": "high",
+   "label": "Realism (new realism/critical realism)",
+   "note": "Perry was one of the signatories of 'The Program and First Platform of Six Realists' (J. Phil. 7, 1910) and a co-author of The New Realism (1912); his Present Conflict of Ideals (1918) speaks for the realist camp."
+  },
+  "Poincare": {
+   "citation": "https://doi.org/10.1017/cbo9781107252950",
+   "confidence": "contested",
+   "label": "Positivism and utilitarian empiricism",
+   "note": "Contested: The Foundations of Science (Eng. trans. Halsted, Putnam 1913, intro. Josiah Royce - the pre-1931 edition behind the cited DOI): English readers sorted Poincare with Mach as scientist-positivist/conventionalist, while others called his conventionalism a critical-rationalist departure from positivism."
+  },
+  "Royce": {
+   "citation": "https://doi.org/10.2307/2179141",
+   "confidence": "high",
+   "label": "Absolute idealism (Hegelian/neo-Hegelian)",
+   "note": "Creighton's review of Royce's posthumous Lectures on Modern Idealism (Philosophical Review 30, 1921); Dewey's reviews of The World and the Individual (Phil. Rev. 9, 1900, doi:10.2307/2176386) already sorted Royce as the American absolutist."
+  },
+  "Russell": {
+   "citation": "https://doi.org/10.1126/science.37.962.867-b",
+   "confidence": "contested",
+   "label": "Realism (new realism/critical realism)",
+   "note": "Contested: Lovejoy's review of The New Realism (Science 37, 1913) reflects how the 1912 realists claimed Russell (and Moore) as leaders of the anti-idealist revolt, yet de Laguna's review of The Problems of Philosophy (Phil. Rev. 22, 1913, doi:10.2307/2178182) already treats Russell as an independent Cambridge logician-analyst rather than a school realist; Russell himself refused the label."
+  },
+  "Santayana": {
+   "citation": "https://doi.org/10.2307/2179049",
+   "confidence": "high",
+   "label": "Realism (new realism/critical realism)",
+   "note": "Santayana contributed to Essays in Critical Realism (1920) with Drake, Lovejoy, Pratt, Rogers, Sellars and Strong; Perry's review (Phil. Rev. 30, 1921) lists him under critical realism."
+  },
+  "Schopenhauer": {
+   "citation": "https://doi.org/10.1037/14054-022",
+   "confidence": "high",
+   "label": "Philosophy of life / voluntarism (irrationalist reaction)",
+   "note": "F. Bowen, Modern Philosophy from Descartes to Schopenhauer and Hartmann (ch. 'Arthur Schopenhauer: Pessimism, aesthetics, ethics'): sorted pre-1931 as the voluntarist/pessimist who makes will, not intellect, primary; Hoeffding (Eng. 1900) heads his voluntarism section with Schopenhauer."
+  },
+  "Sidgwick": {
+   "citation": "https://doi.org/10.1093/mind/x.1.172",
+   "confidence": "contested",
+   "label": "Positivism and utilitarian empiricism",
+   "note": "Contested: J. Seth, 'The Ethical System of Henry Sidgwick' (Mind 10, 1901) sorts him as the era's philosophical utilitarian, yet pre-1931 obituaries/tributes (L. Stephen, Mind 10, 1901, doi:10.1093/mind/x.1.1) also group him with the Cambridge idealist milieu of Green and McTaggart - placed with utilitarian empiricism."
+  },
+  "Spencer": {
+   "citation": "https://doi.org/10.1037/12853-001",
+   "confidence": "medium",
+   "label": "Positivism and utilitarian empiricism",
+   "note": "B. P. Bowne, The Philosophy of Herbert Spencer (examining First Principles): Spencer grouped with Comte/Mill as scientific-empiricist positivist by pre-1931 historians, though also styled 'the synthetic/evolutionary philosopher' and an agnostic - hence medium rather than high."
+  },
+  "Whitehead": {
+   "citation": "https://doi.org/10.1017/s0031819100023585",
+   "confidence": "contested",
+   "label": "Realism (new realism/critical realism)",
+   "note": "Contested: L. S. Stebbing's review of Science and the Modern World (Philosophy 1, 1926) shows 1920s readers splitting over whether Whitehead's 'philosophy of organism' is a realism of nature (as The Concept of Nature suggested) or a speculative idealism-leaning cosmology; placed with realism on the strength of his early nature-philosophy reception."
+  }
+ },
+ "lang": "en",
+ "source_claim": "The partition a well-read English-language reader of c.1930 would have used, documented entirely in pre-1931 sources: R. B. Perry, The Present Conflict of Ideals (1918) maps the standing camps (idealism, pragmatism, realism); Holt/Marvin/Montague/Perry/Pitkin/Spaulding, 'The Program and First Platform of Six Realists' (J. Phil. 7, 1910) and The New Realism (1912) name 'the new realism' and claim Moore and Russell as its anti-idealist forerunners; Essays in Critical Realism (1920, contributions by Santayana, Strong, Lovejoy, Sellars, Drake, Pratt, Rogers) names 'critical realism'; W. James, Pragmatism (1907) names pragmatism and lists Dewey's 'Chicago school'; C. S. Peirce, 'What Pragmatism Is' and 'The Issues of Pragmaticism' (Monist, 1905) name pragmatism/pragmaticism; H. Hoeffding, History of Modern Philosophy (Eng. trans. 1900) and F. Bowen, Modern Philosophy from Descartes to Schopenhauer and Hartmann (1877/1879) supply 'voluntarism/pessimism' as the standing rubric for Schopenhauer and his heirs; R. Eucken, Main Currents of Modern Thought (Eng. trans. 1912) and Knowledge and Life (Eng. 1913) document the life-philosophy/activism current; J. S. Mill, Auguste Comte and Positivism (1865; 5th ed. 1907) names 'positivism'; J. Seth, 'The Ethical System of Henry Sidgwick' (Mind, 1901) and Sidgwick, 'The Philosophy of T. H. Green' (Mind, 1901) document the utilitarian-vs-idealist sorting of the Cambridge moralists. The analytic/continental vocabulary is deliberately absent: it did not exist as a classification before 1931.",
+ "submitted_by": "advocate_b",
+ "taxonomy_id": "T_1930",
+ "title": "The circa-1930 English-language school partition: absolute idealism vs Kantian critical philosophy vs pragmatism vs realism (new/critical) vs philosophy-of-life/voluntarism vs positivism-utilitarian empiricism"
+}

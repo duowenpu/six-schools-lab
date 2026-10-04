@@ -1,0 +1,161 @@
+{
+ "frozen_at": "2026-10-04T03:47:25Z",
+ "hypothesis_origin": "agent",
+ "labels": {
+  "Bergson": {
+   "citation": "https://doi.org/10.4324/9781315122526",
+   "confidence": "high",
+   "label": "Vitalism / Philosophy of Life",
+   "note": "Bergson and His Philosophy (1920) and the élan vital/duration vocabulary place him in the period's vitalist or philosophy-of-life family."
+  },
+  "Bosanquet": {
+   "citation": "https://en.wikipedia.org/wiki/British_idealism",
+   "confidence": "high",
+   "label": "Idealism",
+   "note": "Bosanquet is one of the leading British absolute idealists/neo-Hegelians."
+  },
+  "Comte": {
+   "citation": "https://en.wikipedia.org/wiki/Positivism",
+   "confidence": "high",
+   "label": "Positivism / Empirio-criticism / Conventionalism",
+   "note": "Comte formulated positivism and remains its paradigmatic period representative."
+  },
+  "Croce": {
+   "citation": "https://en.wikipedia.org/wiki/Benedetto_Croce",
+   "confidence": "high",
+   "label": "Idealism",
+   "note": "Croce was an Italian idealist philosopher; period readers grouped him with the idealist reaction against positivism."
+  },
+  "Dewey": {
+   "citation": "https://en.wikipedia.org/wiki/Pragmatism",
+   "confidence": "high",
+   "label": "Pragmatism",
+   "note": "Dewey is one of the three central pragmatists in the period canon."
+  },
+  "Eucken": {
+   "citation": "https://doi.org/10.2307/1413440",
+   "confidence": "high",
+   "label": "Vitalism / Philosophy of Life",
+   "note": "Life's Basis and Life's Ideal was reviewed in 1912 as a new philosophy of life; Eucken's ethical activism fits the period's life-philosophy family."
+  },
+  "Green": {
+   "citation": "https://en.wikipedia.org/wiki/British_idealism",
+   "confidence": "high",
+   "label": "Idealism",
+   "note": "T. H. Green is a central British idealist influenced by Hegel."
+  },
+  "Hegel": {
+   "citation": "https://en.wikipedia.org/wiki/Absolute_idealism",
+   "confidence": "high",
+   "label": "Idealism",
+   "note": "Hegel is the central absolute idealist; period surveys treated him as the principal source of neo-Hegelian idealism."
+  },
+  "James": {
+   "citation": "https://en.wikipedia.org/wiki/Pragmatism",
+   "confidence": "high",
+   "label": "Pragmatism",
+   "note": "James established and named pragmatism as an American philosophical school."
+  },
+  "Kant": {
+   "citation": "https://en.wikipedia.org/wiki/Transcendental_idealism",
+   "confidence": "high",
+   "label": "Idealism",
+   "note": "Kant's transcendental or critical idealism is the founding variant of the German idealist family."
+  },
+  "Kierkegaard": {
+   "citation": "https://en.wikipedia.org/wiki/Søren_Kierkegaard",
+   "confidence": "contested",
+   "label": null,
+   "note": "Left unlabelled: the existentialist label is later hindsight, and Kierkegaard was not usually sorted into the standard 1930 Anglophone school categories."
+  },
+  "Mach": {
+   "citation": "https://doi.org/10.1037/12902-000",
+   "confidence": "high",
+   "label": "Positivism / Empirio-criticism / Conventionalism",
+   "note": "Contributions to the Analysis of the Sensations grounds Mach's empirio-criticism and influence on later logical positivism."
+  },
+  "Mill": {
+   "citation": "https://en.wikipedia.org/wiki/Utilitarianism",
+   "confidence": "high",
+   "label": "Utilitarianism",
+   "note": "Mill is the canonical nineteenth-century utilitarian and also an empiricist, but the period school label is utilitarianism."
+  },
+  "Moore": {
+   "citation": "https://doi.org/10.1093/mind/xii.4.433",
+   "confidence": "high",
+   "label": "Realism",
+   "note": "Moore's 1903 Refutation of Idealism is a founding document of the realist/common-sense reaction against British idealism."
+  },
+  "Nietzsche": {
+   "citation": "https://en.wikipedia.org/wiki/Friedrich_Nietzsche",
+   "confidence": "contested",
+   "label": null,
+   "note": "Left unlabelled: although later readers group him with life-philosophy or existentialism, he lacked a settled school classification in mainstream Anglophone surveys around 1930."
+  },
+  "Peirce": {
+   "citation": "https://en.wikipedia.org/wiki/Pragmatism",
+   "confidence": "high",
+   "label": "Pragmatism",
+   "note": "Peirce originated the pragmatic maxim and is treated as the father of pragmatism."
+  },
+  "Perry": {
+   "citation": "https://doi.org/10.2307/2010710",
+   "confidence": "high",
+   "label": "Realism",
+   "note": "Perry was a coauthor of the 1910 Program and First Platform of Six Realists and a leader of New Realism."
+  },
+  "Poincare": {
+   "citation": "https://en.wikipedia.org/wiki/Conventionalism",
+   "confidence": "medium",
+   "label": "Positivism / Empirio-criticism / Conventionalism",
+   "note": "Poincare's conventionalism in geometry and physics places him in the scientific-positivist family, though not in Comtean sociological positivism proper."
+  },
+  "Royce": {
+   "citation": "https://en.wikipedia.org/wiki/Absolute_idealism",
+   "confidence": "high",
+   "label": "Idealism",
+   "note": "Royce is the major American absolute idealist, though he also engaged pragmatism."
+  },
+  "Russell": {
+   "citation": "https://doi.org/10.5962/bhl.title.2067",
+   "confidence": "high",
+   "label": "Realism",
+   "note": "Russell's Our Knowledge of the External World (1914) frames scientific method in philosophy; period readers grouped him with the Cambridge realist revolt against idealism."
+  },
+  "Santayana": {
+   "citation": "https://doi.org/10.1017/s0031819100015497",
+   "confidence": "medium",
+   "label": "Realism",
+   "note": "A 1927 study explicitly discusses Santayana in relation to critical realism; he belongs to the realist rather than idealist side, though his system is distinctive."
+  },
+  "Schopenhauer": {
+   "citation": "https://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+   "confidence": "medium",
+   "label": "Voluntarism / Pessimism",
+   "note": "The World as Will and Representation and his pessimism support the period label voluntarism/pessimism, though he also belongs to the broader post-Kantian idealist family."
+  },
+  "Sidgwick": {
+   "citation": "https://en.wikipedia.org/wiki/Henry_Sidgwick",
+   "confidence": "high",
+   "label": "Utilitarianism",
+   "note": "Sidgwick is the major late utilitarian moral philosopher and author of The Methods of Ethics."
+  },
+  "Spencer": {
+   "citation": "https://en.wikipedia.org/wiki/Herbert_Spencer",
+   "confidence": "high",
+   "label": "Evolutionary Philosophy",
+   "note": "Spencer's synthetic philosophy extends evolution across nature, mind, society, and ethics."
+  },
+  "Whitehead": {
+   "citation": "https://doi.org/10.1017/cbo9781316286654",
+   "confidence": "contested",
+   "label": "Realism",
+   "note": "The Concept of Nature supports a scientific-realist/philosophy-of-nature placement, but Whitehead's process metaphysics did not have one stable 1930 school label."
+  }
+ },
+ "lang": "en",
+ "source_claim": "Non-hindsight comparator reconstructed from early-twentieth-century Anglophone classificatory vocabulary, especially Ralph Barton Perry, Present Philosophical Tendencies (1912), which divides current philosophy into naturalism, idealism, pragmatism, and realism; James Seth, English Philosophers and Schools of Philosophy (1912), reviewed in The Philosophical Review; period essays in New Realism and Critical Realism; and period titles describing Bergson and Eucken as philosophy of life. The taxonomy broadens Perry's four tendencies with other period sorting labels: vitalism/philosophy of life, positivism/empirio-criticism/conventionalism, utilitarianism, evolutionary philosophy, and voluntarism/pessimism.",
+ "submitted_by": "advocate_b",
+ "taxonomy_id": "T_1930",
+ "title": "1930 Anglophone period comparator: contemporary schools of philosophy"
+}

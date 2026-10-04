@@ -1,0 +1,161 @@
+{
+ "frozen_at": "2026-10-04T03:54:53Z",
+ "hypothesis_origin": "agent",
+ "labels": {
+  "Bergson": {
+   "citation": "https://en.wikipedia.org/wiki/Henri_Bergson",
+   "confidence": "high",
+   "label": "Continental (retrospective attribution)",
+   "note": "Standard retrospective sorting places Bergson with continental philosophy (revived by Deleuze's 1966 Le Bergsonisme); he was the explicit target of Russell's and Carnap's critiques, defining the analytic side against him."
+  },
+  "Bosanquet": {
+   "citation": "https://en.wikipedia.org/wiki/British_idealism",
+   "confidence": "medium",
+   "label": "Continental (retrospective attribution)",
+   "note": "Leading British absolute idealist (with Green and Bradley); same rationale as Green - Hegelian lineage, the foil of early analytic philosophy."
+  },
+  "Comte": {
+   "citation": "https://en.wikipedia.org/wiki/Auguste_Comte",
+   "confidence": "contested",
+   "label": "Neither: pragmatism and other traditions outside the divide",
+   "note": "CONTESTED: founder of positivism, ancestor-figure of logical positivism (analytic side), but French and canonized by neither camp - continental histories treat positivism as what 'continental' defines itself against while analytic histories start later; he falls outside both retrospective canons."
+  },
+  "Croce": {
+   "citation": "https://doi.org/10.1093/actrade/9780192853592.001.0001",
+   "confidence": "medium",
+   "label": "Continental (retrospective attribution)",
+   "note": "Italian idealist in the Hegelian lineage; sorted under the Hegelian-idealist umbrella of continental histories (Critchley 2001), though Italy's place in that canon is secondary."
+  },
+  "Dewey": {
+   "citation": "https://en.wikipedia.org/wiki/Pragmatism",
+   "confidence": "high",
+   "label": "Neither: pragmatism and other traditions outside the divide",
+   "note": "Co-founder of pragmatism; same third-tradition placement as James."
+  },
+  "Eucken": {
+   "citation": "https://doi.org/10.1093/actrade/9780192853592.001.0001",
+   "confidence": "medium",
+   "label": "Continental (retrospective attribution)",
+   "note": "German idealist 'life-philosophy' (Nobel 1908); fits the German Idealist-to-Lebensphilosophie lineage the continental narrative retraces, but is marginal in post-war sorting."
+  },
+  "Green": {
+   "citation": "https://en.wikipedia.org/wiki/British_idealism",
+   "confidence": "medium",
+   "label": "Continental (retrospective attribution)",
+   "note": "Leading British idealist; British idealism 'developed from the German idealist movement - particularly Kant and Hegel' and is the movement analytic philosophy was founded against, so the retrospective divide sorts it with the idealist (continental) side despite geography."
+  },
+  "Hegel": {
+   "citation": "https://doi.org/10.1093/actrade/9780192853592.003.0002",
+   "confidence": "high",
+   "label": "Continental (retrospective attribution)",
+   "note": "German Idealism is the canonical continental lineage; Hegelianism is named first among the traditions 'continental' covers (https://en.wikipedia.org/wiki/Continental_philosophy)."
+  },
+  "James": {
+   "citation": "https://en.wikipedia.org/wiki/Pragmatism",
+   "confidence": "high",
+   "label": "Neither: pragmatism and other traditions outside the divide",
+   "note": "Co-founder of pragmatism; classical American pragmatism is standardly treated as a third tradition, not a branch of either analytic or continental."
+  },
+  "Kant": {
+   "citation": "https://doi.org/10.1093/actrade/9780192853592.003.0002",
+   "confidence": "high",
+   "label": "Continental (retrospective attribution)",
+   "note": "Critchley's standard continental history starts the lineage at Kant and runs to German Idealism; Kant is the retrospective origin point of 'continental'."
+  },
+  "Kierkegaard": {
+   "citation": "https://en.wikipedia.org/wiki/Continental_philosophy",
+   "confidence": "high",
+   "label": "Continental (retrospective attribution)",
+   "note": "Named explicitly as an antecedent of existentialism within continental philosophy."
+  },
+  "Mach": {
+   "citation": "https://en.wikipedia.org/wiki/Ernst_Mach",
+   "confidence": "medium",
+   "label": "Analytic (retrospective attribution)",
+   "note": "Austrian philosopher of science, 'a major influence on logical positivism'; logical positivism is inside the analytic lineage (https://en.wikipedia.org/wiki/Analytic_philosophy). Placed as proto-positivist precursor, not analytic proper."
+  },
+  "Mill": {
+   "citation": "https://en.wikipedia.org/wiki/Continental_philosophy",
+   "confidence": "contested",
+   "label": "Analytic (retrospective attribution)",
+   "note": "CONTESTED: Mill is a Victorian empiricist/utilitarian who predates the split; he himself first contrasted 'Continental philosophy' with English empiricism (1840 essay on Coleridge), and the British-idealist movement defined itself against Mill and Sidgwick (https://en.wikipedia.org/wiki/British_idealism); but Dummett's origins-of-analytic narrative starts from Frege/Brentano, not Mill, so the retrospective claim of Mill for 'analytic' is disputed."
+  },
+  "Moore": {
+   "citation": "https://en.wikipedia.org/wiki/Analytic_philosophy",
+   "confidence": "high",
+   "label": "Analytic (retrospective attribution)",
+   "note": "Central founder figure alongside Russell; the rejection of British idealism begins with Moore and Russell."
+  },
+  "Nietzsche": {
+   "citation": "https://en.wikipedia.org/wiki/Continental_philosophy",
+   "confidence": "contested",
+   "label": "Continental (retrospective attribution)",
+   "note": "CONTESTED: canonically sorted continental as an existentialist antecedent, but the literature disputes how cleanly he fits any school of the divide - his strong transatlantic/American reception complicates the sorting (Krell, 'Emerson-Nietzsche's Voluptuary?', https://doi.org/10.1179/1757063815z.00000000045)."
+  },
+  "Peirce": {
+   "citation": "https://en.wikipedia.org/wiki/Pragmatism",
+   "confidence": "contested",
+   "label": "Neither: pragmatism and other traditions outside the divide",
+   "note": "CONTESTED: 'father of pragmatism' (a distinct third tradition per https://en.wikipedia.org/wiki/Pragmatism), yet also claimed by the analytic lineage as 'America's greatest logician' whose semiotics 'foreshadowed the debate among logical positivists' (https://en.wikipedia.org/wiki/Charles_Sanders_Peirce; Rydenfelt, 'Pragmatism and analytic philosophy', https://doi.org/10.4324/9781315149592-23)."
+  },
+  "Perry": {
+   "citation": "https://en.wikipedia.org/wiki/Pragmatism",
+   "confidence": "medium",
+   "label": "Neither: pragmatism and other traditions outside the divide",
+   "note": "American critical realist and naturalist of the Harvard pragmatist circle (editor of James); belongs to the classical American tradition outside the divide."
+  },
+  "Poincare": {
+   "citation": "https://en.wikipedia.org/wiki/Henri_Poincar%C3%A9",
+   "confidence": "medium",
+   "label": "Analytic (retrospective attribution)",
+   "note": "French mathematician-philosopher of science; conventionalism was taken up by logical empiricism, so the post-war literature sorts him with the precursors of the analytic side rather than with Bergson-style French philosophy."
+  },
+  "Royce": {
+   "citation": "https://en.wikipedia.org/wiki/Josiah_Royce",
+   "confidence": "medium",
+   "label": "Neither: pragmatism and other traditions outside the divide",
+   "note": "'American pragmatist and absolute idealist... founder of American idealism' - the post-war literature sorts him into classical American philosophy, claimed by neither the analytic nor the continental camp cleanly."
+  },
+  "Russell": {
+   "citation": "https://en.wikipedia.org/wiki/Analytic_philosophy",
+   "confidence": "high",
+   "label": "Analytic (retrospective attribution)",
+   "note": "Central founder figure in every history of analytic philosophy; his rebellion against neo-Hegelianism with Moore is the standard origin story."
+  },
+  "Santayana": {
+   "citation": "https://en.wikipedia.org/wiki/Pragmatism",
+   "confidence": "medium",
+   "label": "Neither: pragmatism and other traditions outside the divide",
+   "note": "Classical American philosopher of the pragmatist generation; standard retrospective sorting leaves him outside both camps (pragmatist-adjacent, critical of both idealism and naturalized empiricism)."
+  },
+  "Schopenhauer": {
+   "citation": "https://en.wikipedia.org/wiki/Continental_philosophy",
+   "confidence": "high",
+   "label": "Continental (retrospective attribution)",
+   "note": "Philosophical pessimism is explicitly listed among the continental traditions in the standard survey."
+  },
+  "Sidgwick": {
+   "citation": "https://en.wikipedia.org/wiki/British_idealism",
+   "confidence": "medium",
+   "label": "Analytic (retrospective attribution)",
+   "note": "Empiricist/utilitarian whom British idealism reacted against; his Methods of Ethics is retrospectively claimed as a precursor of analytic ethics, though he predates the linguistic turn."
+  },
+  "Spencer": {
+   "citation": "uncertain",
+   "confidence": "medium",
+   "label": "Neither: pragmatism and other traditions outside the divide",
+   "note": "Victorian evolutionary system-builder; hugely read pre-1931 but the post-1945 literature of both analytic and continental camps largely dropped him - a precursor to neither side's self-narrative. No single standard history claims him; citation uncertain."
+  },
+  "Whitehead": {
+   "citation": "https://en.wikipedia.org/wiki/Alfred_North_Whitehead",
+   "confidence": "contested",
+   "label": "Neither: pragmatism and other traditions outside the divide",
+   "note": "CONTESTED: co-author of Principia Mathematica (foundational for analytic logic) yet his later process metaphysics 'radically departed from most of Western philosophy'; the post-1945 literature treats him as outside the analytic mainstream and he is often read as neither/n precursor of both."
+  }
+ },
+ "lang": "en",
+ "source_claim": "The 'analytic vs continental' division of philosophy became standard only after 1945 (Russell himself drew a two-schools contrast in 1945; the term 'continental philosophy' in its current sense spread among English-speaking philosophers from the 1970s). Key documentations: Dummett, Origins of Analytical Philosophy (1993, reviewed J. Phil. 1995, https://doi.org/10.5840/jphil1995921010); Critchley, Continental Philosophy: A Very Short Introduction (OUP 2001, https://doi.org/10.1093/actrade/9780192853592.001.0001), esp. ch.2 'Origins of Continental Philosophy: How to get from Kant to German Idealism' (https://doi.org/10.1093/actrade/9780192853592.003.0002); Glock, What is Analytic Philosophy? (CUP 2008, https://doi.org/10.1017/cbo9780511841125); surveys at https://en.wikipedia.org/wiki/Analytic_philosophy and https://en.wikipedia.org/wiki/Continental_philosophy. This taxonomy applies that retrospective sorting to the 25 pre-1931 corpus authors, with a third class for pragmatists and other figures the post-war literature treats as neither/precursors.",
+ "submitted_by": "advocate_a",
+ "taxonomy_id": "T_retro",
+ "title": "Retrospective Analytic-Continental Division (post-1945 usage) applied to 25 pre-1931 authors"
+}

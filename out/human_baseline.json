@@ -1,0 +1,15 @@
+{
+ "task": "formalize one taxonomy (region of origin) for the 23 transmitted books: one label, one citation URL and a confidence mark per book",
+ "minutes": 14.63,
+ "who": "one team member who is familiar with these texts",
+ "date": "2026-10-03",
+ "tools_allowed": "web search and encyclopedia pages; no AI assistance; the agent's region taxonomy was not seen beforehand",
+ "notes": "single timed trial; labels with known answers were filled from memory and a supporting page was then looked up",
+ "file": "records/human_baseline_region.csv",
+ "agreement_with_agent_region_taxonomy": {
+  "books_compared": 23,
+  "adjusted_rand_index": 0.609,
+  "rand_index": 0.909,
+  "note": "partition agreement, independent of label names; human used 12 fine-grained state labels, the agent 6 broader regional cultures"
+ }
+}

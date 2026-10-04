@@ -1,0 +1,19 @@
+{
+ "runs": [
+  {
+   "record_id": "r0017",
+   "instrument": "lex",
+   "pass": true,
+   "mean_target_percentile": 95.02047502047502,
+   "p_perm": 9.999000099990002e-05
+  },
+  {
+   "record_id": "r0042",
+   "instrument": "lex_tr",
+   "pass": true,
+   "mean_target_percentile": 96.83865683865685,
+   "p_perm": 9.999000099990002e-05
+  }
+ ],
+ "status": "PASS"
+}

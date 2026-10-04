@@ -1,0 +1,56 @@
+{
+ "experiment": "defectors",
+ "params": {
+  "taxonomy_id": "T_six",
+  "instrument": "lex"
+ },
+ "result": {
+  "instrument": "lex",
+  "mean_target_percentile": 95.02047502047502,
+  "p_perm": 9.999000099990002e-05,
+  "n_targets": 6,
+  "detail": {
+   "Guanzi": {
+    "n_chapters": 74,
+    "targets_found": [
+     "Neiye",
+     "Xinshushang",
+     "Xinshuxia",
+     "Baixin"
+    ],
+    "target_percentiles": {
+     "Neiye": 99.3,
+     "Xinshushang": 95.3,
+     "Xinshuxia": 93.9,
+     "Baixin": 98.0
+    },
+    "top5": [
+     "Neiye",
+     "Baixin",
+     "Shuidi",
+     "Xinshushang",
+     "Xinshuxia"
+    ]
+   },
+   "Han_Feizi": {
+    "n_chapters": 55,
+    "targets_found": [
+     "Jielao",
+     "Yulao"
+    ],
+    "target_percentiles": {
+     "Jielao": 93.6,
+     "Yulao": 90.0
+    },
+    "top5": [
+     "Shuonan",
+     "Yangquan",
+     "Zhudao",
+     "Jielao",
+     "Shuolinshang"
+    ]
+   }
+  },
+  "taxonomy_id": "T_six"
+ }
+}

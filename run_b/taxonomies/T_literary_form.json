@@ -1,0 +1,149 @@
+{
+ "frozen_at": "2026-10-04T02:28:25Z",
+ "hypothesis_origin": "agent",
+ "labels": {
+  "Analects": {
+   "citation": "https://doi.org/10.1017/eac.2024.9",
+   "confidence": "high",
+   "label": "sayings_dialogues",
+   "note": "Archetypal sayings collection ('zi yue' records) accreted over generations; excavated Zhongni Said / Kongzi Said manuscripts confirm the collection-of-sayings formation process."
+  },
+  "Gongsun_Longzi": {
+   "citation": "https://en.wikipedia.org/wiki/Gongsun_Long",
+   "confidence": "medium",
+   "label": "systematic_treatises",
+   "note": "Six extant dialectical essays (lun) on names and actualities from a lost fourteen; the White Horse piece is framed as a debate dialogue but argumentative essay form dominates; some would place it with rhetorical handbooks — medium."
+  },
+  "Guanzi": {
+   "citation": "https://en.wikipedia.org/wiki/Guanzi_(text)",
+   "confidence": "high",
+   "label": "anecdote_anthology_compilations",
+   "note": "Heterogeneous anthology of material from many authors over centuries, compiled/edited by Liu Xiang (76 of 86 chapters survive); mixes essays, verse (Neiye-type) and dialogues — compilation itself is the transmitted form."
+  },
+  "Guiguzi": {
+   "citation": "https://doi.org/10.4000/extremeorient.250",
+   "confidence": "high",
+   "label": "rhetoric_persuasion_manuals",
+   "note": "Technical manual of persuasion and rhetorical technique (gui/bai, opening/closing, psychological manipulation of interlocutors), distinct from argumentative treatise and anecdote; cf. Conde 2021 (doi:10.17398/1886-9440.15.101)."
+  },
+  "Han_Feizi": {
+   "citation": "https://en.wikipedia.org/wiki/Han_Feizi",
+   "confidence": "contested",
+   "label": "systematic_treatises",
+   "note": "'A selection of essays in the Legalist tradition' (incl. the first Laozi commentaries), but famously rich in anecdotes (Chushuo/Shuolin stores) and contains the persuasion chapter Shuinan; essays dominant — contested."
+  },
+  "Huainanzi": {
+   "citation": "https://doi.org/10.7817/jameroriesoci.140.1.0115",
+   "confidence": "high",
+   "label": "anecdote_anthology_compilations",
+   "note": "21-essay compiled encyclopedia presented to the Han throne; miscellany-form compendium integrating argument, anecdote, quotation and cosmological system — anthology/compilation."
+  },
+  "Kongzi_Jiayu": {
+   "citation": "https://doi.org/10.1017/eac.2024.9",
+   "confidence": "high",
+   "label": "sayings_dialogues",
+   "note": "'School Sayings of Confucius': an Analects-type compilation of Confucius sayings, conversations and anecdotes sharing the 'Kongzi said' collection tradition; dominant form is recorded speech."
+  },
+  "Laozi": {
+   "citation": "https://doi.org/10.1017/eac.2021.8",
+   "confidence": "high",
+   "label": "verse_aphorisms",
+   "note": "Collection of short rhymed poetic/aphoristic chapters consolidating earlier sayings (Guodian/Mawangdui evidence); the only book in the corpus whose dominant transmitted form is verse."
+  },
+  "Liezi": {
+   "citation": "https://en.wikipedia.org/wiki/Liezi",
+   "confidence": "medium",
+   "label": "anecdote_anthology_compilations",
+   "note": "Eight-chapter compilation of didactic anecdotes, parables and narratives (Liu Xiang redaction; received via Zhang Zhan); anecdote-dominant but with discursive strata — medium."
+  },
+  "Liji": {
+   "citation": "https://doi.org/10.4000/books.cdf.13134",
+   "confidence": "high",
+   "label": "anecdote_anthology_compilations",
+   "note": "Han ritual compendium (L'Haridon): an anthology of heterogeneous ritual records, conversations, narratives and doctrinal chapters (incl. Zhongyong and Daxue) — compilation form."
+  },
+  "Liutao": {
+   "citation": "https://en.wikipedia.org/wiki/Six_Secret_Teachings",
+   "confidence": "contested",
+   "label": "sayings_dialogues",
+   "note": "Cast as instruction dictated in dialogue by Tai Gong to Kings Wen and Wu of Zhou (ruler-advisor Q&A frame), yet traditionally classed as a military strategy treatise; mixed — contested."
+  },
+  "Lushi_Chunqiu": {
+   "citation": "https://doi.org/10.7817/jameroriesoci.140.1.0115",
+   "confidence": "high",
+   "label": "anecdote_anthology_compilations",
+   "note": "Deliberately structured encyclopedic compilation (ji/lan/lun divisions) integrating argumentative essays with historical anecdotes and quotation; miscellany (zajia) tradition per Heng Du."
+  },
+  "Mencius": {
+   "citation": "https://en.wikipedia.org/wiki/Mencius",
+   "confidence": "contested",
+   "label": "sayings_dialogues",
+   "note": "Conversations with rulers form the basis of the text (dialogue collection), but long sustained argumentative passages (esp. books 3 and 6) approach treatise form; mixed — assigned to dominant dialogue form, hence contested."
+  },
+  "Mozi": {
+   "citation": "https://en.wikipedia.org/wiki/Mozi_(book)",
+   "confidence": "contested",
+   "label": "systematic_treatises",
+   "note": "Core is the ten-triad argumentative essays (earliest sustained Chinese treatises), but the received book also contains dialectical canons, anecdotal sections about the master, and technical siege-defense chapters; dominant form is the essay — contested."
+  },
+  "Shangjunshu": {
+   "citation": "https://doi.org/10.1017/eac.2016.3",
+   "confidence": "contested",
+   "label": "systematic_treatises",
+   "note": "Policy-argumentative essays dominate, but Pines shows a heterogeneous composite text with dialogue-framed chapters and fragmentary aphoristic strata; mixed — contested."
+  },
+  "Sima_Fa": {
+   "citation": "https://en.wikipedia.org/wiki/The_Methods_of_the_Sima",
+   "confidence": "medium",
+   "label": "systematic_treatises",
+   "note": "Terse normative expository prose on military ritual, law and administration (Ban Gu classed it under rites); only 5 of an originally much larger text survive — fragmentary transmission, hence medium."
+  },
+  "Sunzi_Bingfa": {
+   "citation": "https://en.wikipedia.org/wiki/The_Art_of_War",
+   "confidence": "high",
+   "label": "systematic_treatises",
+   "note": "Thirteen continuous expository chapters each devoted to one aspect of warfare; the archetypal systematic military treatise, no dialogue or anecdote frame."
+  },
+  "Wei_Liaozi": {
+   "citation": "https://en.wikipedia.org/wiki/Wei_Liaozi",
+   "confidence": "medium",
+   "label": "systematic_treatises",
+   "note": "Military-theoretical text: first half theoretical/argumentative chapters, second half terse military-regulation (bingshi) chapters; expository treatise form dominant but internally bipartite — medium."
+  },
+  "Wuzi": {
+   "citation": "https://en.wikipedia.org/wiki/Wuzi",
+   "confidence": "contested",
+   "label": "sayings_dialogues",
+   "note": "Received text is framed as Marquis Wu of Wei asking / Wu Qi answering (ruler-master dialogue), but catalogued among the Seven Military Classics as systematic military doctrine; form (dialogue) vs received characterization (treatise) — contested."
+  },
+  "Xiaojing": {
+   "citation": "https://en.wikipedia.org/wiki/Classic_of_Filial_Piety",
+   "confidence": "contested",
+   "label": "sayings_dialogues",
+   "note": "Framed entirely as a Confucius-Zengzi conversation (question-and-answer classic), but transmitted and received as a short doctrinal treatise ('classic treatise'); genuinely mixed form — contested."
+  },
+  "Xunzi": {
+   "citation": "https://en.wikipedia.org/wiki/Xunzi_(book)",
+   "confidence": "high",
+   "label": "systematic_treatises",
+   "note": "Collection of titled argumentative essays (lun-form discussions such as 'Discussion of Heaven', 'Dispelling Obsessions'); the paradigm of the systematic philosophical treatise in the corpus."
+  },
+  "Zhongyong": {
+   "citation": "https://en.wikipedia.org/wiki/Doctrine_of_the_Mean",
+   "confidence": "medium",
+   "label": "systematic_treatises",
+   "note": "Transmitted as a discursive doctrinal treatise (traditionally attributed to Zisi; embedded as a Liji chapter), though it opens with a string of 'The Master said' quotations; treatise form dominant."
+  },
+  "Zhuangzi": {
+   "citation": "https://en.wikipedia.org/wiki/Zhuangzi_(book)",
+   "confidence": "contested",
+   "label": "anecdote_anthology_compilations",
+   "note": "'Consists of stories and maxims... many anecdotes, allegories, parables, and fables' — anecdote-dominant, but a multi-stratal anthology (Inner/Outer/Miscellaneous) with dialogue and discursive stretches; mixed — contested."
+  }
+ },
+ "lang": "zh",
+ "source_claim": "A 5-class partition by dominant transmitted literary form, drawn from genre/form studies of pre-Qin and Han texts rather than from Sima Tan's six schools: (1) verse_aphorisms — rhymed aphoristic verse collections (Laozi as consolidating collected sayings in short poetic chapters; Guodian/Mawangdui accretion evidence, Lebovitz 2021 Early China); (2) sayings_dialogues — Analects-type sayings collections in the 'Kongzi said' yu-lu tradition (Poli & Li 2024 Early China) and ruler-master dialogue records (Mencius, Wuzi, Liutao dialogue frames; Xiaojing as Confucius-Zengzi conversation); (3) systematic_treatises — sustained argumentative/doctrinal essays in lun form and systematic military treatises (Xunzi essays; Mozi triads; Han Feizi essays; Sunzi's 13 continuous expository chapters; Pines 2016 on Book of Lord Shang as policy-essay composite); (4) anecdote_anthology_compilations — anecdote/parable collections and heterogeneous or encyclopedic compilations, incl. the miscellany tradition (Heng Du 2020 JAOS), Han ritual compendium (Liji; L'Haridon 2023), Liu Xiang-edited composites (Guanzi, Liezi), and the Zhuangzi's anecdote/allegory/parable-dominant multi-stratal anthology; (5) rhetoric_persuasion_manuals — technical handbooks of persuasion (Guiguzi; Galvany 2012; Conde 2021; cf. Goldin 2020 on persuasion literature). Class-set grounding: Ning Liu, Genres of Chinese Intellectual Thought (2026); Hanmo Zhang, Authorship and Text-making in Early China (2018). Mixed-form books take their dominant transmitted form and are marked contested. Sealed excavated units (Huangdi_Sijing, Sun_Bin_Bingfa) excluded entirely.",
+ "submitted_by": "advocate_b",
+ "taxonomy_id": "T_literary_form",
+ "title": "Literary-form partition of early Chinese masters literature (confound control)"
+}

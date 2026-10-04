@@ -1,0 +1,161 @@
+{
+ "frozen_at": "2026-10-04T03:59:10Z",
+ "hypothesis_origin": "agent",
+ "labels": {
+  "Bergson": {
+   "citation": "https://en.wikipedia.org/wiki/Henri_Bergson",
+   "confidence": "high",
+   "label": "translated",
+   "note": "French philosopher. Creative Evolution is the authorized Arthur Mitchell translation of L'Evolution creatrice (1907), confirmed at https://doi.org/10.5962/bhl.title.166289; Time and Free Will translates Essai sur les donnees immediates de la conscience (1889). Both corpus works are French originals read in English translation."
+  },
+  "Bosanquet": {
+   "citation": "https://en.wikipedia.org/wiki/Bernard_Bosanquet_(philosopher)",
+   "confidence": "high",
+   "label": "written_english",
+   "note": "English philosopher; The Essentials of Logic and The Philosophical Theory of the State are English originals."
+  },
+  "Comte": {
+   "citation": "https://en.wikipedia.org/wiki/Auguste_Comte",
+   "confidence": "high",
+   "label": "translated",
+   "note": "French philosopher; A General View of Positivism is the J.H. Bridges English translation of Discours sur l'ensemble du positivisme (1848)."
+  },
+  "Croce": {
+   "citation": "https://en.wikipedia.org/wiki/Benedetto_Croce",
+   "confidence": "high",
+   "label": "translated",
+   "note": "Italian idealist philosopher; Aesthetic (1902), Logic as the Science of the Pure Concept, and The Philosophy of the Practical are Italian originals read in English translation (Ainslie translations)."
+  },
+  "Dewey": {
+   "citation": "https://en.wikipedia.org/wiki/John_Dewey",
+   "confidence": "high",
+   "label": "written_english",
+   "note": "American philosopher; all four corpus works (Reconstruction in Philosophy, Essays in Experimental Logic, The Influence of Darwin on Philosophy, Human Nature and Conduct) are English originals."
+  },
+  "Eucken": {
+   "citation": "https://en.wikipedia.org/wiki/Rudolf_Christoph_Eucken",
+   "confidence": "high",
+   "label": "translated",
+   "note": "German philosopher (1908 Nobel Prize in Literature); Life's Basis and Life's Ideal and Ethics and Modern Thought are English translations of German works (Grundlinien einer neuen Lebensanschauung; Der Sinn und Wert des Lebens)."
+  },
+  "Green": {
+   "citation": "https://en.wikipedia.org/wiki/T._H._Green",
+   "confidence": "high",
+   "label": "written_english",
+   "note": "English philosopher; Lectures on the Principles of Political Obligation comprises his Oxford lectures, published posthumously in English."
+  },
+  "Hegel": {
+   "citation": "https://en.wikipedia.org/wiki/Georg_Wilhelm_Friedrich_Hegel",
+   "confidence": "high",
+   "label": "translated",
+   "note": "German philosopher; The Logic of Hegel is William Wallace's translation of the Encyclopaedia Logic, and Philosophy of Mind is Wallace's translation of the Encyclopaedia's Philosophy of Subjective Spirit. Both are German originals read in English translation."
+  },
+  "James": {
+   "citation": "https://en.wikipedia.org/wiki/William_James",
+   "confidence": "high",
+   "label": "written_english",
+   "note": "American philosopher; Pragmatism, The Meaning of Truth, A Pluralistic Universe, Essays in Radical Empiricism are English originals (James was fluent in German and French but composed in English)."
+  },
+  "Kant": {
+   "citation": "https://en.wikipedia.org/wiki/Immanuel_Kant",
+   "confidence": "high",
+   "label": "translated",
+   "note": "German philosopher; Critique of Pure Reason, Prolegomena, and Fundamental Principles of the Metaphysic of Morals are German originals read in English translation."
+  },
+  "Kierkegaard": {
+   "citation": "https://en.wikipedia.org/wiki/Søren_Kierkegaard",
+   "confidence": "high",
+   "label": "translated",
+   "note": "Danish philosopher who wrote in Danish; the corpus unit 'Selections from the Writings of Kierkegaard' is an English translation anthology (the 1923 Lee M. Hollander selection). All content is translated from Danish, so the unit is unmixed despite being a compilation; a contemporary review of the volume is at https://doi.org/10.1177/003463733303000418."
+  },
+  "Mach": {
+   "citation": "https://en.wikipedia.org/wiki/Ernst_Mach",
+   "confidence": "high",
+   "label": "translated",
+   "note": "Austrian physicist/philosopher; Popular Scientific Lectures is Thomas J. McCormack's English translation of German popular lectures. German original."
+  },
+  "Mill": {
+   "citation": "https://en.wikipedia.org/wiki/John_Stuart_Mill",
+   "confidence": "high",
+   "label": "written_english",
+   "note": "English philosopher; Utilitarianism, A System of Logic, and Auguste Comte and Positivism (Mill's own English-language study of Comte, not a translation) are English originals."
+  },
+  "Moore": {
+   "citation": "https://en.wikipedia.org/wiki/G._E._Moore",
+   "confidence": "high",
+   "label": "written_english",
+   "note": "English philosopher; Principia Ethica and Philosophical Studies are English originals."
+  },
+  "Nietzsche": {
+   "citation": "https://en.wikipedia.org/wiki/Friedrich_Nietzsche",
+   "confidence": "high",
+   "label": "translated",
+   "note": "German philosopher; all four corpus works (Beyond Good and Evil, The Dawn of Day, The Birth of Tragedy, Human, All Too Human) are German originals read in English translation."
+  },
+  "Peirce": {
+   "citation": "https://en.wikipedia.org/wiki/Charles_Sanders_Peirce",
+   "confidence": "high",
+   "label": "written_english",
+   "note": "American philosopher; Chance, Love, and Logic (1923) is Morris R. Cohen's posthumous collection of Peirce's English essays and lectures. English originals throughout."
+  },
+  "Perry": {
+   "citation": "https://en.wikipedia.org/wiki/Ralph_Barton_Perry",
+   "confidence": "high",
+   "label": "written_english",
+   "note": "American philosopher; The Approach to Philosophy and The Moral Economy are English originals."
+  },
+  "Poincare": {
+   "citation": "https://en.wikipedia.org/wiki/Henri_Poincaré",
+   "confidence": "high",
+   "label": "translated",
+   "note": "French mathematician/philosopher of science; The Foundations of Science is George Bruce Halsted's English translation of Science and Hypothesis, The Value of Science, and Science and Method. French originals."
+  },
+  "Royce": {
+   "citation": "https://en.wikipedia.org/wiki/Josiah_Royce",
+   "confidence": "high",
+   "label": "written_english",
+   "note": "American philosopher; The Sources of Religious Insight is an English original."
+  },
+  "Russell": {
+   "citation": "https://en.wikipedia.org/wiki/Bertrand_Russell",
+   "confidence": "high",
+   "label": "written_english",
+   "note": "English philosopher; all four corpus works (The Problems of Philosophy, Mysticism and Logic, Our Knowledge of the External World, The Analysis of Mind) are English originals."
+  },
+  "Santayana": {
+   "citation": "https://en.wikipedia.org/wiki/George_Santayana",
+   "confidence": "high",
+   "label": "written_english",
+   "note": "Spanish-born but raised and educated in the US from age eight; The Life of Reason, Scepticism and Animal Faith, and Winds of Doctrine are English originals. Native-language status differs from composition language, so this is the one unit where author nativeness and text language diverge; the class rule assigns by composition language."
+  },
+  "Schopenhauer": {
+   "citation": "https://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+   "confidence": "high",
+   "label": "translated",
+   "note": "German philosopher; The World as Will and Idea vol. 1 is the Haldane & Kemp English translation of Die Welt als Wille und Vorstellung (1818); Studies in Pessimism and The Basis of Morality are English translations of German essays/works."
+  },
+  "Sidgwick": {
+   "citation": "https://en.wikipedia.org/wiki/Henry_Sidgwick",
+   "confidence": "high",
+   "label": "written_english",
+   "note": "English philosopher; The Methods of Ethics is an English original."
+  },
+  "Spencer": {
+   "citation": "https://en.wikipedia.org/wiki/Herbert_Spencer",
+   "confidence": "high",
+   "label": "written_english",
+   "note": "English philosopher; First Principles and The Data of Ethics are English originals."
+  },
+  "Whitehead": {
+   "citation": "https://en.wikipedia.org/wiki/Alfred_North_Whitehead",
+   "confidence": "high",
+   "label": "written_english",
+   "note": "English mathematician/philosopher; The Concept of Nature and Science and the Modern World are English originals."
+  }
+ },
+ "lang": "en",
+ "source_claim": "Proposed 2026-10-03 by the Six Schools Lab dispatch as the confound-control partition for the sealed-reader study: it is not a philosophical taxonomy but tests whether apparent 'analytic vs continental' separation in the 25-author English corpus (Project Gutenberg texts, pre-1931) is a translation-surface artifact. Theoretical premise: translated prose differs systematically from native prose in vocabulary, syntax and register (translationese), per Gellerstam, 'Fingerprints in Translation' (https://doi.org/10.21832/9781853597893-016), Laviosa, 'Corpus-based Translation Studies' (https://doi.org/10.1163/9789004485907), and Baroni & Bernardini, machine-learning original vs translated text (https://doi.org/10.1093/llc/fqi039). Class assignment rule: written_english if the corpus texts for the author were originally composed in English; translated if originally composed in German, French, Italian, Danish or another language and read in English translation.",
+ "submitted_by": "advocate_a",
+ "taxonomy_id": "T_lang",
+ "title": "Confound control partition: works originally written in English vs works translated into English"
+}

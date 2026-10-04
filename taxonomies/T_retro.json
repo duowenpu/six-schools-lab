@@ -1,0 +1,161 @@
+{
+ "frozen_at": "2026-10-04T03:44:31Z",
+ "hypothesis_origin": "agent",
+ "labels": {
+  "Bergson": {
+   "citation": "https://en.wikipedia.org/wiki/Henri_Bergson",
+   "confidence": "medium",
+   "label": "Continental (German idealism, Lebensphilosophie, existentialist antecedents, rejected Hegelian 'other')",
+   "note": "BORDERLINE, decided: standardly assigned to the continental Lebensphilosophie/process line (Deleuze's Le Bergsonisme revival, 1966); medium not high because the same source records he was 'influential in the traditions of analytic philosophy AND continental philosophy' - his early reception crossed the later split."
+  },
+  "Bosanquet": {
+   "citation": "https://en.wikipedia.org/wiki/British_idealism",
+   "confidence": "contested",
+   "label": "Continental (German idealism, Lebensphilosophie, existentialist antecedents, rejected Hegelian 'other')",
+   "note": "BORDERLINE, decided: same status as Green - named leading figure of British idealism, the tradition whose rejection constitutes the analytic origin story; placed continental-side via the Hegelian lineage, contested because anglophone neo-Hegelians are not standardly claimed by continental historiography."
+  },
+  "Comte": {
+   "citation": "uncertain",
+   "confidence": "contested",
+   "label": null,
+   "note": "UNLABELLED, decided: the logical positivists borrowed the name 'positivism', but the standard analytic genealogies (Frege->Russell/Moore->Vienna Circle; Soames 2003; Beaney 2013) do not claim Comte as a movement precursor, and continental historiography (Critchley 2001) does not claim him either - his legacy forks into sociology. Could not be placed from sources consulted -> unlabelled rather than guessed. Untestable-as-null unit."
+  },
+  "Croce": {
+   "citation": "https://en.wikipedia.org/wiki/Benedetto_Croce",
+   "confidence": "medium",
+   "label": "Continental (German idealism, Lebensphilosophie, existentialist antecedents, rejected Hegelian 'other')",
+   "note": "BORDERLINE, decided: 'Italian idealist philosopher' in the neo-Hegelian historicist line, influential on Gramsci and Gentile; the idealist/historicist lineage falls inside continental historiography (German idealism and Hegelian views included per Continental philosophy wiki) and outside every analytic genealogy consulted."
+  },
+  "Dewey": {
+   "citation": "https://en.wikipedia.org/wiki/Pragmatism",
+   "confidence": "contested",
+   "label": "American pragmatism (contested third tradition - own class per planner directive)",
+   "note": "Same directive resolution as James: pragmatism as founding tradition (Peirce, James, Dewey, per Pragmatism wiki) is claimed as precursor by analytic-side genealogies and ignored by continental-side ones; contested third class rather than forced assimilation or null."
+  },
+  "Eucken": {
+   "citation": "https://en.wikipedia.org/wiki/Rudolf_Christoph_Eucken",
+   "confidence": "medium",
+   "label": "Continental (German idealism, Lebensphilosophie, existentialist antecedents, rejected Hegelian 'other')",
+   "note": "BORDERLINE, decided: 1908 Nobel citation vindicates his 'idealistic philosophy of life' - Lebensphilosophie, a German continental current feeding existentialism; not claimed by any analytic genealogy consulted. Medium because he predates the canonical post-1945 continental movements (phenomenology, existentialism proper)."
+  },
+  "Green": {
+   "citation": "https://en.wikipedia.org/wiki/British_idealism",
+   "confidence": "contested",
+   "label": "Continental (German idealism, Lebensphilosophie, existentialist antecedents, rejected Hegelian 'other')",
+   "note": "BORDERLINE, decided: leading British idealist whose doctrines 'provoked ... Moore and Bertrand Russell to develop the ... methodology that gave rise to ... analytic philosophy' - he sits as the rejected Hegelian 'other' on the continental side of the retrospective split (continental philosophy includes Hegelian views); contested because continental historiography rarely claims anglophone idealists as its own."
+  },
+  "Hegel": {
+   "citation": "https://en.wikipedia.org/wiki/Continental_philosophy",
+   "confidence": "high",
+   "label": "Continental (German idealism, Lebensphilosophie, existentialist antecedents, rejected Hegelian 'other')",
+   "note": "Continental philosophy 'includes German idealism ... as well as some Freudian, Hegelian, and Western Marxist views'; Critchley traces the continental line from Kant to German idealism (ch.2, doi:10.1093/actrade/9780192853592.003.0002). Hegel is also the constitutive rejected 'other' of analytic self-definition: 'Russell and Moore made a dismissal of Hegelianism ... a distinctive part of their new movement' (same source)."
+  },
+  "James": {
+   "citation": "https://en.wikipedia.org/wiki/Pragmatism",
+   "confidence": "contested",
+   "label": "American pragmatism (contested third tradition - own class per planner directive)",
+   "note": "DIRECTIVE RESOLVED as own class: analytic-side genealogies claim pragmatism as precursor (Mach 'a major influence on logical positivism and American pragmatism'; intersecting Dewey-Wittgenstein/Peirce-Wittgenstein lineages, Colapietro 2011 doi:10.1163/9789042033221_002), continental-side accounts (Critchley 2001) ignore them; the split does not cleanly place James. Own class keeps the unit testable rather than forfeiting it to null."
+  },
+  "Kant": {
+   "citation": "https://doi.org/10.1093/actrade/9780192853592.003.0002",
+   "confidence": "contested",
+   "label": null,
+   "note": "UNLABELLED, decided: common ancestor of BOTH retrospective lineages - continental historiography literally begins with him (Critchley ch.2 'Origins of Continental Philosophy: How to get from Kant to German Idealism'), while analytic genealogies run through Kantian problematics and neo-Kantian contexts (Frege/Carnap; Strawson's Kant). The split does not discriminate Kant; any one-sided label would misrepresent the sources. Untestable-as-null unit."
+  },
+  "Kierkegaard": {
+   "citation": "https://en.wikipedia.org/wiki/Continental_philosophy",
+   "confidence": "high",
+   "label": "Continental (German idealism, Lebensphilosophie, existentialist antecedents, rejected Hegelian 'other')",
+   "note": "Continental philosophy explicitly includes 'existentialism (and its antecedents, such as the thought of Kierkegaard and Nietzsche)'."
+  },
+  "Mach": {
+   "citation": "https://en.wikipedia.org/wiki/Ernst_Mach",
+   "confidence": "high",
+   "label": "Analytic precursors (pre-movement figures claimed by analytic genealogies)",
+   "note": "BORDERLINE, decided: 'As a philosopher of science, he was a major influence on logical positivism and American pragmatism'; the Anglo-Austrian precursor line is standard in analytic historiography (Dummett via Analytic philosophy wiki; Soames 2003 on the Vienna Circle). His pragmatist influence is noted but does not displace the analytic-side genealogical claim."
+  },
+  "Mill": {
+   "citation": "https://en.wikipedia.org/wiki/Continental_philosophy",
+   "confidence": "medium",
+   "label": "Analytic precursors (pre-movement figures claimed by analytic genealogies)",
+   "note": "BORDERLINE, decided: Mill's 1840 Coleridge essay already contrasts 'Continental philosophy' with English Benthamite empiricism - the proto-drawing of the very line he is retrospectively placed on (empiricist side); empiricist-lineage analytic genealogies claim him (Glock 2008), and Ayer locates him in the empiricist option of the conventionalism debate (https://en.wikipedia.org/wiki/Conventionalism); British idealists defined themselves against Mill and Sidgwick (British idealism wiki)."
+  },
+  "Moore": {
+   "citation": "https://en.wikipedia.org/wiki/British_idealism",
+   "confidence": "high",
+   "label": "Analytic (founders/core of the retrospective analytic tradition)",
+   "note": "'Doctrines of early British idealism provoked the Cambridge philosophers G. E. Moore and Bertrand Russell to develop the philosophical methodology that gave rise to a new philosophical tradition, analytic philosophy.'"
+  },
+  "Nietzsche": {
+   "citation": "https://en.wikipedia.org/wiki/Continental_philosophy",
+   "confidence": "high",
+   "label": "Continental (German idealism, Lebensphilosophie, existentialist antecedents, rejected Hegelian 'other')",
+   "note": "Named with Kierkegaard as antecedent of existentialism within the continental catch-all; central to Critchley's continental narrative, absent from analytic genealogies."
+  },
+  "Peirce": {
+   "citation": "https://en.wikipedia.org/wiki/Pragmatism",
+   "confidence": "contested",
+   "label": "American pragmatism (contested third tradition - own class per planner directive)",
+   "note": "Same directive resolution: the pragmatic maxim (1878) reads like a verificationist anticipation that analytic-side genealogies claim (Colapietro 2011 on Peirce-Wittgenstein intersecting lineages), while continental accounts pass him over; his scholastic-realist metaphysics fits neither canon -> contested pragmatism class."
+  },
+  "Perry": {
+   "citation": "https://en.wikipedia.org/wiki/New_realism_(philosophy)",
+   "confidence": "contested",
+   "label": "Analytic precursors (pre-movement figures claimed by analytic genealogies)",
+   "note": "BORDERLINE, decided: American new realism (incl. Perry) is 'often grouped with neutral monism or radical empiricism' and narrated as a program that 'declined as a dominant program in analytic philosophy' - i.e., historiography situates it inside the analytic story as part of the revolt against idealism; but Perry was also James's biographer-historian, so the pragmatist tie makes the placement contested."
+  },
+  "Poincare": {
+   "citation": "https://en.wikipedia.org/wiki/Conventionalism",
+   "confidence": "medium",
+   "label": "Analytic precursors (pre-movement figures claimed by analytic genealogies)",
+   "note": "BORDERLINE, decided: Poincare 'was among the first to articulate a conventionalist view' and 'Conventionalism was adopted by logical positivists, chiefly A. J. Ayer and Carl Hempel' - claimed by the analytic line through his philosophy-of-science reception; French, yet not claimed by continental historiography (Critchley's lineage runs Kant->German idealism->phenomenology). Medium: genealogies of the movement itself rarely name him."
+  },
+  "Royce": {
+   "citation": "https://en.wikipedia.org/wiki/Josiah_Royce",
+   "confidence": "contested",
+   "label": "Continental (German idealism, Lebensphilosophie, existentialist antecedents, rejected Hegelian 'other')",
+   "note": "BORDERLINE, decided: 'American pragmatist and absolute idealist ... founder of American idealism', trained under Lotze in the German tradition; absolute idealism falls on the continental/Hegelian side of the retrospective split, but Royce is doubly peripheral (American; pragmatist-adjacent) -> contested."
+  },
+  "Russell": {
+   "citation": "https://en.wikipedia.org/wiki/Analytic_philosophy",
+   "confidence": "high",
+   "label": "Analytic (founders/core of the retrospective analytic tradition)",
+   "note": "Named a central figure of analytic philosophy (with Frege, Moore, Wittgenstein); his alliance of logical analysis with natural science and 1945 'two schools' remark are the standard origin narrative (Soames 2003 vol.1 opens with Moore and Russell; Glock 2008)."
+  },
+  "Santayana": {
+   "citation": "https://en.wikipedia.org/wiki/George_Santayana",
+   "confidence": "contested",
+   "label": null,
+   "note": "UNLABELLED, decided: neither lineage claims Santayana - analytic naturalists admire him, but his materialist Platonism, critical realism and literary-aphoristic mode fit neither post-1945 camp, and the sources consulted place him on no side of the division. Left unlabelled rather than guessed. Untestable-as-null unit."
+  },
+  "Schopenhauer": {
+   "citation": "https://en.wikipedia.org/wiki/Continental_philosophy",
+   "confidence": "high",
+   "label": "Continental (German idealism, Lebensphilosophie, existentialist antecedents, rejected Hegelian 'other')",
+   "note": "Philosophical pessimism is listed among the continental traditions, and the Schopenhauer->Nietzsche line is standard in continental historiography; absent from analytic genealogies (Soames 2003; Beaney 2013)."
+  },
+  "Sidgwick": {
+   "citation": "https://en.wikipedia.org/wiki/Henry_Sidgwick",
+   "confidence": "medium",
+   "label": "Analytic precursors (pre-movement figures claimed by analytic genealogies)",
+   "note": "BORDERLINE, decided: Rawls called The Methods of Ethics the 'first truly academic work in moral theory, modern in both method and spirit' - the Cambridge empiricist/utilitarian line that later analytic ethics canonized; the British-idealist reaction grouped him with Mill as the empiricist 'other' (https://en.wikipedia.org/wiki/British_idealism). Placed on the proto-analytic side at medium (not named in movement-origin genealogies themselves)."
+  },
+  "Spencer": {
+   "citation": "uncertain",
+   "confidence": "contested",
+   "label": null,
+   "note": "UNLABELLED, decided: Victorian evolutionary synthetic philosophy; claimed by neither analytic nor continental genealogies in the division literature consulted - treated as pre-division Victorian thought (influencing pragmatists and positivists alike without belonging to either retrospective camp). Untestable-as-null unit."
+  },
+  "Whitehead": {
+   "citation": "https://en.wikipedia.org/wiki/Alfred_North_Whitehead",
+   "confidence": "contested",
+   "label": "Analytic (founders/core of the retrospective analytic tradition)",
+   "note": "BORDERLINE, decided: co-author with Russell of Principia Mathematica, claimed by the logicist origin story of analytic historiography (Soames 2003); but his later process metaphysics 'radically departed from most of Western philosophy' and lives outside the analytic canon (resonating with Bergson/Deleuze). Dual legacy -> contested analytic."
+  }
+ },
+ "lang": "en",
+ "source_claim": "The analytic/continental split as standardized only AFTER 1945 (Russell's 1945 'two schools' remark; the term 'continental philosophy' in its current sense widespread from the 1970s), projected retrospectively onto the sealed pre-1931 English-read corpus. Historiographic basis actually used: Glock 2008 'What is Analytic Philosophy?' (doi:10.1017/cbo9780511841125); Beaney ed. 2013 Oxford Handbook of the History of Analytic Philosophy, incl. Beaney 'The Historiography of Analytic Philosophy' (doi:10.1093/oxfordhb/9780199238842.013.0029); Soames 2003 Philosophical Analysis in the Twentieth Century vol.1 (doi:10.1515/9781400825790); Critchley 2001 Continental Philosophy: A Very Short Introduction as critical account (doi:10.1093/actrade/9780192853592.001.0001); Colapietro 2011 on intersecting pragmatist/analytic lineages (doi:10.1163/9789042033221_002); plus retrieved Wikipedia summaries of these accounts. CONSTRUCTIVIST CAVEAT: this division is a retrospective imposition - the object of study, not a natural kind; no corpus author self-identified with these labels.",
+ "submitted_by": "advocate_a",
+ "taxonomy_id": "T_retro",
+ "title": "Retrospective analytic/continental division of pre-1931 philosophy (post-1945 historiographic projection)"
+}

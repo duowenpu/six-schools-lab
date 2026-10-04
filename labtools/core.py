@@ -292,19 +292,37 @@ def submit_probe(actor: str, batch_id: int, guesses_json: str) -> dict:
 
 # ------------------------------------------------------------- literature
 def openalex_search(query: str, per_page: int = 6) -> dict:
+    """Scholarly search. OpenAlex first; if it rate-limits, fall back to Crossref."""
+    import time
+
     import requests
 
-    r = requests.get("https://api.openalex.org/works", params={"search": query, "per-page": min(int(per_page), 10),
-                                                               "mailto": "six-schools-lab@example.org"}, timeout=30)
-    if r.status_code != 200:
-        return {"error": f"OpenAlex HTTP {r.status_code}"}
+    for attempt in range(2):
+        r = requests.get("https://api.openalex.org/works", params={"search": query, "per-page": min(int(per_page), 10),
+                                                                   "mailto": "six-schools-lab@example.org"}, timeout=30)
+        if r.status_code == 200:
+            out = []
+            for w in r.json().get("results", []):
+                out.append({"title": w.get("title"), "year": w.get("publication_year"),
+                            "authors": [a["author"]["display_name"] for a in w.get("authorships", [])[:4]],
+                            "venue": ((w.get("primary_location") or {}).get("source") or {}).get("display_name"),
+                            "cited_by": w.get("cited_by_count"), "url": w.get("doi") or w.get("id")})
+            return {"query": query, "source": "OpenAlex", "results": out}
+        if r.status_code != 429:
+            break
+        time.sleep(2.0)
+    c = requests.get("https://api.crossref.org/works", params={"query": query, "rows": min(int(per_page), 10)},
+                     headers={"User-Agent": "six-schools-lab/0.1"}, timeout=30)
+    if c.status_code != 200:
+        return {"error": f"OpenAlex HTTP {r.status_code}; Crossref HTTP {c.status_code}"}
     out = []
-    for w in r.json().get("results", []):
-        out.append({"title": w.get("title"), "year": w.get("publication_year"),
-                    "authors": [a["author"]["display_name"] for a in w.get("authorships", [])[:4]],
-                    "venue": ((w.get("primary_location") or {}).get("source") or {}).get("display_name"),
-                    "cited_by": w.get("cited_by_count"), "url": w.get("doi") or w.get("id")})
-    return {"query": query, "results": out}
+    for w in c.json().get("message", {}).get("items", []):
+        year = ((w.get("issued") or {}).get("date-parts") or [[None]])[0][0]
+        out.append({"title": (w.get("title") or [None])[0], "year": year,
+                    "authors": [" ".join(x for x in (a.get("given"), a.get("family")) if x) for a in w.get("author", [])[:4]],
+                    "venue": (w.get("container-title") or [None])[0], "cited_by": w.get("is-referenced-by-count"),
+                    "url": "https://doi.org/" + w["DOI"] if w.get("DOI") else w.get("URL")})
+    return {"query": query, "source": "Crossref (OpenAlex was rate-limited)", "results": out}
 
 
 def wikipedia_lookup(title: str, lang: str = "en", max_chars: int = 2500) -> dict:

@@ -1,0 +1,161 @@
+{
+ "frozen_at": "2026-10-04T04:11:42Z",
+ "hypothesis_origin": "agent",
+ "labels": {
+  "Bergson": {
+   "citation": "https://en.wikipedia.org/wiki/Henri_Bergson",
+   "confidence": "contested",
+   "label": "Professional university philosophy",
+   "note": "Contested: held the College de France chair (1900-14), but was a celebrity bestseller read by the general public and 1927 Nobel laureate in literature, often grouped with anti-academic philosophy of life."
+  },
+  "Bosanquet": {
+   "citation": "https://en.wikipedia.org/wiki/Bernard_Bosanquet_(philosopher)",
+   "confidence": "contested",
+   "label": "Professional university philosophy",
+   "note": "Contested: resigned his Oxford fellowship in 1881 and held no chair, yet remained a leader of the academic neo-Hegelian establishment (Aristotelian Society president 1894-98, Gifford Lecturer)."
+  },
+  "Comte": {
+   "citation": "https://en.wikipedia.org/wiki/Auguste_Comte",
+   "confidence": "high",
+   "label": "Independent man-of-letters philosophy",
+   "note": "Dismissed from his Ecole Polytechnique examiner post in 1844; thereafter lived on patronage and subscriptions as an independent positivist lecturer and founder of a lay church."
+  },
+  "Croce": {
+   "citation": "https://en.wikipedia.org/wiki/Benedetto_Croce",
+   "confidence": "high",
+   "label": "Independent man-of-letters philosophy",
+   "note": "Never held a university chair; independent intellectual working from his Neapolitan palazzo, editing La Critica and serving as senator - the European model of the lay philosopher."
+  },
+  "Dewey": {
+   "citation": "https://en.wikipedia.org/wiki/John_Dewey",
+   "confidence": "high",
+   "label": "Professional university philosophy",
+   "note": "Chairs at Michigan, Chicago, Columbia; Reuben and Hollinger both place him at the core of the professionalized academic discipline."
+  },
+  "Eucken": {
+   "citation": "https://en.wikipedia.org/wiki/Rudolf_Christoph_Eucken",
+   "confidence": "contested",
+   "label": "Professional university philosophy",
+   "note": "Contested: Jena philosophy professor and Ringer-style mandarin, yet wrote popular Lebensphilosophie for a mass educated readership and won the 1908 Nobel Prize in LITERATURE."
+  },
+  "Green": {
+   "citation": "https://en.wikipedia.org/wiki/T._H._Green",
+   "confidence": "high",
+   "label": "Professional university philosophy",
+   "note": "White's Professor of Moral Philosophy at Oxford (1878); Collini's exemplar of the public moralist tradition passing INTO the universities in the 1870s."
+  },
+  "Hegel": {
+   "citation": "https://en.wikipedia.org/wiki/Georg_Wilhelm_Friedrich_Hegel",
+   "confidence": "high",
+   "label": "Professional university philosophy",
+   "note": "Chairs at Heidelberg (1816) and Berlin (1818); philosophy as a state-salaried professorial science."
+  },
+  "James": {
+   "citation": "https://en.wikipedia.org/wiki/William_James",
+   "confidence": "high",
+   "label": "Professional university philosophy",
+   "note": "Harvard professor of psychology then philosophy (1876-1907); institutionally a professional even where his style remained literary."
+  },
+  "Kant": {
+   "citation": "https://en.wikipedia.org/wiki/Immanuel_Kant",
+   "confidence": "high",
+   "label": "Professional university philosophy",
+   "note": "Ordentlicher Professor at Koenigsberg from 1770; the archetypal salaried university philosopher who created the model Ringer's mandarins later inhabited."
+  },
+  "Kierkegaard": {
+   "citation": "https://en.wikipedia.org/wiki/S%C3%B8ren_Kierkegaard",
+   "confidence": "high",
+   "label": "Independent man-of-letters philosophy",
+   "note": "Private gentleman-scholar on an inheritance; never held a university post, published under pseudonyms and addressed the reading public and the church, not the academy."
+  },
+  "Mach": {
+   "citation": "https://en.wikipedia.org/wiki/Ernst_Mach",
+   "confidence": "high",
+   "label": "Professional university philosophy",
+   "note": "University professor (Prague physics; Vienna chair of history and theory of inductive science 1895-1901); a university professional on this institutional axis even though his discipline was physics."
+  },
+  "Mill": {
+   "citation": "https://doi.org/10.1093/oso/9780198201731.001.0001",
+   "confidence": "high",
+   "label": "Independent man-of-letters philosophy",
+   "note": "East India Company administrator, MP and journalist; Collini's archetypal Victorian 'public moralist' who philosophized for the general reading public, never holding an academic post."
+  },
+  "Moore": {
+   "citation": "https://en.wikipedia.org/wiki/G._E._Moore",
+   "confidence": "high",
+   "label": "Professional university philosophy",
+   "note": "Cambridge fellow and Professor of Mental Philosophy and Logic; paradigm of the specialized academic analytic style."
+  },
+  "Nietzsche": {
+   "citation": "https://doi.org/10.2307/1844557",
+   "confidence": "contested",
+   "label": "Independent man-of-letters philosophy",
+   "note": "Contested: Basel professor of classical philology 1869-79, but resigned the chair and wrote aphoristically for a general audience; Ringer treats him as the anti-academic 'modernist' pole against the German mandarinate."
+  },
+  "Peirce": {
+   "citation": "https://en.wikipedia.org/wiki/Charles_Sanders_Peirce",
+   "confidence": "contested",
+   "label": "Independent man-of-letters philosophy",
+   "note": "Contested: America's greatest logician yet professionally marginal - thirty years a Coast Survey scientist with only a five-year Johns Hopkins lectureship; Hollinger and Menand-style accounts stress his exclusion from the professional academy."
+  },
+  "Perry": {
+   "citation": "https://en.wikipedia.org/wiki/Ralph_Barton_Perry",
+   "confidence": "high",
+   "label": "Professional university philosophy",
+   "note": "Harvard professor of philosophy; official biographer of James and product of the professional graduate system."
+  },
+  "Poincare": {
+   "citation": "https://en.wikipedia.org/wiki/Henri_Poincar%C3%A9",
+   "confidence": "high",
+   "label": "Professional university philosophy",
+   "note": "Professor at the Sorbonne and Academie des Sciences member; his popularizations (Science et hypothese) were written from inside the professorial scientific establishment."
+  },
+  "Royce": {
+   "citation": "https://en.wikipedia.org/wiki/Josiah_Royce",
+   "confidence": "high",
+   "label": "Professional university philosophy",
+   "note": "Harvard professor of philosophy; central figure in Reuben's account of American philosophy's professionalization at Chicago/Harvard."
+  },
+  "Russell": {
+   "citation": "https://en.wikipedia.org/wiki/Bertrand_Russell",
+   "confidence": "high",
+   "label": "Professional university philosophy",
+   "note": "Trinity College Cambridge fellow and lecturer; his popular essays and 1950 Nobel Prize in Literature sit uneasily with the class but his working identity was the academic profession."
+  },
+  "Santayana": {
+   "citation": "https://doi.org/10.1093/anb/9780198606697.article.2000898",
+   "confidence": "contested",
+   "label": "Independent man-of-letters philosophy",
+   "note": "Contested: Harvard professor 1889-1912, then resigned and lived as an expatriate independent man of letters (novelist, poet, essayist) supported by royalties."
+  },
+  "Schopenhauer": {
+   "citation": "https://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+   "confidence": "contested",
+   "label": "Independent man-of-letters philosophy",
+   "note": "Contested: held a Berlin Privatdozent license (1820) but lived off his inheritance outside the university and famously attacked 'professorial philosophy' (On University Professors of Philosophy)."
+  },
+  "Sidgwick": {
+   "citation": "https://en.wikipedia.org/wiki/Henry_Sidgwick",
+   "confidence": "high",
+   "label": "Professional university philosophy",
+   "note": "Knightbridge Professor of Moral Philosophy, Cambridge; technical academic ethics written for the specialized Moral Sciences readership."
+  },
+  "Spencer": {
+   "citation": "https://doi.org/10.1093/oso/9780198201731.001.0001",
+   "confidence": "high",
+   "label": "Independent man-of-letters philosophy",
+   "note": "Full-time independent author supported by subscribers and sales; the paradigmatic freelance system-builder in Collini's account of pre-professional intellectual culture."
+  },
+  "Whitehead": {
+   "citation": "https://en.wikipedia.org/wiki/Alfred_North_Whitehead",
+   "confidence": "high",
+   "label": "Professional university philosophy",
+   "note": "Cambridge lecturer/fellow then Harvard professor of philosophy (1924); fully inside the university establishment."
+  }
+ },
+ "lang": "en",
+ "source_claim": "Institutional-sociological partition drawn from the intellectual-history literature on the professionalization of philosophy c. 1870-1930: Collini, Public Moralists (Oxford UP 1991) on Britain's shift from generalist public moralists (Mill, Spencer) to specialized academic culture (Green, Sidgwick, the Cambridge/Oxford professoriate); Reuben, The Making of the Modern University (Chicago UP 1996) on the professionalization of American philosophy (James, Dewey, Royce); Ringer, The Decline of the German Mandarins (Harvard UP 1969) on the German professorial mandarinate (Kant-Hegel-Eucken lineage) vs anti-academic modernists (Nietzsche, Schopenhauer's heirs); Hollinger, 'The Problem of Pragmatism in American History' (JAH 1980) on pragmatism's academic professional identity and Peirce's marginality. Criterion: did the author work inside the professional university establishment (chair/fellowship, technical disciplinary audience), or as an independent writer for the general educated public?",
+ "submitted_by": "advocate_b",
+ "taxonomy_id": "T_professional_vs_letters",
+ "title": "The professionalization divide: professional university philosophy (chairs and specialized academic audiences) vs independent man-of-letters philosophy (outside the university, general educated readership)"
+}

@@ -1,0 +1,161 @@
+{
+ "frozen_at": "2026-10-04T03:39:43Z",
+ "hypothesis_origin": "agent",
+ "labels": {
+  "Bergson": {
+   "citation": "https://en.wikipedia.org/wiki/Henri_Bergson",
+   "confidence": "high",
+   "label": "Translated",
+   "note": "French philosopher; Time and Free Will (Essai sur les donnees immediates de la conscience) and Creative Evolution (L'Evolution creatrice) are French originals read in English translation."
+  },
+  "Bosanquet": {
+   "citation": "https://en.wikipedia.org/wiki/Bernard_Bosanquet_(philosopher)",
+   "confidence": "high",
+   "label": "OriginalEnglish",
+   "note": "English philosopher; both listed logic and political-philosophy works are English originals."
+  },
+  "Comte": {
+   "citation": "https://en.wikipedia.org/wiki/Auguste_Comte",
+   "confidence": "high",
+   "label": "Translated",
+   "note": "French philosopher; A General View of Positivism is an English translation of the French original."
+  },
+  "Croce": {
+   "citation": "https://en.wikipedia.org/wiki/Benedetto_Croce",
+   "confidence": "high",
+   "label": "Translated",
+   "note": "Italian philosopher; Aesthetic, Logic, and Philosophy of the Practical are Italian originals in English translation."
+  },
+  "Dewey": {
+   "citation": "https://en.wikipedia.org/wiki/John_Dewey",
+   "confidence": "high",
+   "label": "OriginalEnglish",
+   "note": "American philosopher; all four listed works are English originals."
+  },
+  "Eucken": {
+   "citation": "https://en.wikipedia.org/wiki/Rudolf_Christoph_Eucken",
+   "confidence": "high",
+   "label": "Translated",
+   "note": "German philosopher; Life's Basis and Life's Ideal and Ethics and Modern Thought are German originals in English translation."
+  },
+  "Green": {
+   "citation": "https://en.wikipedia.org/wiki/T._H._Green",
+   "confidence": "high",
+   "label": "OriginalEnglish",
+   "note": "English philosopher; Lectures on the Principles of Political Obligation were delivered and published in English."
+  },
+  "Hegel": {
+   "citation": "https://en.wikipedia.org/wiki/Georg_Wilhelm_Friedrich_Hegel",
+   "confidence": "high",
+   "label": "Translated",
+   "note": "German philosopher; The Logic of Hegel and Philosophy of Mind are Wallace translations of the Encyclopaedia Logic and Philosophy of Mind."
+  },
+  "James": {
+   "citation": "https://en.wikipedia.org/wiki/William_James",
+   "confidence": "high",
+   "label": "OriginalEnglish",
+   "note": "American philosopher; all four listed works, including Essays in Radical Empiricism, are English originals."
+  },
+  "Kant": {
+   "citation": "https://en.wikipedia.org/wiki/Immanuel_Kant",
+   "confidence": "high",
+   "label": "Translated",
+   "note": "German philosopher; Critique of Pure Reason, Prolegomena, and the Groundwork (Fundamental Principles...) are German originals in English translation."
+  },
+  "Kierkegaard": {
+   "citation": "https://en.wikipedia.org/wiki/S%C3%B8ren_Kierkegaard",
+   "confidence": "high",
+   "label": "Translated",
+   "note": "Danish philosopher who wrote in Danish; Selections from the Writings is an English translation."
+  },
+  "Mach": {
+   "citation": "https://en.wikipedia.org/wiki/Ernst_Mach",
+   "confidence": "high",
+   "label": "Translated",
+   "note": "Austrian physicist/philosopher writing in German; Popular Scientific Lectures is translated from the German."
+  },
+  "Mill": {
+   "citation": "https://en.wikipedia.org/wiki/John_Stuart_Mill",
+   "confidence": "high",
+   "label": "OriginalEnglish",
+   "note": "English philosopher; Utilitarianism, A System of Logic, and Auguste Comte and Positivism are English originals."
+  },
+  "Moore": {
+   "citation": "https://en.wikipedia.org/wiki/G._E._Moore",
+   "confidence": "high",
+   "label": "OriginalEnglish",
+   "note": "English philosopher; Principia Ethica and Philosophical Studies written in English."
+  },
+  "Nietzsche": {
+   "citation": "https://en.wikipedia.org/wiki/Friedrich_Nietzsche",
+   "confidence": "high",
+   "label": "Translated",
+   "note": "German philosopher; all four listed works are German originals read in English translation."
+  },
+  "Peirce": {
+   "citation": "https://en.wikipedia.org/wiki/Charles_Sanders_Peirce",
+   "confidence": "high",
+   "label": "OriginalEnglish",
+   "note": "American philosopher/logician; Chance, Love, and Logic is an English-language collection of his English writings."
+  },
+  "Perry": {
+   "citation": "https://en.wikipedia.org/wiki/Ralph_Barton_Perry",
+   "confidence": "high",
+   "label": "OriginalEnglish",
+   "note": "American philosopher; both listed works are English originals."
+  },
+  "Poincare": {
+   "citation": "https://en.wikipedia.org/wiki/Henri_Poincar%C3%A9",
+   "confidence": "high",
+   "label": "Translated",
+   "note": "French mathematician/philosopher; The Foundations of Science is an English translation of French originals."
+  },
+  "Royce": {
+   "citation": "https://en.wikipedia.org/wiki/Josiah_Royce",
+   "confidence": "high",
+   "label": "OriginalEnglish",
+   "note": "American philosopher; The Sources of Religious Insight is an English original."
+  },
+  "Russell": {
+   "citation": "https://en.wikipedia.org/wiki/Bertrand_Russell",
+   "confidence": "high",
+   "label": "OriginalEnglish",
+   "note": "English philosopher; all four listed works were written and published in English."
+  },
+  "Santayana": {
+   "citation": "https://en.wikipedia.org/wiki/The_Life_of_Reason",
+   "confidence": "high",
+   "label": "OriginalEnglish",
+   "note": "Spanish-born American philosopher; The Life of Reason was published in English, and the listed works are English originals despite his Spanish birth."
+  },
+  "Schopenhauer": {
+   "citation": "https://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+   "confidence": "high",
+   "label": "Translated",
+   "note": "German philosopher; World as Will and Idea, Studies in Pessimism (translated essays), and The Basis of Morality are all German originals."
+  },
+  "Sidgwick": {
+   "citation": "https://en.wikipedia.org/wiki/Henry_Sidgwick",
+   "confidence": "high",
+   "label": "OriginalEnglish",
+   "note": "English philosopher; The Methods of Ethics is an English original."
+  },
+  "Spencer": {
+   "citation": "https://en.wikipedia.org/wiki/Herbert_Spencer",
+   "confidence": "high",
+   "label": "OriginalEnglish",
+   "note": "English philosopher; First Principles and The Data of Ethics are English originals."
+  },
+  "Whitehead": {
+   "citation": "https://en.wikipedia.org/wiki/Alfred_North_Whitehead",
+   "confidence": "high",
+   "label": "OriginalEnglish",
+   "note": "English mathematician/philosopher; The Concept of Nature and Science and the Modern World are English originals."
+  }
+ },
+ "lang": "en",
+ "source_claim": "Proposed by the PHASE 2 sealed-reader dispatch (2026-10-03) as a non-doctrinal translationese confound control for the 25-author Project Gutenberg pre-1931 English corpus; class assignment is by the original language of each author's listed corpus works, not by philosophical school.",
+ "submitted_by": "advocate_b",
+ "taxonomy_id": "T_translated",
+ "title": "Surface-form confound control: original English vs translated into English"
+}

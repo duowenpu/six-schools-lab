@@ -5,3 +5,4 @@
 {"ts": "2026-10-04T02:37:36Z", "policy": "allowlist", "agent": "advocate_a", "tool": "sys_session_get_info", "verdict": "DENY"}
 {"ts": "2026-10-04T02:37:37Z", "policy": "allowlist", "agent": "advocate_a", "tool": "sys_session_list", "verdict": "DENY"}
 {"ts": "2026-10-04T02:52:32Z", "policy": "allowlist", "agent": "advocate_a", "tool": "sys_session_get_info", "verdict": "DENY"}
+{"ts": "2026-10-04T03:18:02Z", "policy": "allowlist", "agent": "skeptic", "tool": "sys_read_inbox", "verdict": "DENY"}

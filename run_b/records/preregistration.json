@@ -1,0 +1,250 @@
+{
+ "registered_by": "human (team), drafted with a coding assistant; fixed before any lab run",
+ "registered_at": "2026-10-03T17:20:00-07:00 (plan v2); frozen in git before the first Omnigent session",
+ "seed": 20261003,
+ "objective": "Audit inherited taxonomies of thought: is a taxonomy a structure already present in the texts (discovered) or a label imposed later (invented)? Use two leak-free designs: a sealed text (Mawangdui manuscript, buried 168 BCE) and a sealed reader (a language model trained only on pre-1931 text).",
+ "sealed_text": "Huangdi_Sijing",
+ "sealed_units_never_labeled": [
+  "Huangdi_Sijing",
+  "Sun_Bin_Bingfa"
+ ],
+ "defector_targets": {
+  "positive_label": "Daoist",
+  "negative_label": "Legalist",
+  "chapters": {
+   "Guanzi": [
+    "Neiye",
+    "Xinshushang",
+    "Xinshuxia",
+    "Baixin"
+   ],
+   "Han_Feizi": [
+    "Jielao",
+    "Yulao"
+   ]
+  },
+  "note": "Advocates must name the Daoist and Legalist classes exactly 'Daoist' and 'Legalist' in the six-schools taxonomy."
+ },
+ "hypotheses": {
+  "H-C1": {
+   "claim": "The six-schools taxonomy predicts where an unseen book falls better than era, region or genre taxonomies.",
+   "test": "tournament, leave-one-book-out, unit-level permutation null",
+   "decision": "rank by chance-corrected score with 95% bootstrap interval; require agreement across instruments (lex, lex_tr) for a main claim",
+   "origin": "human"
+  },
+  "H-C2": {
+   "claim": "The instrument ranks chapters that scholars regard as Daoist-leaning (Guanzi: Neiye, Xinshu I-II, Baixin; Han Feizi: Jie Lao, Yu Lao) high on Daoist affinity within their own books.",
+   "test": "defectors",
+   "decision": "PASS if mean target percentile >= 80 and permutation p < 0.05; otherwise the instrument fails validation and no main conclusion may be published",
+   "origin": "human"
+  },
+  "H-C3": {
+   "claim": "The sealed manuscript sits between Dao and Fa instead of falling cleanly into one school.",
+   "test": "tomb_test",
+   "decision": "'constructed' prediction holds if dominant label share < 0.70 OR mean margin below the 10th percentile of transmitted books; otherwise the 'real structure' prediction holds",
+   "origin": "human"
+  },
+  "H-W1": {
+   "claim": "A reader sealed in 1930 already separates what was later called analytic vs continental philosophy.",
+   "test": "tournament on talkie vectors, leave-one-author-out",
+   "decision": "permutation p < 0.05",
+   "origin": "human"
+  },
+  "H-W2": {
+   "claim": "A modern reader separates the later label more sharply than the 1930 reader, beyond its general advantage on labels that already existed in 1930 (hindsight gap G > 0).",
+   "test": "hindsight_gap",
+   "decision": "95% bootstrap interval of G excludes 0",
+   "origin": "human"
+  }
+ },
+ "decision_rules_after_first_tournament": [
+  "If the six-schools taxonomy leads AND the tomb test supports 'real structure': next experiment = extend the sealed-text test to the Guodian slips.",
+  "If the six-schools taxonomy leads BUT the tomb test supports 'constructed': rewrite the conclusion as 'school structure holds in Han-edited transmitted books but not out of sample'; prioritise the translation-arm rerun.",
+  "If an era, region or genre taxonomy leads: reopen the premise that the school is the basic unit; next experiment = school test within era strata."
+ ],
+ "credits_total": 16,
+ "experiment_costs": {
+  "tournament": 1,
+  "defectors": 1,
+  "tomb_test": 1,
+  "hindsight_gap": 2,
+  "corpus_map": 0,
+  "probe_score": 0
+ },
+ "probe_aliases": {
+  "Laozi": [
+   "老子",
+   "道德经",
+   "道德經",
+   "Daodejing",
+   "Tao Te Ching",
+   "Lao"
+  ],
+  "Zhuangzi": [
+   "Chuang",
+   "南华",
+   "南華",
+   "庄子",
+   "莊周",
+   "莊子"
+  ],
+  "Analects": [
+   "Lunyu",
+   "論語",
+   "论语"
+  ],
+  "Mencius": [
+   "Meng",
+   "Mengzi",
+   "孟子"
+  ],
+  "Xunzi": [
+   "Hsun",
+   "Xun Kuang",
+   "孙卿",
+   "孫卿",
+   "荀子"
+  ],
+  "Liji": [
+   "Book of Rites",
+   "Rites",
+   "大学",
+   "大學",
+   "曲禮",
+   "月令",
+   "檀弓",
+   "礼记",
+   "礼運",
+   "禮記"
+  ],
+  "Xiaojing": [
+   "Filial",
+   "孝經",
+   "孝经"
+  ],
+  "Kongzi_Jiayu": [
+   "Jiayu",
+   "孔子家語",
+   "孔子家语",
+   "家語",
+   "家语"
+  ],
+  "Zhongyong": [
+   "Doctrine of the Mean",
+   "Liji",
+   "中庸",
+   "礼记",
+   "禮記"
+  ],
+  "Mozi": [
+   "Mo Tzu",
+   "Mohist",
+   "墨子",
+   "墨翟"
+  ],
+  "Liezi": [
+   "Lie Yukou",
+   "Lieh",
+   "冲虚",
+   "列子"
+  ],
+  "Han_Feizi": [
+   "Han Fei",
+   "韓子",
+   "韓非",
+   "韩非"
+  ],
+  "Shangjunshu": [
+   "Lord Shang",
+   "Shang Yang",
+   "商君",
+   "商君書",
+   "商鞅"
+  ],
+  "Guanzi": [
+   "Guan Zhong",
+   "Kuan",
+   "管仲",
+   "管子"
+  ],
+  "Gongsun_Longzi": [
+   "Gongsun Long",
+   "公孙龙",
+   "公孫龍"
+  ],
+  "Lushi_Chunqiu": [
+   "Lu Buwei",
+   "Lushi",
+   "Lüshi",
+   "吕氏春秋",
+   "吕览",
+   "呂氏",
+   "呂覽"
+  ],
+  "Huainanzi": [
+   "Huainan",
+   "淮南",
+   "鴻烈",
+   "鸿烈"
+  ],
+  "Guiguzi": [
+   "Guigu",
+   "鬼谷"
+  ],
+  "Sunzi_Bingfa": [
+   "Art of War",
+   "Sun Tzu",
+   "Sunzi",
+   "孙子",
+   "孫子",
+   "孫武"
+  ],
+  "Wuzi": [
+   "Wu Qi",
+   "吳子",
+   "吳起",
+   "吴子",
+   "吴起"
+  ],
+  "Liutao": [
+   "Six Secret",
+   "Tai Gong",
+   "六韜",
+   "六韬",
+   "太公"
+  ],
+  "Sima_Fa": [
+   "Sima",
+   "司馬法",
+   "司马法"
+  ],
+  "Wei_Liaozi": [
+   "Wei Liao",
+   "尉繚",
+   "尉缭"
+  ],
+  "Huangdi_Sijing": [
+   "Huang-Lao",
+   "Huangdi",
+   "Jingfa",
+   "Mawangdui",
+   "十大經",
+   "十大经",
+   "帛书",
+   "帛書",
+   "經法",
+   "经法",
+   "馬王堆",
+   "马王堆",
+   "黃帝四經",
+   "黃老帛書",
+   "黄帝四经",
+   "黄老帛书"
+  ],
+  "Sun_Bin_Bingfa": [
+   "Sun Bin",
+   "孙膑",
+   "孫臏"
+  ]
+ }
+}

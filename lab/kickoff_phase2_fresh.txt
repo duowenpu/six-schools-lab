@@ -1,0 +1,13 @@
+Human scientist here. You are a new planner session that runs PHASE 2 (the sealed reader) only. PHASE 1 is complete and accepted as recorded; do not reopen it and do not dispatch anything about the Chinese corpus.
+
+Rebuild your state quickly: record_read with type "decision" and last_n 2 (the PHASE 1 final decision is r0110), then list_experiments and corpus_info("en"). Then follow your protocol, steps 9 to 11, and stop and wait for me.
+
+Objective: test whether the division of philosophy into "analytic" and "continental", which became standard only after 1945, is already visible to a reader who has never heard of it. The corpus has 25 authors who published before 1931, read in English. Instruments: "talkie" (a language model trained only on text from before 1931), "qwen" (a modern language model) and "lex" (vocabulary).
+
+Step 9, in your first turn, dispatch the advocates (at most 3 at a time), one taxonomy each, with lang "en" and the author names from corpus_info("en") as units:
+- T_retro: the later analytic / continental division; pragmatists as their own class or unlabelled.
+- T_1930: the division of philosophy that a well-read person around 1930 would have used (for example idealism, realism, pragmatism, vitalism).
+- T_nation: author nationality.
+- T_translated: written in English versus translated into English (confound control).
+
+Budget decision by the human: no extension. 5 experiment credits remain. hindsight_gap costs 2 credits in total and computes its four supporting leave-one-author-out scores itself (the retrospective and the 1930 taxonomy, each on talkie and on qwen). Separate tournament runs cost 1 credit each and are needed only where you want a permutation p-value and interval for one taxonomy on one instrument. Decide which runs teach the most, record the candidates and your choice, and run those.

@@ -1,0 +1,213 @@
+{
+ "experiment": "probe_score",
+ "params": {
+  "exclude_passages": [
+   "zh_16_096"
+  ]
+ },
+ "result": {
+  "readers": {
+   "prober_a": {
+    "n": 40,
+    "correct": 33,
+    "by_book": {
+     "Lushi_Chunqiu": [
+      3,
+      3
+     ],
+     "Huainanzi": [
+      0,
+      1
+     ],
+     "Xunzi": [
+      1,
+      1
+     ],
+     "Shangjunshu": [
+      1,
+      2
+     ],
+     "Wuzi": [
+      2,
+      2
+     ],
+     "Mencius": [
+      2,
+      2
+     ],
+     "Sun_Bin_Bingfa": [
+      1,
+      1
+     ],
+     "Zhuangzi": [
+      2,
+      2
+     ],
+     "Wei_Liaozi": [
+      1,
+      2
+     ],
+     "Han_Feizi": [
+      1,
+      1
+     ],
+     "Guanzi": [
+      1,
+      1
+     ],
+     "Liutao": [
+      1,
+      1
+     ],
+     "Sima_Fa": [
+      3,
+      3
+     ],
+     "Huangdi_Sijing": [
+      0,
+      2
+     ],
+     "Liji": [
+      1,
+      1
+     ],
+     "Kongzi_Jiayu": [
+      0,
+      2
+     ],
+     "Analects": [
+      2,
+      2
+     ],
+     "Laozi": [
+      2,
+      2
+     ],
+     "Mozi": [
+      2,
+      2
+     ],
+     "Guiguzi": [
+      2,
+      2
+     ],
+     "Liezi": [
+      2,
+      2
+     ],
+     "Sunzi_Bingfa": [
+      2,
+      2
+     ],
+     "Xiaojing": [
+      1,
+      1
+     ]
+    },
+    "recognition_rate": 0.825
+   },
+   "prober_b": {
+    "n": 34,
+    "correct": 31,
+    "by_book": {
+     "Zhuangzi": [
+      1,
+      1
+     ],
+     "Zhongyong": [
+      3,
+      3
+     ],
+     "Guanzi": [
+      2,
+      2
+     ],
+     "Gongsun_Longzi": [
+      3,
+      3
+     ],
+     "Liutao": [
+      2,
+      2
+     ],
+     "Liji": [
+      2,
+      2
+     ],
+     "Sunzi_Bingfa": [
+      1,
+      1
+     ],
+     "Wuzi": [
+      1,
+      1
+     ],
+     "Wei_Liaozi": [
+      1,
+      1
+     ],
+     "Liezi": [
+      1,
+      1
+     ],
+     "Shangjunshu": [
+      1,
+      1
+     ],
+     "Huainanzi": [
+      1,
+      1
+     ],
+     "Laozi": [
+      1,
+      1
+     ],
+     "Han_Feizi": [
+      2,
+      2
+     ],
+     "Mencius": [
+      1,
+      1
+     ],
+     "Huangdi_Sijing": [
+      1,
+      1
+     ],
+     "Analects": [
+      1,
+      1
+     ],
+     "Kongzi_Jiayu": [
+      0,
+      1
+     ],
+     "Guiguzi": [
+      1,
+      1
+     ],
+     "Sun_Bin_Bingfa": [
+      0,
+      2
+     ],
+     "Mozi": [
+      1,
+      1
+     ],
+     "Xunzi": [
+      2,
+      2
+     ],
+     "Xiaojing": [
+      2,
+      2
+     ]
+    },
+    "recognition_rate": 0.912
+   }
+  },
+  "excluded_passages": [
+   "zh_16_096"
+  ]
+ }
+}
