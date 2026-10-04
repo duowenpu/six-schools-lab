@@ -128,6 +128,8 @@ AGENTS = {
     "prober_b": dict(harness="claude-sdk", provider="z.ai", prompt="prober", tools=["get_blind_batch", "submit_probe"],
                      desc="Blind reader B - sees only masked passages (glm)."),
 }
+# Reasoning effort per agent: long extended thinking was the main cost in wall-clock time.
+EFFORT = {"statistician": "low", "auditor": "low", "prober_a": "low", "prober_b": "low"}
 # Omnigent lifecycle events that reach the tool_call policy phase and must pass for a child session to start.
 LIFECYCLE = ["sys_agent_start"]
 PLANNER_TOOLS = ["record_append", "record_read", "list_experiments", "list_taxonomies", "corpus_info", "request_publication"]
@@ -139,6 +141,7 @@ description: >-
 
 executor:
   type: omnigent
+  reasoning_effort: {effort}
   auth:
     type: provider
     name: {provider}
@@ -180,6 +183,7 @@ description: >-
 
 executor:
   type: omnigent
+  reasoning_effort: medium
   auth:
     type: provider
     name: Aliyun-Claude
@@ -268,7 +272,7 @@ def main() -> None:
         d = OUT / "agents" / name
         write_tools(d, name, a["tools"])
         (d / "config.yaml").write_text(CHILD_CFG.format(
-            name=name, desc=a["desc"], provider=a["provider"], harness=a["harness"],
+            name=name, desc=a["desc"], provider=a["provider"], harness=a["harness"], effort=EFFORT.get(name, "medium"),
             allowed=", ".join(a["tools"] + LIFECYCLE), prompt=textwrap.indent(prompts[a["prompt"]].strip(), "  ")), encoding="utf-8")
     print("bundle written to", OUT, "agents:", ", ".join(AGENTS))
 

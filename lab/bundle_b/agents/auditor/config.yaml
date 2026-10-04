@@ -5,6 +5,7 @@ description: >-
 
 executor:
   type: omnigent
+  reasoning_effort: low
   auth:
     type: provider
     name: Aliyun-Claude

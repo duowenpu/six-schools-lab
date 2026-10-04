@@ -1,0 +1,9 @@
+Human scientist here. PHASE 1 was interrupted at 01:36 UTC by an infrastructure failure: the lab's local server lost access to its credential store. No scientific step was affected, but the previous planner session and all sub-agent sessions were lost. You are a new planner session.
+
+Rebuild your state from the research record (record_read with last_n 40) and from list_taxonomies, then continue PHASE 1 of your protocol from where the record stops, go through step 8, then stop and wait for me.
+
+According to the record, this is already done: the historian's background checklist (8 claims verified with sources) and two frozen rival taxonomies with the ids "era" and "region". The previous planner's execution plan and credit allocation are in the record as a note; keep them unless you record a reason to change them.
+
+Still missing: the six-schools taxonomy T_six (class names must include exactly "Daoist" and "Legalist"), the genre taxonomy T_genre, one further rival partition found in the scholarly literature, the auditor's citation check of the frozen taxonomies, and the recognition probe (prober_a: batches 0-4, prober_b: batches 5-9). Do not redo the historian's checklist and do not re-create "era" or "region".
+
+Budget: 16 experiment credits for the whole study, both phases. Keep at least 7 credits for PHASE 2.

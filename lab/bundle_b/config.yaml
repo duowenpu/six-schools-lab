@@ -8,6 +8,7 @@ description: >-
 
 executor:
   type: omnigent
+  reasoning_effort: medium
   auth:
     type: provider
     name: z.ai

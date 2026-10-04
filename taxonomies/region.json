@@ -1,0 +1,161 @@
+{
+ "frozen_at": "2026-10-04T01:32:16Z",
+ "hypothesis_origin": "agent",
+ "labels": {
+  "Analects": {
+   "citation": "https://en.wikipedia.org/wiki/Analects",
+   "confidence": "high",
+   "label": "Lu-Zou (Lu Confucian-Mohian ritual milieu)",
+   "note": "Compiled by followers of Confucius, who taught in Lu; the corpus's Lu provenance is the standard scholarly account."
+  },
+  "Gongsun_Longzi": {
+   "citation": "https://zh.wikipedia.org/wiki/公孙龙",
+   "confidence": "medium",
+   "label": "Central Plains (Jin successor states and Song)",
+   "note": "Gongsun Long was traditionally a man of Zhao and retainer of Lord Pingyuan; one alternative note (Gao You) calls him a Wei man."
+  },
+  "Guanzi": {
+   "citation": "https://en.wikipedia.org/wiki/Guanzi_(text)",
+   "confidence": "contested",
+   "label": "Qi-Jixia (Jixia academy and Qi statecraft)",
+   "note": "Named for the Qi minister Guan Zhong but anonymous; much of the material is associated with the 4th-c. BCE Jixia Academy in Linzi."
+  },
+  "Guiguzi": {
+   "citation": "https://en.wikipedia.org/wiki/Guiguzi",
+   "confidence": "contested",
+   "label": "Central Plains (Jin successor states and Song)",
+   "note": "Origin theories divide between Wey and Wei (Central Plains) with other legendary locations; no secure attribution."
+  },
+  "Han_Feizi": {
+   "citation": "https://en.wikipedia.org/wiki/Han_Fei",
+   "confidence": "high",
+   "label": "Central Plains (Jin successor states and Song)",
+   "note": "Han Fei was a clansman of the state of Han; the anthology is traditionally attributed to him."
+  },
+  "Huainanzi": {
+   "citation": "https://en.wikipedia.org/wiki/Huainanzi",
+   "confidence": "contested",
+   "label": "Chu-South (Chu and southern Daodejia culture)",
+   "note": "Product of Liu An's Huainan (Chu region) court; translators also describe it as maintaining and extending the Jixia (Qi) tradition, so Chu placement is flagged."
+  },
+  "Huangdi_Sijing": {
+   "citation": "uncertain",
+   "confidence": "high",
+   "label": null,
+   "note": "Sealed excavated manuscript; intentionally not labelled."
+  },
+  "Kongzi_Jiayu": {
+   "citation": "https://en.wikipedia.org/wiki/Kongzi_Jiayu",
+   "confidence": "contested",
+   "label": "Lu-Zou (Lu Confucian-Mohian ritual milieu)",
+   "note": "Confucius lore and disciple records (Lu tradition), but the received text's compilation was long disputed and associated with Wang Su (Cao Wei); excavated copies have only partially rehabilitated it."
+  },
+  "Laozi": {
+   "citation": "https://en.wikipedia.org/wiki/Laozi",
+   "confidence": "contested",
+   "label": "Chu-South (Chu and southern Daodejia culture)",
+   "note": "Traditional accounts place Laozi in the 6th-c. BCE state of Chu, but his historicity and the text's authorship are heavily debated."
+  },
+  "Liezi": {
+   "citation": "https://zh.wikipedia.org/wiki/列子",
+   "confidence": "contested",
+   "label": "Central Plains (Jin successor states and Song)",
+   "note": "Lie Yukou is traditionally a man of Zheng (Central Plains), but the received text may be a much later (c. 4th c. CE) compilation."
+  },
+  "Liji": {
+   "citation": "https://en.wikipedia.org/wiki/Book_of_Rites",
+   "confidence": "medium",
+   "label": "Lu-Zou (Lu Confucian-Mohian ritual milieu)",
+   "note": "A diverse Confucian ritual compilation of uncertain origin; its pre-Han/Han ritual-transmission milieu is the Lu-Zou Confucian tradition."
+  },
+  "Liutao": {
+   "citation": "https://en.wikipedia.org/wiki/Six_Secret_Teachings",
+   "confidence": "contested",
+   "label": "Qi-Jixia (Jixia academy and Qi statecraft)",
+   "note": "Traditionally attributed to Jiang Ziya (Taigong), later enfeoffed at Qi; some scholars see vestiges of ancient Qi military thought, but composition is Warring States and attribution legendary."
+  },
+  "Lushi_Chunqiu": {
+   "citation": "https://en.wikipedia.org/wiki/Lüshi_Chunqiu",
+   "confidence": "high",
+   "label": "Qin (Qin Legalist and late pre-imperial compilation)",
+   "note": "Compiled c. 239 BCE under Qin chancellor Lü Buwei and almost certainly written for Qin authorities."
+  },
+  "Mencius": {
+   "citation": "https://en.wikipedia.org/wiki/Mencius",
+   "confidence": "high",
+   "label": "Lu-Zou (Lu Confucian-Mohian ritual milieu)",
+   "note": "Mencius was born in the state of Zou (Zoucheng, Shandong); he later taught at Jixia but the attributed author is Zou/Lu-region."
+  },
+  "Mozi": {
+   "citation": "https://en.wikipedia.org/wiki/Mozi_(book)",
+   "confidence": "contested",
+   "label": "Lu-Zou (Lu Confucian-Mohian ritual milieu)",
+   "note": "Most sources describe Mozi as from Lu, though one says Song; Lu is followed here with the disagreement flagged."
+  },
+  "Shangjunshu": {
+   "citation": "https://en.wikipedia.org/wiki/The_Book_of_Lord_Shang",
+   "confidence": "high",
+   "label": "Qin (Qin Legalist and late pre-imperial compilation)",
+   "note": "Attributed to Shang Yang, the major Qin reformer under Duke Xiao; chapters include Qin court discourses, though some material is later."
+  },
+  "Sima_Fa": {
+   "citation": "https://en.wikipedia.org/wiki/The_Methods_of_the_Sima",
+   "confidence": "high",
+   "label": "Qi-Jixia (Jixia academy and Qi statecraft)",
+   "note": "The text is described as developed in the state of Qi during the 4th century BCE."
+  },
+  "Sun_Bin_Bingfa": {
+   "citation": "uncertain",
+   "confidence": "high",
+   "label": null,
+   "note": "Sealed excavated manuscript; intentionally not labelled."
+  },
+  "Sunzi_Bingfa": {
+   "citation": "https://en.wikipedia.org/wiki/The_Art_of_War",
+   "confidence": "contested",
+   "label": "Wu-Yue (southeastern military tradition)",
+   "note": "Shiji tradition: Sun Wu was from Qi and served the king of Wu; the Wu-service attribution is used, with Qi origin noted as competing."
+  },
+  "Wei_Liaozi": {
+   "citation": "https://en.wikipedia.org/wiki/Wei_Liaozi",
+   "confidence": "contested",
+   "label": "Qin (Qin Legalist and late pre-imperial compilation)",
+   "note": "The Shiji casts Wei Liao as advisor to the young king of Qin (Shi Huang), but authorship is poorly evidenced and two same-titled works existed in Han."
+  },
+  "Wuzi": {
+   "citation": "https://en.wikipedia.org/wiki/Wu_Qi",
+   "confidence": "high",
+   "label": "Central Plains (Jin successor states and Song)",
+   "note": "Wu Qi was born in the state of Wei (魏), though he later served Lu, Wei/West River, and finally Chu."
+  },
+  "Xiaojing": {
+   "citation": "https://en.wikipedia.org/wiki/Classic_of_Filial_Piety",
+   "confidence": "medium",
+   "label": "Lu-Zou (Lu Confucian-Mohian ritual milieu)",
+   "note": "Presented as a Confucius-Zengzi dialogue; author unknown, but framed within the Lu Confucian school."
+  },
+  "Xunzi": {
+   "citation": "https://en.wikipedia.org/wiki/Jixia_Academy",
+   "confidence": "high",
+   "label": "Qi-Jixia (Jixia academy and Qi statecraft)",
+   "note": "Xun Zi is listed among the renowned Confucian philosophers of the Jixia Academy in Linzi, the Qi capital."
+  },
+  "Zhongyong": {
+   "citation": "https://en.wikipedia.org/wiki/Doctrine_of_the_Mean",
+   "confidence": "medium",
+   "label": "Lu-Zou (Lu Confucian-Mohian ritual milieu)",
+   "note": "Traditionally attributed to Zisi, grandson of Confucius (Lu); modern scholars debate date and authorship."
+  },
+  "Zhuangzi": {
+   "citation": "https://en.wikipedia.org/wiki/Zhuangzi_(book)",
+   "confidence": "contested",
+   "label": "Chu-South (Chu and southern Daodejia culture)",
+   "note": "Most historians place Zhuang Zhou's birth at Meng in Song, while the Shiji tradition links him with Chu (and Linzi); the southern-Chu Daoist attribution is used but contested."
+  }
+ },
+ "lang": "zh",
+ "source_claim": "Proposed by the Six Schools Lab Advocate on 2026-10-03 as an experimental rival to Sima Tan's inherited six-schools taxonomy: instead of 'school', each transmitted book is labelled by the regional culture of its traditionally attributed author or principal place of compilation, following Shiji-rooted attributions and modern regional-culture scholarship (Qi/Jixia academy studies, Chu-southern Daodejia culture, Qin Legalism, Lu-Zou Confucian-Mohian milieu, Central Plains Jin-successor states, and Wu-Yue military tradition). Attribution rule: assign the region of the traditionally attributed author's origin or service; when the attributed author is legendary or disputed, assign the region of the dominant place-of-compilation account and mark 'contested'.",
+ "submitted_by": "advocate_b",
+ "taxonomy_id": "region",
+ "title": "Regional-origin taxonomy of early Chinese thought texts (six regions)"
+}

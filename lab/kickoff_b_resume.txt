@@ -1,0 +1,9 @@
+Human scientist here. Run B was restarted by the operator to change an infrastructure setting (shorter model reasoning time). No scientific step was affected, but the previous planner session and all sub-agent sessions were stopped. You are a new planner session.
+
+Rebuild your state from the research record (record_read with last_n 40) and from list_taxonomies, then continue the study of the sealed-text line from where the record stops, and stop and wait for me when you have answered what the budget allows.
+
+According to the record, this is already done: the previous planner's study design (a note entry) and the frozen six-schools taxonomy T_six. Sub-agent work that was in flight was lost and must be dispatched again if you still want it: the historian's background checklist and any taxonomy that is not listed by list_taxonomies. Keep the study design unless you record a reason to change it.
+
+Background checklist for the historian (verify each with sources): (1) the date of Sima Tan's essay on the six schools and the six names it uses; (2) the nine-streams classification of Liu Xin and Ban Gu; (3) whether the transmitted masters texts were collated into their present form by Liu Xiang in the Western Han; (4) Kidder Smith 2003 and Csikszentmihalyi and Nylan 2003; (5) the burial date of Mawangdui tomb 3 and the dispute over the so-called Huangdi Sijing manuscripts; (6) how the Guanzi was classified in the Hanshu Yiwenzhi compared with later catalogues; (7) the scholarly basis for regarding the Guanzi chapters Neiye, Xinshu I, Xinshu II, Baixin and the Han Feizi chapters Jie Lao, Yu Lao as Daoist-leaning; (8) earlier computational studies of early Chinese texts.
+
+Budget: 16 experiment credits for the whole study. Keep at least 7 credits for the second line (the sealed reader), which I will start later.
