@@ -1,0 +1,58 @@
+{
+ "experiment": "tournament",
+ "params": {
+  "taxonomy_id": "T_retro",
+  "instrument": "qwen",
+  "layer": "mid",
+  "masked": true
+ },
+ "result": {
+  "lang": "en",
+  "instrument": "qwen",
+  "layer": "mid",
+  "masked": true,
+  "n_units": 25,
+  "n_labeled": 25,
+  "n_testable": 25,
+  "n_classes": 3,
+  "accuracy": 0.6768205109294557,
+  "null_mean": 0.3350612495683306,
+  "null_sd": 0.08017287779206858,
+  "z": 4.262779019202614,
+  "p_perm": 0.0004997501249375312,
+  "chance_corrected": 0.513971040399224,
+  "ci95": [
+   0.570110532150776,
+   0.7810040379919257
+  ],
+  "per_unit": {
+   "Bergson": 0.3167,
+   "Bosanquet": 0.15,
+   "Comte": 0.3333,
+   "Croce": 0.9278,
+   "Dewey": 0.9208,
+   "Eucken": 0.7955,
+   "Green": 0.15,
+   "Hegel": 0.8333,
+   "James": 0.6708,
+   "Kant": 0.689,
+   "Kierkegaard": 0.95,
+   "Mach": 0.6,
+   "Mill": 0.6562,
+   "Moore": 0.9917,
+   "Nietzsche": 0.9828,
+   "Peirce": 0.2,
+   "Perry": 0.675,
+   "Poincare": 0.9333,
+   "Royce": 0.8333,
+   "Russell": 0.925,
+   "Santayana": 0.8389,
+   "Schopenhauer": 0.872,
+   "Sidgwick": 0.8333,
+   "Spencer": 0.3833,
+   "Whitehead": 0.4583
+  },
+  "untestable": [],
+  "taxonomy_id": "T_retro"
+ }
+}

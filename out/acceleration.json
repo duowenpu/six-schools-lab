@@ -1,12 +1,12 @@
 {
  "source": "timestamps of records/research_record.jsonl",
- "wall_clock_hours_gross": 2.67,
+ "wall_clock_hours_gross": 3.59,
  "infrastructure_downtime_hours": 0.86,
- "wall_clock_hours_net": 1.81,
+ "wall_clock_hours_net": 2.73,
  "rival_taxonomies_formalized_with_citations": 11,
  "controlled_tests_run": 15,
- "taxonomies_per_hour_net": 6.07,
- "controlled_tests_per_hour_net": 8.28,
+ "taxonomies_per_hour_net": 4.02,
+ "controlled_tests_per_hour_net": 5.49,
  "minutes_from_critique_to_next_result": [
   9.2,
   29.5,
@@ -32,6 +32,6 @@
    "note": "partition agreement, independent of label names; human used 12 fine-grained state labels, the agent 6 broader regional cultures"
   }
  },
- "lab_minutes_per_taxonomy_including_all_other_work": 9.9,
- "speedup_taxonomy_formalization": 1.48
+ "lab_minutes_per_taxonomy_including_all_other_work": 14.9,
+ "speedup_taxonomy_formalization": 0.98
 }

@@ -17,7 +17,7 @@ Every number below is copied from a result file written by a statistician agent.
 
 ## Run A
 
-Record entries: 154 · hash chain intact: **True** · frozen taxonomies: 10 · experiment runs: 20
+Record entries: 167 · hash chain intact: **True** · frozen taxonomies: 10 · experiment runs: 20
 
 | record | taxonomy | lang | instrument | options | testable units | accuracy | null mean | chance-corrected | 95% CI (accuracy) | p (perm.) |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -43,12 +43,15 @@ Record entries: 154 · hash chain intact: **True** · frozen taxonomies: 10 · e
 
 ## Run B
 
-Record entries: 88 · hash chain intact: **True** · frozen taxonomies: 9 · experiment runs: 13
+Record entries: 104 · hash chain intact: **True** · frozen taxonomies: 9 · experiment runs: 17
 
 | record | taxonomy | lang | instrument | options | testable units | accuracy | null mean | chance-corrected | 95% CI (accuracy) | p (perm.) |
 |---|---|---|---|---|---|---|---|---|---|---|
+| r0094 | T_retro | en | qwen | default | 25/25 | 0.677 | 0.335 | 0.514 | 0.57-0.78 | 0.0005 |
 | r0080 | T_lang | en | talkie | default | 25/25 | 0.878 | 0.503 | 0.755 | 0.80-0.94 | 0.0005 |
 | r0078 | T_retro | en | talkie | default | 25/25 | 0.687 | 0.335 | 0.529 | 0.57-0.80 | 0.0005 |
+| r0092 | T_retro | en | talkie | exclude_units=['Bergson', 'Nietzsche', 'Schopenhauer', 'Hegel', 'Kant', 'Kierkegaard', 'Croce', 'Eucken', 'Comte', 'Poincare', 'Mach'] | 14/14 | 0.616 | 0.342 | 0.416 | 0.45-0.76 | 0.0025 |
+| r0101 | T_ideanat | en | talkie | units=25 | 25/25 | 0.473 | 0.247 | 0.300 | 0.34-0.61 | 0.0025 |
 | r0082 | T_1930 | en | talkie | default | 24/25 | 0.388 | 0.167 | 0.265 | 0.26-0.52 | 0.0005 |
 | r0059 | T_six | zh | lex | strip_lacunae=True, exclude_units=['Sunzi_Bingfa', 'Wuzi', 'Sima_Fa', 'Wei_Liaozi', 'Liutao'] | 16/20 | 0.657 | 0.186 | 0.579 | 0.53-0.78 | 0.0005 |
 | r0044 | T_six | zh | lex | strip_lacunae=True | 21/25 | 0.583 | 0.188 | 0.486 | 0.44-0.72 | 0.0005 |
@@ -63,6 +66,6 @@ Record entries: 88 · hash chain intact: **True** · frozen taxonomies: 9 · exp
 
 ## Measured throughput (run A)
 
-- Net wall-clock time: 1.81 h (gross 2.67 h, of which 0.86 h infrastructure downtime)
-- Rival taxonomies formalized with citations: 11 (6.07 per hour); controlled tests run: 15 (8.28 per hour)
-- Human baseline: 14.63 minutes for one taxonomy (one team member who is familiar with these texts; single timed trial; labels with known answers were filled from memory and a supporting page was then looked up). Lab: 9.9 minutes per taxonomy with all other lab work included, a factor of **1.48**. Partition agreement between the human and the agent taxonomy: adjusted Rand index 0.609.
+- Net wall-clock time: 2.73 h (gross 3.59 h, of which 0.86 h infrastructure downtime)
+- Rival taxonomies formalized with citations: 11 (4.02 per hour); controlled tests run: 15 (5.49 per hour)
+- Human baseline: 14.63 minutes for one taxonomy (one team member who is familiar with these texts; single timed trial; labels with known answers were filled from memory and a supporting page was then looked up). Lab: 14.9 minutes per taxonomy with all other lab work included, a factor of **0.98**. Partition agreement between the human and the agent taxonomy: adjusted Rand index 0.609.

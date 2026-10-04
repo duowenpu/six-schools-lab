@@ -1,0 +1,60 @@
+{
+ "experiment": "tournament",
+ "params": {
+  "taxonomy_id": "T_retro",
+  "instrument": "talkie",
+  "layer": "mid",
+  "masked": true,
+  "exclude_units": [
+   "Bergson",
+   "Nietzsche",
+   "Schopenhauer",
+   "Hegel",
+   "Kant",
+   "Kierkegaard",
+   "Croce",
+   "Eucken",
+   "Comte",
+   "Poincare",
+   "Mach"
+  ]
+ },
+ "result": {
+  "lang": "en",
+  "instrument": "talkie",
+  "layer": "mid",
+  "masked": true,
+  "n_units": 14,
+  "n_labeled": 14,
+  "n_testable": 14,
+  "n_classes": 3,
+  "accuracy": 0.615575396825397,
+  "null_mean": 0.34201649305555554,
+  "null_sd": 0.09607997282675367,
+  "z": 2.8472000534711683,
+  "p_perm": 0.0024987506246876563,
+  "chance_corrected": 0.4157534358880805,
+  "ci95": [
+   0.44790178571428574,
+   0.7623065476190477
+  ],
+  "per_unit": {
+   "Bosanquet": 0.3583,
+   "Dewey": 0.9042,
+   "Green": 0.2667,
+   "James": 0.6667,
+   "Mill": 0.6375,
+   "Moore": 0.9833,
+   "Peirce": 0.2333,
+   "Perry": 0.6917,
+   "Royce": 0.9,
+   "Russell": 0.6625,
+   "Santayana": 0.9722,
+   "Sidgwick": 0.85,
+   "Spencer": 0.0583,
+   "Whitehead": 0.4333
+  },
+  "untestable": [],
+  "taxonomy_id": "T_retro"
+ }
+}

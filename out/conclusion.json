@@ -1,0 +1,79 @@
+{
+ "title": "Six-schools lab final conclusion - PHASE 1 (sealed text, zh) + PHASE 2 (sealed reader, en)",
+ "agent_generated": true,
+ "full_conclusion_parts": [
+  "r0158",
+  "r0159",
+  "r0160",
+  "r0161",
+  "r0162",
+  "r0163",
+  "r0164"
+ ],
+ "auditor_signoff": "r0165 - FIT FOR PUBLICATION, zero required changes; number verification PASS (every number matches its cited record)",
+ "step11_decision": "r0155",
+ "credits": "16/16 used; no further runs executed; every number quoted from executed result/evidence records",
+ "findings_per_hypothesis": {
+  "H-C1": {
+   "verdict": "REFUTED as pre-registered in run A (no main superiority claim); narrow finding survives (six beats its own null). The tie central to the refutation DID NOT REPLICATE in run B; cross-run robustness of six-vs-form not established in either direction.",
+   "numbers": "Run A lex chance-corrected: six 0.3539 (p=0.0005, r0063) ~ genre 0.3359 (p=0.0005, r0069) > region 0.2592 (p=0.002, r0067) > yiwenzhi 0.2437 (p=0.001, r0103) > era 0.0996 (p=0.18 n.s., r0065); lex_tr rank flip genre 0.3544 (p=0.0005, r0079) > six 0.3272 (p=0.002, r0077). Run B (via human evidence r0154, record sha cef46d81... at its r0064): six 0.486 (p=0.0005, 21/25), yiwenzhi_nine 0.328, literary_form 0.261 (p=0.01), era -0.06 (p=0.7), six-no-military 0.579. Han-editorial circularity not supported; form/register confound is the LEADING interpretation, not demonstrated (r0110/r0117).",
+   "detail_record": "r0158 - stored payload permanently budget-truncated after 'T_literary_form 0.261'; complete run-B H-C1 figures in r0159/r0162 (disclosed per r0165 advisory)"
+  },
+  "H-C2": {
+   "verdict": "SUPPORTED - instruments validated; the lab's strongest and only cleanly replicated substantive result. Validates the instruments, not the taxonomy; scope zh lex/lex_tr only (no en-instrument validation ever run).",
+   "numbers": "Run A defectors(six): lex mean target percentile 95.40 (p~1e-4, r0056), lex_tr 97.14 (p~1e-4, r0058). Run B: lex 95.0, lex_tr 96.8 (p=0.0001, r0154). REPLICATED across runs.",
+   "detail_record": "r0159"
+  },
+  "H-C3": {
+   "verdict": "SUPPORTED in run A per the pre-registered rule ('constructed' branch) with mandatory calibration caveats; DID NOT REPLICATE in run B. Must not be relied on as established.",
+   "numbers": "Run A: dominant Daoist share 0.588 (10/17, r0071) and stripped 0.647 (11/17, r0090/r0091), both < 0.70 threshold; percentiles 56.5/60.9; ~39% of transmitted books also fall below 0.70 (threshold miscalibrated, r0092); Wilson 95% CI for stripped 11/17 [0.413, 0.827] spans 0.70 (baseline ~[0.360, 0.784] also spans); lex_tr tomb run deferred, never executed (r0101). Run B: shares Daoist 0.824 / Legalist 0.176, margin percentile 87 - cleanly Daoist (r0154).",
+   "detail_record": "r0159"
+  },
+  "H-W1": {
+   "verdict": "NOT SUPPORTED as pre-registered; on the underlying doctrinal question UNDECIDED pending decisive test C1 - neither demonstrated nor refuted.",
+   "numbers": "Pre-registered rule (r0134/r0135): condition (i) MET - T_retro x talkie accuracy 0.4831 vs null 0.2430 (sd 0.0763), z=3.147, p_perm=0.0015, cc=0.3171, 21/25 testable (r0139/r0145). Condition (ii) FAILED numerically - T_translated x talkie cc=0.7547 (0.8782 vs 0.5034, p=0.0005, 25/25; r0141/r0146), T_nation x talkie cc=0.5255 (0.5902 vs 0.1364, p=0.0005, 22/25; r0143/r0147) - but per skeptic r0152 AE2 the cross-taxonomy cc comparison is ill-posed as subsumption evidence. Substantive basis is AE1 (re-verified against r0139): a translation-status-only oracle achieves accuracy 0.476 / cc~0.308 - the CEILING of any such rule - vs observed 0.483/0.317, indistinguishable; within Continental, translated members mean 0.769 vs original-English 0.111 (Bosanquet/Green/Royce at floor 0.133/0.133/0.067); survives masked=true.",
+   "surviving_claim": "A reader sealed in 1930 places unseen authors on the retrospective grid above chance; leading (not demonstrated) interpretation is translationese/provenance mimicry.",
+   "detail_record": "r0160"
+  },
+  "H-W2": {
+   "verdict": "NOT TESTABLE AS DESIGNED (skeptic correction r0152 AE3 adopted in r0155); on its face also not established - bootstrap CI straddles zero.",
+   "numbers": "G = +0.0242, bootstrap 95% CI [-0.0280, +0.0782]; retro_advantage_of_modern +0.0277; contemporary_advantage_of_modern +0.0035; n=21 per side; layer=mid (r0137). Estimand confounded: 4-class T_retro vs 8-class T_1930 with different author sets; tool returned deltas only - the four absolute LOAO cells never exposed and unauditable (r0144); qwen-translationese channel untested (needs r0153 C2/C4). Kant limitation note carried per auditor condition (r0149). No PHASE 2 replication exists.",
+   "detail_record": "r0161"
+  }
+ },
+ "replication_across_runs": {
+  "source": "Human evidence r0154; run B = second lab run, own record (sha cef46d817e06315d92e4e7f202cb727086502c26d400aaa9aeb48c4804d37c31 at its r0064), vendors swapped, no fixed protocol, strip_lacunae always on.",
+  "replicated": [
+   "Instrument validation (H-C2) on both instruments in both runs",
+   "Six-schools beats its own permutation null (A: 0.3539, p=0.0005, r0063; B: 0.486, p=0.0005)",
+   "Era taxonomy has no predictive power (A: 0.0996, p=0.18, r0065; B: -0.06, p=0.7)"
+  ],
+  "not_replicated": [
+   "Six vs literary form: tied in run A (0.354 vs 0.336, r0063/r0069, plus lex_tr flip r0077/r0079); six clearly ahead in run B (0.486 vs 0.261)",
+   "Tomb-test dominant share: run A 0.588/0.647 (below 0.70, 'between Dao and Fa', r0071/r0090); run B 0.824, margin percentile 87 (cleanly Daoist)"
+  ],
+  "reading": "Both non-replications trace to the advocates' coding of the six-schools and form taxonomies (operator reading in r0154, explicitly input for planner and auditor, not a conclusion). Run B is a conceptual, not strict-protocol, replication. PHASE 2 (en) has no independent replication.",
+  "detail_record": "r0162"
+ },
+ "process_disclosures": {
+  "recognition_probe": "Probe numbers cited exclusively from the definitive rerun r0111/r0112/r0113: prober_a 33/40 = 0.825, prober_b 31/34 = 0.912, combined 64/74 = 0.865 as UPPER BOUND; r0104/r0105 must NOT be cited (tool defect ignored exclude_passages, r0108); prober_b duplicate-submission disclosed per r0109; leaked passage zh_16_096 exclusion verified (r0033); ID-prefix cueing never ruled out (r0107).",
+  "governance": "Dual-planner operator error (r0118/r0114) and credit-overage ratification path (r0117 -> r0120) disclosed; PHASE 2 budget fixed by human at 5 credits, no extension, exhausted exactly.",
+  "detail_record": "r0162"
+ },
+ "limitations": "Taxonomy-coding sensitivity demonstrated across runs; no drop_contested sensitivity executed in either phase (auditor condition r0148 unexecuted at 0 credits, maps to r0153 C3); permutation nulls cannot separate a construct from construct-aligned surface features and no tournament cc carries a cc-scale CI (r0152); H-W2 estimand conflates granularity with author set and its cells are unauditable (r0144); all taxonomies are constructivist impositions, not discoveries (Smith 2003; Csikszentmihalyi & Nylan 2003, adopted r0117; T_retro explicitly retrospective, r0129); cross-taxonomy ranks descriptive only; seals imperfect (zh blind readers above chance, upper bound 0.865; no en recognition probe for talkie's pre-1931 cut); citation/record defects on file (Soames DOI and Critchley ch.2 unverifiable, Mach DOI mismatch 10.1037/12902-000 vs 13802-000 with frozen label unaffected, SEP Croce placeholder, r0132 and r0158 storage gaps); small samples and wide intervals throughout (zh 20-23 testable books, en 21-25 authors; p_perm floor 0.0005). Full list: r0163.",
+ "validation_still_needed": [
+  "Defectors-equivalent validation of the en instruments (talkie, qwen) - never run",
+  "C1 executed before any doctrinal reading of the H-W1 beats-null residue",
+  "drop_contested sensitivity for T_retro (r0148 condition / r0153 C3)",
+  "hindsight_gap re-instrumentation before H-W2 is retested: expose the four absolute LOAO cells, matched granularity and author sets, qwen-translationese channel (C2/C4), layer robustness (C5), corpus_map (C6, free)",
+  "Fixed coding protocol plus strict-protocol replication for PHASE 1 and any replication for PHASE 2",
+  "Seal validation: rule out ID-prefix cueing (r0107); build an en recognition probe for talkie",
+  "Clear the citation and record-completeness defects (r0148-r0151, r0163)"
+ ],
+ "detail_record": "r0164",
+ "next_experiment": {
+  "what": "r0153 candidate C1: tournament(T_retro, talkie) restricted via exclude_units to the 12 original-English authors (3 per class), 1 credit, requires new human authorization; free companions AE2 (cc-comparability reanalysis of existing runs) and C6 (corpus_map).",
+  "why": "Every executed PHASE 2 run is consistent with talkie keying on translation status rather than doctrine: the translation-status-only oracle ceiling (0.476) matches observed accuracy (0.483), and doctrinally central original-English Continentals sit on the floor. Only the original-English stratum can carry doctrinal signal - cc ~ 0 would prove subsumption and kill H-W1 beyond confound; cc materially > 0 with Bosanquet/Green/Royce separated from Moore/Russell/Mill would be genuine surviving doctrinal signal. Caveat pre-stated: 3 units per class, wide CI."
+ },
+ "overall_statement": "PHASE 1: the instruments work (H-C2, replicated), the six-schools grid predicts above its own null but its claimed superiority over genre did not survive pre-registration or replication (H-C1), and the sealed-tomb 'between Dao and Fa' result is coding-dependent and did not replicate (H-C3). PHASE 2: the post-1945 analytic/continental division is NOT cleanly visible to a reader who has never heard of it - what that reader demonstrably sees is largely surface provenance (translation status, national-intellectual community), and the doctrinal question stays undecided pending C1 (H-W1); the hindsight gap was not testable as designed (H-W2). Nothing here should be relied on before the listed validations run. Agent-generated; human approval required."
+}

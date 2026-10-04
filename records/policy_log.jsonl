@@ -6,3 +6,9 @@
 {"ts": "2026-10-04T02:37:37Z", "policy": "allowlist", "agent": "advocate_a", "tool": "sys_session_list", "verdict": "DENY"}
 {"ts": "2026-10-04T02:52:32Z", "policy": "allowlist", "agent": "advocate_a", "tool": "sys_session_get_info", "verdict": "DENY"}
 {"ts": "2026-10-04T03:18:02Z", "policy": "allowlist", "agent": "skeptic", "tool": "sys_read_inbox", "verdict": "DENY"}
+{"ts": "2026-10-04T04:22:19Z", "policy": "allowlist", "agent": "auditor", "tool": "sys_session_get_history", "verdict": "DENY"}
+{"ts": "2026-10-04T04:22:33Z", "policy": "allowlist", "agent": "auditor", "tool": "sys_call_async", "verdict": "DENY"}
+{"ts": "2026-10-04T04:45:24Z", "policy": "human_approval", "agent": "", "tool": "request_publication", "verdict": "ASK"}
+{"ts": "2026-10-04T04:45:24Z", "policy": "human_approval", "agent": "", "tool": "request_publication", "verdict": "ASK"}
+{"ts": "2026-10-04T04:54:06Z", "policy": "human_approval", "agent": "", "tool": "request_publication", "verdict": "ASK"}
+{"ts": "2026-10-04T04:54:18Z", "policy": "human_approval", "agent": "", "tool": "request_publication", "verdict": "ASK"}
